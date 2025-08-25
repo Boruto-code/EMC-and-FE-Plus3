@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "emc_and_fe"
+	group: ""
+	icon: {
+		id: "projecte:transmutation_tablet"
+	}
+	id: "2A80DFBA858D98CE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "projecte:transmutation_tablet"
+			}
+			id: "0480E962754E9B2A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6816FD82AF43E6B8"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "0F17098159F8770F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "75748957AACC638C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:creative_capacitor"
+			}
+			id: "4015AE9303EB7392"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2B42B6807CFF5A7D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+}

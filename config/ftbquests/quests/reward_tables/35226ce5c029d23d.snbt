@@ -1,0 +1,17 @@
+{
+	empty_weight: 1.0f
+	id: "35226CE5C029D23D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "24375FCAA1B3047D", item: { count: 1, id: "kubejs:diamond_coin" } }
+		{
+			count: 2
+			id: "3806A16A3CAAED6F"
+			item: {
+				count: 1
+				id: "kubejs:diamond_coin"
+			}
+		}
+	]
+}

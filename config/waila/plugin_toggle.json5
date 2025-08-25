@@ -1,0 +1,13 @@
+{
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "minecraft:projecte": true,
+  "projectexpansion:plugin": true,
+  "mekanism:plugin": false,
+  "ae2:wthit": true,
+  "projecte:plugin": true,
+  "waila:neo": true
+}
