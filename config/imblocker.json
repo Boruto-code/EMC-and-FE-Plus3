@@ -15,7 +15,7 @@
     "enableCharSimulation": false
   },
   "windowsCompatibilitySettings": {
-    "enableConversionStatusApi": true,
+    "enableConversionStatusApi": false,
     "enableCursorPositionTracking": true,
     "enableCompositionFontTweaks": true
   },
