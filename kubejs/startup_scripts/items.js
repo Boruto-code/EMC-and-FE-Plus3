@@ -7,8 +7,9 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:diamond_coin")
     event.create("kubejs:netherite_coin")
 
-    event.create("kubejs:strange_colored_ingot")
     event.create("kubejs:awakened_scrap")
+    event.create("kubejs:obsidianite_ingot")
+    event.create("kubejs:strange_colored_ingot")
 
     event.create("kubejs:incomplete_chaos_shard")
     event.create("kubejs:incomplete_creative_blaze_cake")

@@ -232,18 +232,47 @@ ServerEvents.recipes(event => {
         ]
     })
 
-    /* event.custom({
+    /*
+    {
         "type": "create:pressing",
         "ingredients": [
             {
-                "count": 16,
-                "item": "create:experience_block"
+            "tag": "c:ingots/iron"
             }
         ],
         "results": [
             {
-                "id": "create_enchantment_industry:super_experience_nugget"
+            "id": "create:iron_sheet"
             }
         ]
-    }) */
+    }
+    */
+
+    event.custom({
+        "type": "create:compacting",
+        "ingredients": [
+            {
+                "item": "minecraft:netherite_ingot"
+            },
+            {
+                "item": "create:sturdy_sheet"
+            },
+            {
+                "item": "mekanism:ingot_refined_obsidian"
+            },
+            {
+                "item": "mekanism:alloy_atomic"
+            },
+            {
+                "fluid": "bigreactors:yellorium",
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "id": "kubejs:obsidianite_ingot"
+            }
+        ],
+        "heatRequirement": "superheated"
+    })
 })
