@@ -219,10 +219,46 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
+        "type": "create:mixing",
+        "head_requirement": "superheated",
+        "ingredients": [
+            {
+                "item": "kubejs:awakened_scrap"
+            },
+            {
+                "item": "kubejs:awakened_scrap"
+            },
+            {
+                "item": "kubejs:super_glass"
+            },
+            {
+                "item": "kubejs:obsidianite_ingot"
+            },
+            {
+                "item": "create:refined_radiance"
+            },
+            {
+                "item": "create:refined_radiance"
+            },
+            {
+                "item": "create:shadow_steel"
+            },
+            {
+                "item": "create:shadow_steel"
+            }
+        ],
+        "results": [
+            {
+                "id": "kubejs:rainbow_compound"
+            }
+        ]
+    })
+
+    event.custom({
         "type": "create_dragons_plus:ending",
         "ingredients": [
             {
-                "item": "minecraft:iron_ingot"
+                "tag": "c:ingots"
             }
         ],
         "results": [
@@ -231,22 +267,6 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-
-    /*
-    {
-        "type": "create:pressing",
-        "ingredients": [
-            {
-            "tag": "c:ingots/iron"
-            }
-        ],
-        "results": [
-            {
-            "id": "create:iron_sheet"
-            }
-        ]
-    }
-    */
 
     event.custom({
         "type": "create:compacting",
@@ -264,6 +284,7 @@ ServerEvents.recipes(event => {
                 "item": "mekanism:alloy_atomic"
             },
             {
+                "type": "fluid_stack",
                 "fluid": "bigreactors:yellorium",
                 "amount": 1000
             }
@@ -272,7 +293,6 @@ ServerEvents.recipes(event => {
             {
                 "id": "kubejs:obsidianite_ingot"
             }
-        ],
-        "heatRequirement": "superheated"
+        ]
     })
 })
