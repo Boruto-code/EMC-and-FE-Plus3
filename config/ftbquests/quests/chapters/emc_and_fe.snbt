@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "emc_and_fe"
+	group: ""
+	icon: {
+		id: "projecte:transmutation_tablet"
+	}
+	id: "2A80DFBA858D98CE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "projecte:transmutation_tablet"
+			}
+			id: "0480E962754E9B2A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6816FD82AF43E6B8"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "create:refined_radiance"
+			}
+			id: "0F17098159F8770F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "75748957AACC638C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"draconicevolution:config_properties": [
+						[
+							{
+								: "BOOLEAN"
+							}
+							{
+								default_value: 0b
+								formatter: "true_false"
+								name: "charge_held_item"
+								show_on_hud: 1b
+								value: 0b
+							}
+						]
+						[
+							{
+								: "BOOLEAN"
+							}
+							{
+								default_value: 0b
+								formatter: "true_false"
+								name: "charge_armor"
+								show_on_hud: 1b
+								value: 0b
+							}
+						]
+						[
+							{
+								: "BOOLEAN"
+							}
+							{
+								default_value: 0b
+								formatter: "true_false"
+								name: "charge_hot_bar"
+								show_on_hud: 1b
+								value: 0b
+							}
+						]
+						[
+							{
+								: "BOOLEAN"
+							}
+							{
+								default_value: 0b
+								formatter: "true_false"
+								name: "charge_main"
+								show_on_hud: 1b
+								value: 0b
+							}
+						]
+						[
+							{
+								: "BOOLEAN"
+							}
+							{
+								default_value: 0b
+								formatter: "true_false"
+								name: "charge_curios"
+								show_on_hud: 1b
+								value: 0b
+							}
+						]
+					]
+					"draconicevolution:module_entities": [ ]
+					"draconicevolution:provider_identity": [I;
+						563701872
+						-158316925
+						-1083578796
+						-1625754476
+					]
+				}
+				id: "draconicevolution:creative_capacitor"
+			}
+			id: "4015AE9303EB7392"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2B42B6807CFF5A7D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,27 @@
+.idea
+.probe
+.vscode
+backups
+crash-reports
+data
+defaultconfigs
+downloads
+EMC & FE +++-natives
+local
+logs
+patchouli_books
+PCL
+saves
+schematics
+screenshots
+xaero
+XaeroWaypoints_BACKUP240807
+authlib-injector.log
+command_history.txt
+EMC & FE +++.jar
+EMC & FE +++.json
+latest.log
+patchouli_data.json
+README.md
+usercache.json
+usernamecache.json

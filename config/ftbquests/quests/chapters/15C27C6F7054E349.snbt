@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "15C27C6F7054E349"
+	group: ""
+	id: "15C27C6F7054E349"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "12D8761E981F1971"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10D54DB479B585FD"
+				table_id: 2768555735030486159L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48E695F84FC89209"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5452605B78EA2502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55F77C66E9F34C1E"
+				table_id: 6441299416693517896L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7B6808C1264267D7"
+				item: { count: 1, id: "kubejs:iron_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5A20B46DBEA02ACA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D6E55BFBEE2129D"
+				table_id: 8856613229506773706L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "28ACB419CD48D591"
+				item: { count: 1, id: "kubejs:gold_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4858729A5A7282D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1090F08265218726"
+				table_id: 3828742367245619773L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "747FC882FE098761"
+				item: { count: 1, id: "kubejs:diamond_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5B869D3697CB30F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09DAD26D7CA1A77B"
+				table_id: 5983202512965612953L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "20FFB553F6B5A6C0"
+				item: { count: 1, id: "kubejs:netherite_coin" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "73F1BC7961032EF1"
+			rewards: [{
+				command: "/execute in kubejs:flat run teleport 0 64 0"
+				id: "7BC44E5D568F2A7A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0ABA6354812FB7CC"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "3E6714FF0C611E78"
+			rewards: [{
+				command: "/execute in minecraft:overworld run teleport 0 128 0"
+				id: "1BFD516707ED16AB"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2AD07A30626843B0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanism:pellet_polonium"
+			}
+			id: "049ADA15789166BD"
+			rewards: [
+				{
+					command: "/mek radiation removeAll"
+					id: "2994CFD7B8045933"
+					type: "command"
+				}
+				{
+					command: "/mek radiation heal @s"
+					id: "2B34073384679493"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "19E3FDEEE3192A91"
+				item: { count: 1, id: "kubejs:gold_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

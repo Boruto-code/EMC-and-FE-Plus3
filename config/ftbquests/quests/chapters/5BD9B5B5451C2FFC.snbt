@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5BD9B5B5451C2FFC"
+	group: "6543CA3DCD7E6A9F"
+	icon: {
+		id: "create:creative_motor"
+	}
+	id: "5BD9B5B5451C2FFC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5762CD92B2D28DB7"
+			rewards: [{
+				count: 5
+				id: "477A1959683591EA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:copper_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "681C88AEC09C3BA4"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.5d
+		}
+		{
+			id: "7F1EDC485003AC70"
+			rewards: [{
+				count: 10
+				id: "2D302968EFBFB9F0"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:copper_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7F4D698ED7247EDD"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			id: "2267A0C9BCFDFFB2"
+			rewards: [{
+				count: 10
+				id: "4A6623B568E64582"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:iron_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F9017E730313FCF"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			id: "50FDD555C8171942"
+			rewards: [{
+				count: 15
+				id: "7ABA959A5B1FFDBC"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:iron_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "40E85D0536594518"
+				item: { count: 1, id: "create:windmill_bearing" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			id: "41E148AA75A21CB3"
+			rewards: [{
+				count: 5
+				id: "0DF4256BABD5E744"
+				item: {
+					components: {
+						"ftbquests:missing_item": "kubejs:gold_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "16F4C4042B908FD6"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			id: "0CD06A5F1C3529F0"
+			rewards: [{
+				count: 3
+				id: "36EEBBF95BA93C02"
+				item: {
+					count: 1
+					id: "projectexpansion:compact_sun"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "62E6938792EE02E3"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.75d
+		}
+	]
+}

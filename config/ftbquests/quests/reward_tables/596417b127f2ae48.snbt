@@ -1,0 +1,17 @@
+{
+	empty_weight: 1.0f
+	id: "596417B127F2AE48"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "68A2AFF6455525AC", item: { count: 1, id: "kubejs:iron_coin" } }
+		{
+			count: 2
+			id: "2323939F75874555"
+			item: {
+				count: 1
+				id: "kubejs:iron_coin"
+			}
+		}
+	]
+}

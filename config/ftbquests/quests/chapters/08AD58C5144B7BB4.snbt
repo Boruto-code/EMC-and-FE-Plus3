@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08AD58C5144B7BB4"
+	group: "7FABB2F7E5BB8366"
+	icon: {
+		id: "draconicevolution:chaotic_core"
+	}
+	id: "08AD58C5144B7BB4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5251AD21232EBD63"]
+			id: "5BD9590521E51E46"
+			rewards: [{
+				count: 8
+				id: "64BC2657E862F9C8"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EACD5DA9F341B82"
+					item: { count: 1, id: "draconicevolution:basic_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "6EA5B5F646A56EF0"
+					item: { count: 1, id: "draconicevolution:crystal_binder" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25E5DDAA9B6E220A"]
+			id: "3F4C17A403BD2A33"
+			rewards: [{
+				count: 10
+				id: "1900000F05DC0186"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "555E4FC75BE78FBC"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6262C18B156A9D63"]
+			id: "37755812257ABF4E"
+			rewards: [{
+				count: 10
+				id: "7D2BE8F6EBFED826"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61789F64BB355270"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C5B64A51D7E30B2"]
+			id: "25E5DDAA9B6E220A"
+			rewards: [{
+				count: 16
+				id: "06F7126413541E06"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "66101A08C71BE739"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DCD72333B58E9CE"]
+			id: "4C5B64A51D7E30B2"
+			rewards: [{
+				count: 5
+				id: "118466DCC0B768CC"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C6040420144DE9"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD9590521E51E46"]
+			id: "2DCD72333B58E9CE"
+			rewards: [{
+				count: 3
+				id: "65C64F2D0656DEE3"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42FBD85742E929BF"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD9590521E51E46"]
+			id: "094B78E20187C9AF"
+			rewards: [{
+				count: 20
+				id: "66E0B233B27D7A61"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21D682F20FEA2018"
+					item: { count: 1, id: "draconicevolution:energy_core" }
+					type: "item"
+				}
+				{
+					id: "7FAC909BCBB54945"
+					item: { count: 1, id: "draconicevolution:energy_pylon" }
+					type: "item"
+				}
+				{
+					id: "02D7DD0269360FB8"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:basic_crafting_injector"
+			}
+			id: "5251AD21232EBD63"
+			rewards: [{
+				count: 5
+				id: "63CC31113072D48F"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73063B6B621E7519"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+				{
+					id: "549E721CAA87634D"
+					item: { count: 12, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F4C17A403BD2A33"]
+			id: "6262C18B156A9D63"
+			rewards: [{
+				count: 5
+				id: "600BAF016D2E034E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EF748162A1C6CD3"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

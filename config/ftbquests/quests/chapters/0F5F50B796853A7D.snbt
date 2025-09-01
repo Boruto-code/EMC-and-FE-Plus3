@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0F5F50B796853A7D"
+	group: "6543CA3DCD7E6A9F"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "0F5F50B796853A7D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0181ED9FDFAB18F7"]
+			id: "6C15E6358A4C6E16"
+			rewards: [{
+				count: 3
+				id: "62986E76F3B342FC"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EDCE2C870F7C0CE"
+				item: { count: 1, id: "kubejs:strange_colored_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6C15E6358A4C6E16"
+				"4CD665D098670564"
+				"3510DD690B965962"
+			]
+			id: "7D515D1ABE5EB4AC"
+			rewards: [{
+				count: 3
+				id: "5771F19D15400F1F"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F1BC8FA44F4B3A9"
+				item: { count: 1, id: "create:chromatic_compound" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1747867698ED230A"]
+			id: "4CD665D098670564"
+			rewards: [{
+				count: 5
+				id: "0A819BA418CCC0AB"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D7E628D6656AF92"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["391CCFF9DA9B0927"]
+			id: "3510DD690B965962"
+			rewards: [{
+				count: 5
+				id: "7CE3183DA50FB48E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56F0C6D9AAE16C8B"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71B89C08AB0720B0"]
+			id: "391CCFF9DA9B0927"
+			rewards: [{
+				count: 5
+				id: "5D08C253343C7C8E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A513ED0F79E4663"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["749AFC450DBA5B46"]
+			id: "71B89C08AB0720B0"
+			rewards: [{
+				count: 3
+				id: "304B922065E6DEED"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50636C652798AA7A"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65C59A97084788D0"]
+			id: "749AFC450DBA5B46"
+			rewards: [{
+				count: 10
+				id: "20059C1E880687FC"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0717D3EBB6C1E587"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4CD665D098670564"
+				"7CECE481F43E1E4E"
+			]
+			id: "65C59A97084788D0"
+			rewards: [{
+				count: 5
+				id: "3A8CB877A55EFF11"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B09006B3E04A999"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["507CC256AB460BBC"]
+			id: "1747867698ED230A"
+			rewards: [{
+				count: 3
+				id: "176B8A71CB5E062A"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2115C31048DF2DCD"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CD2F9A14894B31A"]
+			id: "507CC256AB460BBC"
+			rewards: [{
+				count: 5
+				id: "6327FE771D9F6310"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65664E1C69664F43"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "7CD2F9A14894B31A"
+			rewards: [{
+				count: 3
+				id: "4D29FA60FE8C1E0E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "796F545D6D1CBE6E"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"507CC256AB460BBC"
+				"7CD2F9A14894B31A"
+			]
+			id: "7CECE481F43E1E4E"
+			rewards: [{
+				count: 3
+				id: "517220A0C25E0C50"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B52A18E7E26E36B"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65C59A97084788D0"
+				"348044C4D41F28C9"
+			]
+			id: "0181ED9FDFAB18F7"
+			rewards: [{
+				count: 10
+				id: "35E05D6CEF8E18C9"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "107067B8FBD0059D"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69E2AB61934AE381"]
+			id: "348044C4D41F28C9"
+			rewards: [{
+				count: 3
+				id: "3D2616F558A8360B"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1742B0A6662401EC"
+				item: { count: 1, id: "create:polished_rose_quartz" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "69E2AB61934AE381"
+			rewards: [{
+				count: 3
+				id: "0B23FC128404B2A0"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00919E13F5203CED"
+				item: { count: 1, id: "create:sand_paper" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D515D1ABE5EB4AC"]
+			id: "260E1897B9F7A239"
+			rewards: [{
+				count: 5
+				id: "28DAB13E81E7B667"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C5C44CF12571A64"
+				item: { count: 1, id: "create:refined_radiance" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D515D1ABE5EB4AC"]
+			id: "3F850A7E8F1A1BFB"
+			rewards: [{
+				count: 5
+				id: "182FA4AC406C5DD4"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A6D085F2A564E6"
+				item: { count: 1, id: "create:shadow_steel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
