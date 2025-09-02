@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "create:mixing",
-        "head_requirement": "superheated",
+        "heat_requirement": "superheated",
         "ingredients": [
             {
                 "item": "kubejs:awakened_scrap"
