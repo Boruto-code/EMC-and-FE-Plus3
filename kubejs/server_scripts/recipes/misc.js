@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     event.shapeless(
-        "kubejs:awakened_scrap",
+        Item.of("kubejs:awakened_scrap", 16),
         "draconicevolution:awakened_draconium_ingot"
     )
 })

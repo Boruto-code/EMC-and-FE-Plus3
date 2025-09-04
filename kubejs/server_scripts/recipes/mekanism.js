@@ -1,27 +1,5 @@
 ServerEvents.recipes(event => {
-    event.custom({
-        "type": "mekanism:oxidizing",
-        "input": {
-            "count": 1,
-            "item": "draconicevolution:draconium_ingot"
-        },
-        "output": {
-            "amount": 100,
-            "id": "kubejs:draconium"
-        }
-    })
-
-    event.custom({
-        "type": "mekanism:oxidizing",
-        "input": {
-            "count": 1,
-            "item": "draconicevolution:awakened_draconium_ingot"
-        },
-        "output": {
-            "amount": 100,
-            "id": "kubejs:awakened_draconium"
-        }
-    })
+    const mekanism = event.recipes.mekanism
 
     event.custom({
         "type": "mekanism:nucleosynthesizing",
@@ -40,4 +18,9 @@ ServerEvents.recipes(event => {
         },
         "per_tick_usage": false
     })
+
+    mekanism.enriching(
+        "create_enchantment_industry:super_experience_nugget",
+        Item.of("create:experience_block", 16)
+    )
 })
