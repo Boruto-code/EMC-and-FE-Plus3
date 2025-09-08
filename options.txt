@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources"]
+resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/Simply_Create_Model｜简单动力-resource-1.21.1-1.0.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -99,7 +99,7 @@ key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
-key_key.playerlist:key.keyboard.tab
+key_key.playerlist:key.keyboard.f8
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
@@ -163,7 +163,7 @@ key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.b
-key_gui.xaero_waypoints_key:key.keyboard.u
+key_gui.xaero_waypoints_key:key.keyboard.n
 key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
@@ -217,6 +217,7 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.extendedae.viewpattern:key.keyboard.p
+key_key.extendedae.set_amount:key.mouse.middle
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
@@ -233,7 +234,7 @@ key_key.advanced_ae.quantum_auto_stock_upgrade:key.keyboard.unknown
 key_key.advanced_ae.quantum_night_vision_upgrade:key.keyboard.unknown
 key_key.draconicevolution.place_item:key.keyboard.p
 key_key.draconicevolution.tool_config:key.keyboard.c:CONTROL
-key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
+key_key.draconicevolution.tool_modules:key.keyboard.tab
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
 key_key.draconicevolution.dislocator_teleport:key.keyboard.unknown
