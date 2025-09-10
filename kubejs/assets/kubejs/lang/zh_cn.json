@@ -17,9 +17,6 @@
   "block.kubejs.1x_compressed_energy_cell": "压缩能源元件",
   "block.kubejs.2x_compressed_energy_cell": "二重压缩能源元件",
 
-  "chemical.kubejs.draconium": "龙",
-  "chemical.kubejs.awakened_draconium": "觉醒龙",
-
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",
   "kubejs.ponder.crafting_core_scene.text_1": "聚合装置是DE中一个重要的多方块结构",
