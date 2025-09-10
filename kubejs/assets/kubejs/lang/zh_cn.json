@@ -13,6 +13,9 @@
   "item.kubejs.incomplete_strange_colored_ingot": "不纯的彩虹锭（半成品）",
 
   "block.kubejs.super_glass": "超级玻璃",
+  "block.kubejs.compressed_awakened_draconium_block": "压缩觉醒龙块",
+  "block.kubejs.1x_compressed_energy_cell": "压缩能源元件",
+  "block.kubejs.2x_compressed_energy_cell": "二重压缩能源元件",
 
   "chemical.kubejs.draconium": "龙",
   "chemical.kubejs.awakened_draconium": "觉醒龙",
