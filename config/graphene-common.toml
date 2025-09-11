@@ -14,7 +14,7 @@
 ["粒子优化 | particle Optimization"]
 	#启用粒子系统优化
 	#Enable particle system optimizations
-	enableParticleOptimization = true
+	enableParticleOptimization = false
 	#启用粒子LOD系统 (Level of Detail)
 	#Enable particle LOD system (Level of Detail)
 	enableParticleLOD = true
