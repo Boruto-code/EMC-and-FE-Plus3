@@ -8,6 +8,7 @@ defaultconfigs
 downloads
 EMC & FE +++-natives
 local
+log
 logs
 patchouli_books
 PCL
@@ -24,3 +25,6 @@ latest.log
 patchouli_data.json
 usercache.json
 usernamecache.json
+
+!kubejs/data/
+!kubejs/data/*

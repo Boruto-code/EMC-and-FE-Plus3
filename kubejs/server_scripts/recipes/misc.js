@@ -74,4 +74,8 @@ ServerEvents.recipes(event => {
         Item.of("kubejs:diamond_coin", 9),
         "kubejs:netherite_coin"
     )
+
+    event.remove("immersiveengineering:crafting/rs_engineering")
+    event.remove("immersiveengineering:crafting/light_engineering")
+    event.remove("immersiveengineering:crafting/heavy_engineering")
 })

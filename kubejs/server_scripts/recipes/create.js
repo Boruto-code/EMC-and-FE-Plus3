@@ -132,6 +132,156 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
+            "item": "minecraft:copper_ingot"
+        },
+        "loops": 4,
+        "results": [
+            {
+                "id": "immersiveengineering:rs_engineering"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_redstone_engineering"
+                    },
+                    {
+                        "item": "minecraft:redstone"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_redstone_engineering"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_redstone_engineering"
+                    },
+                    {
+                        "item": "immersiveengineering:sheetmetal_iron"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_redstone_engineering"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_redstone_engineering"
+        }
+    })
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "minecraft:copper_ingot"
+        },
+        "loops": 4,
+        "results": [
+            {
+                "id": "immersiveengineering:light_engineering"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_light_engineering"
+                    },
+                    {
+                        "item": "immersiveengineering:component_iron"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_light_engineering"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_light_engineering"
+                    },
+                    {
+                        "item": "immersiveengineering:sheetmetal_iron"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_light_engineering"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_light_engineering"
+        }
+    })
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "immersiveengineering:ingot_electrum"
+        },
+        "loops": 4,
+        "results": [
+            {
+                "id": "immersiveengineering:heavy_engineering"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_heavy_engineering"
+                    },
+                    {
+                        "item": "immersiveengineering:component_steel"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_heavy_engineering"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_heavy_engineering"
+                    },
+                    {
+                        "item": "immersiveengineering:sheetmetal_steel"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_heavy_engineering"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_heavy_engineering"
+        }
+    })
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
             "item": "draconicevolution:chaos_shard"
         },
         "loops": 1,

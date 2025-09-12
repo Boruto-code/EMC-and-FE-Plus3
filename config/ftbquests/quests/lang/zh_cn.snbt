@@ -58,6 +58,8 @@
 	quest.598E8575CF96533C.quest_desc: ["ProjectE 最重要的物品，向转化桌丢入有 EMC 值的物品转化成EMC储存，或将内存的EMC转换为目标物品。"]
 	quest.5A20B46DBEA02ACA.title: "金币抽奖 1x"
 	quest.5B869D3697CB30F5.title: "下界合金币抽奖 1x"
+	quest.621F9328DD76D845.quest_desc: ["使用窑砖搭建 2x2x2 的多方块结构，并手持工程师锤对右上角右键可以组成合金窑。"]
+	quest.621F9328DD76D845.title: "合金窑"
 	quest.65D54CDD1DE23E6D.quest_desc: ["ProjectE 的基础物品，可以通过合成来转换部分物品，也可通过向方块右键转换方块。按 R 键可消耗 EMC 发射宝珠转换生物。V 键充能，Shift + V 则为反充能（之后 ProjectE 物品有充能条皆为此方式）。"]
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"

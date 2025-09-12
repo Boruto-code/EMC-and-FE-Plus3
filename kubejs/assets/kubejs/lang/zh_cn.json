@@ -16,6 +16,9 @@
   "block.kubejs.compressed_awakened_draconium_block": "压缩觉醒龙块",
   "block.kubejs.1x_compressed_energy_cell": "压缩能源元件",
   "block.kubejs.2x_compressed_energy_cell": "二重压缩能源元件",
+  "block.kubejs.incomplete_redstone_engineering": "红石工程块（半成品）",
+  "block.kubejs.incomplete_light_engineering": "轻型工程块（半成品）",
+  "block.kubejs.incomplete_heavy_engineering": "重型工程块（半成品）",
 
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",

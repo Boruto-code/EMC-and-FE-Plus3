@@ -9,5 +9,78 @@
 	id: "703C7FA7A201F4FB"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5F50730BB0435D37"]
+			id: "621F9328DD76D845"
+			rewards: [{
+				count: 3
+				id: "2F9ACE56F02951CE"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A33FECF7214E37"
+				item: { count: 1, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "5F50730BB0435D37"
+			tasks: [{
+				id: "3C05353B08C508CF"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "6F22E79441EB8D1C"
+			tasks: [{
+				id: "57C51642835D631B"
+				item: { count: 1, id: "immersiveengineering:rs_engineering" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CF317835301A8C6"]
+			id: "4E884CAEAF685429"
+			tasks: [{
+				id: "412317CF82145BE8"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["621F9328DD76D845"]
+			id: "4CF317835301A8C6"
+			tasks: [{
+				id: "3ED419B8385713C0"
+				item: { count: 1, id: "immersiveengineering:ingot_electrum" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "43786BA5414A32BD"
+			tasks: [{
+				id: "5233756850132B39"
+				item: { count: 1, id: "immersiveengineering:light_engineering" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
 }
