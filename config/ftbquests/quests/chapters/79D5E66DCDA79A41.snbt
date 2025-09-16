@@ -239,6 +239,7 @@
 			dependencies: [
 				"7EBFF8002D25B7D3"
 				"1822C26DD8F950B8"
+				"04F8A966CAD0296B"
 			]
 			id: "04EC84EEDF753667"
 			rewards: [{
@@ -487,6 +488,27 @@
 			}]
 			x: 0.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["598E8575CF96533C"]
+			id: "6B093A83EF3DBF77"
+			rewards: [{
+				count: 5
+				id: "4B9057567EE60EC1"
+				item: {
+					count: 1
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "projecte:alchemical_bag"
+				criterion: ""
+				id: "73020684E5B8E81F"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 4.0d
 		}
 	]
 }

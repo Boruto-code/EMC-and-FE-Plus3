@@ -18,4 +18,38 @@ ServerEvents.recipes(event => {
         ],
         "time": 1200
     })
+
+    event.custom({
+        "type": "immersiveengineering:mixer",
+        "energy": 64000,
+        "fluid": {
+            "amount": 1000,
+            "tag": "minecraft:lava"
+        },
+        "inputs": [
+            {
+                "tag": "c:ingots/steel"
+            }
+        ],
+        "result": {
+            "amount": 1000,
+            "id": "kubejs:steel"
+        }
+    })
+
+    event.custom({
+        "type": "immersiveengineering:bottling_machine",
+        "fluid": {
+            "amount": 1000,
+            "tag": "kubejs:steel"
+        },
+        "input": {
+            "item": "immersiveengineering:blastbrick"
+        },
+        "results": [
+            {
+                "id": "immersiveengineering:blastbrick_reinforced"
+            }
+        ]
+    })
 })

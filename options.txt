@@ -152,12 +152,6 @@ key_key.ae2.ae2wtlib_stow:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
-key_key.electrodynamics.jetpackascend:key.keyboard.space
-key_key.electrodynamics.jetpackmode:key.keyboard.m
-key_key.electrodynamics.togglenvgs:key.keyboard.n
-key_key.electrodynamics.servoleggingsmode:key.keyboard.l
-key_key.electrodynamics.toggleservoleggings:key.keyboard.k
-key_key.electrodynamics.swapbattery:key.keyboard.r
 key_ponder.keyinfo.ponder:key.keyboard.w
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_zoom_in:key.keyboard.unknown

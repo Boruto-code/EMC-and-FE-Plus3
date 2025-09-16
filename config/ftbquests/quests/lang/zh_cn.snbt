@@ -29,6 +29,7 @@
 	quest.0EDA9A53D5B461FC.title: "你为什么要这样做？"
 	quest.0F17098159F8770F.quest_desc: ["&c官方 QQ 交流群：224133726"]
 	quest.0F17098159F8770F.title: "QQ 交流群"
+	quest.11E36D8A5BF07ECC.title: "红物质工具包"
 	quest.12BB0C410F55F0B2.quest_desc: [
 		"它太高了，我只能用文字说明。"
 		""
@@ -48,6 +49,7 @@
 	quest.18CF0DC64FBC4BC2.quest_desc: ["按 R 键或右键发射宝珠，轰炸部分区域。充能可加大范围。"]
 	quest.245B51151EFBD869.title: "机械动力"
 	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
+	quest.37C1F3631286AC14.title: " 宝石套装"
 	quest.381C3C1D06E4AF58.quest_desc: ["右键会挖掘右键位置的 3*3*1 方块。"]
 	quest.3FCCBD6257977AE1.title: "感谢游玩！"
 	quest.4015AE9303EB7392.quest_desc: ["请至此网站反馈: https://github.com/Boruto-code/EMC-and-FE-Plus3/issues"]
@@ -76,5 +78,6 @@
 	task.0E3EB9EFC82CAC77.title: "电弧炉"
 	task.1E2001936DF1973F.title: "官方交流群"
 	task.2AD07A30626843B0.title: "传送回主世界"
+	task.4BDD9F76F4CC238E.title: "搅拌机"
 	task.581CDFAD70B550C8.title: "欢迎"
 }

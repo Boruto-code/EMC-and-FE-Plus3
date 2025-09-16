@@ -115,7 +115,23 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6F22E79441EB8D1C"
+				"43786BA5414A32BD"
+			]
+			icon: {
+				id: "immersiveengineering:mixer"
+			}
+			id: "74BA1433BB41A3FF"
+			tasks: [{
+				id: "4BDD9F76F4CC238E"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.0d
 		}
 	]
 }
