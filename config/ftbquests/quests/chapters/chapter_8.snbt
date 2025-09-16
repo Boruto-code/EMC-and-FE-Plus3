@@ -41,6 +41,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["0181ED9FDFAB18F7"]
 			id: "6F22E79441EB8D1C"
 			tasks: [{
 				id: "57C51642835D631B"
@@ -73,6 +74,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0181ED9FDFAB18F7"]
 			id: "43786BA5414A32BD"
 			tasks: [{
 				id: "5233756850132B39"
@@ -81,6 +83,39 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F22E79441EB8D1C"
+				"43786BA5414A32BD"
+			]
+			icon: {
+				id: "immersiveengineering:bottling_machine"
+			}
+			id: "7D243C08DD50F668"
+			tasks: [{
+				id: "079ACF0631044020"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6F22E79441EB8D1C"
+				"4E884CAEAF685429"
+				"43786BA5414A32BD"
+			]
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+			}
+			id: "5319189C6FA34AC5"
+			tasks: [{
+				id: "0E3EB9EFC82CAC77"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 }

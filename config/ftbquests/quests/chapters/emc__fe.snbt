@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "emc__fe"
+	group: ""
+	icon: {
+		id: "projecte:transmutation_tablet"
+	}
+	id: "0200081DE0735E53"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;100000L]
+					}
+				}
+				id: "mekanism:robit"
+			}
+			id: "710206257C490EF0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E2001936DF1973F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "projecte:transmutation_tablet"
+			}
+			id: "08EA5A26A4D9AA22"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "581CDFAD70B550C8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+}

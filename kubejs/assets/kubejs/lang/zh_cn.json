@@ -4,6 +4,7 @@
   "item.kubejs.gold_coin": "金币",
   "item.kubejs.diamond_coin": "钻石币",
   "item.kubejs.netherite_coin": "下界合金币",
+  "item.kubejs.steel_bucket": "液态钢桶",
   "item.kubejs.awakened_scrap": "觉醒碎片",
   "item.kubejs.rainbow_compound": "彩虹锭",
   "item.kubejs.obsidianite_ingot": "黑曜石合金锭",
@@ -19,6 +20,8 @@
   "block.kubejs.incomplete_redstone_engineering": "红石工程块（半成品）",
   "block.kubejs.incomplete_light_engineering": "轻型工程块（半成品）",
   "block.kubejs.incomplete_heavy_engineering": "重型工程块（半成品）",
+
+  "fluid.kubejs.steel": "液态钢",
 
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",

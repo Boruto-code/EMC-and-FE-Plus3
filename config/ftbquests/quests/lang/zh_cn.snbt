@@ -1,4 +1,5 @@
 {
+	chapter.0200081DE0735E53.title: "EMC and FE +++"
 	chapter.08AD58C5144B7BB4.title: "Chapter 4: 传说之龙"
 	chapter.0F5F50B796853A7D.title: "Chapter 7: 机械动力"
 	chapter.15C27C6F7054E349.title: "抽奖 / 商店"
@@ -19,6 +20,8 @@
 	quest.0480E962754E9B2A.title: "EMC and FE +++"
 	quest.049ADA15789166BD.title: "清除辐射"
 	quest.04EC84EEDF753667.quest_desc: ["黑洞戒指 + 以太密度宝石。"]
+	quest.08EA5A26A4D9AA22.quest_desc: ["这是一个相对适合新手的科技整合包，有部分增强难度的魔改。祝你游玩愉快！"]
+	quest.08EA5A26A4D9AA22.title: "欢迎！"
 	quest.094B78E20187C9AF.quest_desc: [
 		"用于储存RF能量，一共有8个等级，等级越高占地越大，存电量也就越高。在 1~4 级只需要使用&6&l4个&r&r普通的&6&l能量核心稳定器&r&r摆放在周围，5 级以上则需要使用高级稳定器（摆放 3x3 的稳定器）。能量塔用于能量 IO，在能量塔上放置一个玻璃启动，扳手Shift+右键切换模式（看箭头方向，朝内为充电，朝外为放电）。"
 		"能量核心建议摆放于能量塔10格以上，点击稳定器或核心可激活与自动摆放多方块结构。推荐先制作一个7级龙球，存电用于制作8级龙球（&o需 378 个觉醒龙块&r）。8级龙球可存储接近无限的电量。"
@@ -63,9 +66,15 @@
 	quest.65D54CDD1DE23E6D.quest_desc: ["ProjectE 的基础物品，可以通过合成来转换部分物品，也可通过向方块右键转换方块。按 R 键可消耗 EMC 发射宝珠转换生物。V 键充能，Shift + V 则为反充能（之后 ProjectE 物品有充能条皆为此方式）。"]
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"
+	quest.710206257C490EF0.quest_desc: ["QQ: 224133726"]
 	quest.7102C2A1E728204F.quest_desc: ["速度加快且2倍增产。"]
 	quest.73F1BC7961032EF1.quest_desc: ["这里是永日状态"]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
+	quest.7D243C08DD50F668.quest_desc: ["{image:kubejs:textures/shapes/bottling.png width:200 height:200 align:center}"]
+	task.079ACF0631044020.title: "灌装机"
 	task.0ABA6354812FB7CC.title: "传送至超平坦世界"
+	task.0E3EB9EFC82CAC77.title: "电弧炉"
+	task.1E2001936DF1973F.title: "官方交流群"
 	task.2AD07A30626843B0.title: "传送回主世界"
+	task.581CDFAD70B550C8.title: "欢迎"
 }

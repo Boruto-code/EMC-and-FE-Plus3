@@ -2,6 +2,7 @@
 .probe
 .vscode
 backups
+ChatImageCache
 crash-reports
 data
 defaultconfigs

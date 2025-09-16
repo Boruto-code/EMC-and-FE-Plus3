@@ -56,8 +56,7 @@ infiniteFuelBurnTime = 1600
 infiniteSteakCost = 64
 #If ProjectE's processors.EnchantmentProcessor.persistent option should only include enchanted books.
 persistEnchantedBooksOnly = false
-#If players should be allowed to edit books bound to other players. A player is considered to be "OP" when they have an op level of 2 or greater.
-#Allowed Values: DISABLED, OP_ONLY, ENABLED
+#If players should be allowed to edit books bound to other players. A player is considered to be "OP" when they have an op level of 2 or greater. Allowed values: DISABLED, OP_ONLY, ENABLED
 editOthersAlchemicalBooks = "DISABLED"
 #If fluids which end their calculations at zero emc should be returned as free.
 zeroEmcFluidsAreFree = true

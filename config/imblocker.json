@@ -1,9 +1,10 @@
 {
   "basicSettings": {
     "screenWhitelist": [
-      "net.minecraft.client.gui.screens.inventory.BookEditScreen",
       "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
-      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+      "net.minecraft.client.gui.screens.inventory.BookEditScreen",
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
+      "ftblibrary:dev.ftb.mods.ftblibrary.ui.ScreenWrapper"
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],
