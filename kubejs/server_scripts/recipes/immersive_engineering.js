@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
         "type": "immersiveengineering:bottling_machine",
         "fluid": {
             "amount": 1000,
-            "tag": "kubejs:steel"
+            "tag": "c:steel"
         },
         "input": {
             "item": "immersiveengineering:blastbrick"

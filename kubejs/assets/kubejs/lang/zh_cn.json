@@ -21,7 +21,7 @@
   "block.kubejs.incomplete_light_engineering": "轻型工程块（半成品）",
   "block.kubejs.incomplete_heavy_engineering": "重型工程块（半成品）",
 
-  "fluid.kubejs.steel": "液态钢",
+  "fluid_type.kubejs.steel": "液态钢",
 
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",

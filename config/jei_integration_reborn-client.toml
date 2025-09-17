@@ -1,6 +1,6 @@
 [Tooltip_Options]
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
-	tagsTooltipMode = "ENABLE"
+	tagsTooltipMode = "SHIFT"
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG
 	burnTimeTooltip = "DISABLE"
 	#Allowed Values: DISABLE, ENABLE, SHIFT, DEBUG, SHIFT_AND_DEBUG

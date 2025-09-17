@@ -1,10 +1,8 @@
 ServerEvents.recipes(event => {
-    event.custom({
-        "type": "avaritia:extreme_shaped",
-        "result": {
-            "id": "draconicevolution:creative_capacitor"
-        },
-        "pattern": [
+    const avaritia = event.recipes.avaritia
+
+    avaritia.extreme_shaped(
+        [
             "AAAACAAAA",
             "AEEBCBEEA",
             "AEBFCFBEA",
@@ -15,34 +13,19 @@ ServerEvents.recipes(event => {
             "AEEBCBEEA",
             "AAAACAAAA"
         ],
-        "key": {
-            "A": {
-                "item": "kubejs:compressed_awakened_draconium_block"
-            },
-            "B": {
-                "item": "draconicevolution:chaotic_crafting_injector"
-            },
-            "C": {
-                "item": "draconicevolution:reactor_stabilizer"
-            },
-            "D": {
-                "item": "draconicevolution:reactor_core"
-            },
-            "E": {
-                "item": "draconicevolution:chaotic_core"
-            },
-            "F": {
-                "item": "draconicevolution:chaotic_capacitor"
-            }
-        }
-    })
-
-    event.custom({
-        "type": "avaritia:extreme_shaped",
-        "result": {
-            "id": "draconicevolution:creative_op_capacitor"
+        {
+            A: "kubejs:compressed_awakened_draconium_block",
+            B: "draconicevolution:chaotic_crafting_injector",
+            C: "draconicevolution:reactor_stabilizer",
+            D: "draconicevolution:reactor_core",
+            E: "draconicevolution:chaotic_core",
+            F: "draconicevolution:chaotic_capacitor"
         },
-        "pattern": [
+        "draconicevolution:creative_capacitor"
+    )
+
+    avaritia.extreme_shaped(
+        [
             "BBCCCCCBB",
             "BBBBBBBBB",
             "CBAAAAABC",
@@ -53,22 +36,13 @@ ServerEvents.recipes(event => {
             "BBBBBBBBB",
             "BBCCCCCBB"
         ],
-        "key": {
-            "A": {
-                "item": "draconicevolution:awakened_draconium_block"
-            },
-            "B": {
-                "item": "kubejs:compressed_awakened_draconium_block"
-            },
-            "C": {
-                "item": "draconicevolution:reactor_stabilizer"
-            },
-            "D": {
-                "item": "draconicevolution:reactor_core"
-            },
-            "E": {
-                "item": "draconicevolution:creative_capacitor"
-            }
-        }
-    })
+        {
+            A: "draconicevolution:awakened_draconium_block",
+            B: "kubejs:compressed_awakened_draconium_block",
+            C: "draconicevolution:reactor_stabilizer",
+            D: "draconicevolution:reactor_core",
+            E: "draconicevolution:creative_capacitor"
+        },
+        "draconicevolution:creative_op_capacitor"
+    )
 })

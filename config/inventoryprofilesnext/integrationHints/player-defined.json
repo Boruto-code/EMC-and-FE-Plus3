@@ -368,5 +368,17 @@
                 "top": 27
             }
         }
+    },
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 10,
+                "top": 28
+            }
+        }
     }
 }
