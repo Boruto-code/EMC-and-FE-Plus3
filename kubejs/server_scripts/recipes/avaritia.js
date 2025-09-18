@@ -45,4 +45,10 @@ ServerEvents.recipes(event => {
         },
         "draconicevolution:creative_op_capacitor"
     )
+
+    avaritia.compressor(
+        ["projecte:watch_of_flowing_time"], 
+        "tiab:time_in_a_bottle[tiab:stored_time={total: 360000000,stored: 360000000}]",
+        128
+    )
 })

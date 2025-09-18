@@ -97,7 +97,7 @@
 				id: "079ACF0631044020"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -129,6 +129,20 @@
 			tasks: [{
 				id: "4BDD9F76F4CC238E"
 				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7D243C08DD50F668"
+				"74BA1433BB41A3FF"
+			]
+			id: "53D38AD1FE74377D"
+			tasks: [{
+				id: "7D7D5BB5F57127EC"
+				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+				type: "item"
 			}]
 			x: -0.5d
 			y: 4.0d

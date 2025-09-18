@@ -12,18 +12,6 @@
 	quests: [
 		{
 			id: "5762CD92B2D28DB7"
-			rewards: [{
-				count: 5
-				id: "477A1959683591EA"
-				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:copper_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -36,18 +24,6 @@
 		}
 		{
 			id: "7F1EDC485003AC70"
-			rewards: [{
-				count: 10
-				id: "2D302968EFBFB9F0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:copper_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -60,18 +36,6 @@
 		}
 		{
 			id: "2267A0C9BCFDFFB2"
-			rewards: [{
-				count: 10
-				id: "4A6623B568E64582"
-				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:iron_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -84,18 +48,6 @@
 		}
 		{
 			id: "50FDD555C8171942"
-			rewards: [{
-				count: 15
-				id: "7ABA959A5B1FFDBC"
-				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:iron_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -108,18 +60,6 @@
 		}
 		{
 			id: "41E148AA75A21CB3"
-			rewards: [{
-				count: 5
-				id: "0DF4256BABD5E744"
-				item: {
-					components: {
-						"ftbquests:missing_item": "kubejs:gold_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -132,15 +72,6 @@
 		}
 		{
 			id: "0CD06A5F1C3529F0"
-			rewards: [{
-				count: 3
-				id: "36EEBBF95BA93C02"
-				item: {
-					count: 1
-					id: "projectexpansion:compact_sun"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
