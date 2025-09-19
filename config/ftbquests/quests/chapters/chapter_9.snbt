@@ -9,5 +9,26 @@
 	id: "0F2A11C13645E3D4"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "45A779A6038BBAFB"
+		rewards: [{
+			count: 10
+			id: "0F83B8827F0EE7DF"
+			item: {
+				count: 1
+				id: "kubejs:iron_coin"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			icon: {
+				id: "ae2:mysterious_cube"
+			}
+			id: "1F9A5B46E58787FF"
+			structure: "ae2:meteorite"
+			type: "structure"
+		}]
+		x: -3.0d
+		y: -0.5d
+	}]
 }
