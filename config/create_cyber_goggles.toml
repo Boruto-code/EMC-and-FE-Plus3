@@ -1,30 +1,37 @@
 [goggles]
 enhancedInfo = true
 hideStaticKineticInfo = false
-enhancedStoreRender = true
+betterStoreInfo = true
 renderExtraItems = true
 enableKineticEffect = true
-preciseNumbers = true
+preciseNumber = true
+disableScreenGoggles = true
+betterLine = true
 [gameMode]
 enableInSurvival = true
 enableInCreative = true
 enableInSpectator = true
 enableInAdventure = true
+[delayRender]
+renderAnalogBox = true
+delayRenderDuration = 60
+airBoxPushColor = 14532966
+airBoxPullColor = 8375776
 [chainConveyor]
 alwaysAllowRiding = false
 preventFalling = false
 enhancedConnection = true
 cardBoardedYourself = false
-[armor]
-removeBoxOverlay = true
-removeNetheriteFirstPerson = false
-removeDivingBootsAffect = false
 [wrench]
 alwaysAllowRotating = false
 removeCooldown = true
-[other]
+[misc]
+removeCardboardOverlay = true
+removeNetheriteFirstPerson = false
+removeDivingBootsAffect = false
+fixSchematicName = true
 rightClickPenetrate = false
 rainbowDebug = false
 forcedBackend = false
-nonrandomScrap = true
 nbtFix = false
+showScrapContent = true

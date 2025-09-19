@@ -133,6 +133,11 @@ key_key.projecte.charge:key.keyboard.v
 key_key.projecte.extra_function:key.keyboard.h
 key_key.projecte.fire_projectile:key.keyboard.r
 key_key.projecte.mode:key.keyboard.g
+key_key.create_cyber_goggles.openConfig:key.keyboard.unknown
+key_key.create_cyber_goggles.openStock:key.keyboard.unknown
+key_key.create_cyber_goggles.previewFilter:key.keyboard.unknown
+key_key.create_cyber_goggles.toggleDiving:key.keyboard.unknown
+key_key.create_cyber_goggles.showStress:key.keyboard.tab
 key_config.chatimage.key:key.keyboard.end
 key_key.modernfix.config:key.keyboard.unknown
 key_key.refinedstorage.focus_search_bar:key.keyboard.tab
@@ -217,7 +222,7 @@ key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.guideme.guide:key.keyboard.g
-key_key.usetiab:key.keyboard.g
+key_key.usetiab:key.keyboard.r
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown
 key_key.advanced_ae.pick_craft:key.keyboard.unknown

@@ -51,4 +51,6 @@ ServerEvents.recipes(event => {
         "tiab:time_in_a_bottle[tiab:stored_time={total: 360000000,stored: 360000000}]",
         128
     )
+
+    avaritia.compressor(["kubejs:2x_compressed_energy_cell"], "ae2:creative_energy_cell", 128)
 })

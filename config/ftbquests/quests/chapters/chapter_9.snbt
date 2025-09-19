@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_9"
+	group: "67DDB26600B9A092"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "0F2A11C13645E3D4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

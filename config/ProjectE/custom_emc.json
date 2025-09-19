@@ -11,6 +11,10 @@
     {
       "id": "minecraft:wither_skeleton_skull",
       "emc": 131072
+    },
+    {
+      "id": "kubejs:1x_compressed_energy_cell",
+      "emc": 0
     }
   ]
 }

@@ -1,36 +1,18 @@
 ServerEvents.recipes(event => {
     event.custom({
-        "type": "advanced_ae:reaction",
-        "input_energy": 640000,
-        "input_fluid": {
-            "amount": 1000,
-            "ingredient": {
-                "fluid": "advanced_ae:quantum_infusion_source"
+        "type": "ae2:inscriber",
+        "ingredients": {
+            "middle": {
+                "item": "ae2:dense_energy_cell"
+            },
+            "top": {
+                "item": "advanced_ae:quantum_processor_press"
             }
         },
-        "input_items": [
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "immersiveengineering:sheetmetal_iron"
-                }
-            },
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "minecraft:redstone"
-                }
-            },
-            {
-                "amount": 1,
-                "ingredient": {
-                    "item": "minecraft:copper_ingot"
-                }
-            }
-        ],
-        "output": {
-            "#": 1,
-            "id": "immersiveengineering:rs_engineering"
+        "mode": "inscribe",
+        "result": {
+            "count": 1,
+            "id": "kubejs:1x_compressed_energy_cell"
         }
     })
 })

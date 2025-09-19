@@ -1,6 +1,7 @@
 {
 	chapter.0200081DE0735E53.title: "EMC and FE +++"
 	chapter.08AD58C5144B7BB4.title: "Chapter 4: 传说之龙"
+	chapter.0F2A11C13645E3D4.title: "Chapter 9: 自动化！"
 	chapter.0F5F50B796853A7D.title: "Chapter 7: 机械动力"
 	chapter.15C27C6F7054E349.title: "抽奖 / 商店"
 	chapter.2598DD5507DF439E.title: "Chapter 6: 永无极限"
@@ -55,7 +56,10 @@
 	quest.3FCCBD6257977AE1.title: "感谢游玩！"
 	quest.4015AE9303EB7392.quest_desc: ["请至此网站反馈: https://github.com/Boruto-code/EMC-and-FE-Plus3/issues"]
 	quest.4015AE9303EB7392.title: "Bug 反馈"
+	quest.4085A6CCF03BA389.quest_desc: ["使用焦炉砖搭建 3x3x3 的多方块结构，并手持工程师锤对任意侧中心右键可以组成焦炉。"]
+	quest.4085A6CCF03BA389.title: "焦炉"
 	quest.462516E55EF495CD.title: "时代少年团?"
+	quest.47F8356802C20EFC.quest_subtitle: "中子压缩配方有 5000 个小时！"
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
 	quest.540B35801D6D99A4.quest_desc: ["不稳定水晶 + 毁灭燧石，范围更大。"]
 	quest.5452605B78EA2502.title: "铁币抽奖 1x"
@@ -81,4 +85,5 @@
 	task.2AD07A30626843B0.title: "传送回主世界"
 	task.4BDD9F76F4CC238E.title: "搅拌机"
 	task.581CDFAD70B550C8.title: "欢迎"
+	task.777A8B95C2C1C133.title: "工业挤压机"
 }

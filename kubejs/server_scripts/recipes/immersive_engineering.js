@@ -20,6 +20,26 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [
+            {
+                "item": "draconicevolution:creative_op_capacitor"
+            }
+        ],
+        "energy": 64000,
+        "input": {
+            "item": "kubejs:1x_compressed_energy_cell",
+            "count": 64
+        },
+        "results": [
+            {
+                "item": "kubejs:2x_compressed_energy_cell",
+            }
+        ],
+        "time": 1200
+    })
+
+    event.custom({
         "type": "immersiveengineering:mixer",
         "energy": 64000,
         "fluid": {

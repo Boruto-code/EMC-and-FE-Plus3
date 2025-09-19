@@ -27,11 +27,20 @@
 				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
 			id: "5F50730BB0435D37"
+			rewards: [{
+				count: 3
+				id: "74F106672701C064"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C05353B08C508CF"
 				item: { count: 1, id: "immersiveengineering:hammer" }
@@ -43,6 +52,15 @@
 		{
 			dependencies: ["0181ED9FDFAB18F7"]
 			id: "6F22E79441EB8D1C"
+			rewards: [{
+				count: 5
+				id: "4AE8C6DE97CDA8CA"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57C51642835D631B"
 				item: { count: 1, id: "immersiveengineering:rs_engineering" }
@@ -54,6 +72,15 @@
 		{
 			dependencies: ["4CF317835301A8C6"]
 			id: "4E884CAEAF685429"
+			rewards: [{
+				count: 10
+				id: "1338F20554B6CA3C"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "412317CF82145BE8"
 				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
@@ -65,17 +92,35 @@
 		{
 			dependencies: ["621F9328DD76D845"]
 			id: "4CF317835301A8C6"
+			rewards: [{
+				count: 5
+				id: "2D0F9C46D0DD34A9"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ED419B8385713C0"
 				item: { count: 1, id: "immersiveengineering:ingot_electrum" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0181ED9FDFAB18F7"]
 			id: "43786BA5414A32BD"
+			rewards: [{
+				count: 5
+				id: "6BAB458FDF423A16"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5233756850132B39"
 				item: { count: 1, id: "immersiveengineering:light_engineering" }
@@ -97,7 +142,7 @@
 				id: "079ACF0631044020"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -105,6 +150,7 @@
 				"6F22E79441EB8D1C"
 				"4E884CAEAF685429"
 				"43786BA5414A32BD"
+				"00B0B40541E35CB6"
 			]
 			icon: {
 				id: "immersiveengineering:arc_furnace"
@@ -130,7 +176,7 @@
 				id: "4BDD9F76F4CC238E"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -139,13 +185,93 @@
 				"74BA1433BB41A3FF"
 			]
 			id: "53D38AD1FE74377D"
+			rewards: [{
+				count: 3
+				id: "10D8C864783F1EF9"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D7D5BB5F57127EC"
 				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7D243C08DD50F668"
+				"3CE476E335AAC05E"
+				"24D7838B747E9B56"
+			]
+			id: "00B0B40541E35CB6"
+			rewards: [{
+				count: 3
+				id: "5B3E0093B8B54A93"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49B91707271DCA90"
+				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F50730BB0435D37"]
+			id: "4085A6CCF03BA389"
+			rewards: [{
+				count: 3
+				id: "365B8DE97C7B051D"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D294AA624F9C96E"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4085A6CCF03BA389"]
+			id: "3CE476E335AAC05E"
+			tasks: [{
+				id: "1415A6A4B7D44570"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6F22E79441EB8D1C"
+				"43786BA5414A32BD"
+			]
+			icon: {
+				id: "immersiveengineering:squeezer"
+			}
+			id: "24D7838B747E9B56"
+			tasks: [{
+				id: "777A8B95C2C1C133"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
 		}
 	]
 }

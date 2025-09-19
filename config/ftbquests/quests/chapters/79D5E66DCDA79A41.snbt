@@ -343,7 +343,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6C76E654E139134D"]
+			dependencies: ["04F8A966CAD0296B"]
 			id: "7102C2A1E728204F"
 			rewards: [{
 				count: 3
@@ -360,7 +360,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["63FAF6BEB61ED213"]

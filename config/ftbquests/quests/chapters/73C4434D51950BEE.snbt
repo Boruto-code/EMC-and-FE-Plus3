@@ -9,5 +9,23 @@
 	id: "73C4434D51950BEE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "47F8356802C20EFC"
+		rewards: [{
+			count: 5
+			id: "4F944D233D9B2246"
+			item: {
+				count: 1
+				id: "kubejs:gold_coin"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "42C2961C43F9FB63"
+			item: { count: 1, id: "tiab:time_in_a_bottle" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }
