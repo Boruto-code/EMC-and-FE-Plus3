@@ -1,6 +1,8 @@
 StartupEvents.registry("block", event => {
     event.create("kubejs:super_glass").defaultTranslucent()
 
+    event.create("kubejs:incomplete_refined_radiance_casing")
+    event.create("kubejs:incomplete_shadow_steel_casing")
     event.create("kubejs:incomplete_redstone_engineering")
     event.create("kubejs:incomplete_light_engineering")
     event.create("kubejs:incomplete_heavy_engineering")

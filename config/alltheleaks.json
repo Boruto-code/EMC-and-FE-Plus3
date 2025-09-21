@@ -1,5 +1,10 @@
 {
   "preventSearchIgnoredItems": false,
   "ingredientDedupe": false,
-  "resourceLocationDedupe": false
+  "resourceLocationDedupe": false,
+  "debugItemStackModifications": false,
+  "version": 1,
+  "debugNativeImage": false,
+  "disableSearchTree": false,
+  "logIntervalInMinutes": 10
 }

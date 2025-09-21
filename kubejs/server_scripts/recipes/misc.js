@@ -75,19 +75,6 @@ ServerEvents.recipes(event => {
         "kubejs:netherite_coin"
     )
 
-    event.shaped(
-        "integrateddynamics:energy_battery_creative",
-        [
-            "AAA",
-            "ABA",
-            "AAA"
-        ],
-        {
-            "A": "integrateddynamics:energy_battery",
-            "B": "draconicevolution:creative_op_capacitor"
-        }
-    )
-
     event.remove("immersiveengineering:crafting/rs_engineering")
     event.remove("immersiveengineering:crafting/light_engineering")
     event.remove("immersiveengineering:crafting/heavy_engineering")

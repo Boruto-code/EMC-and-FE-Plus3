@@ -282,6 +282,138 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
+            "item": "create:refined_radiance"
+        },
+        "loops": 5,
+        "results": [
+            {
+                "id": "create:refined_radiance_casing"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_refined_radiance_casing"
+                    },
+                    {
+                        "item": "create:andesite_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_refined_radiance_casing"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_refined_radiance_casing"
+                    },
+                    {
+                        "item": "create:copper_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_refined_radiance_casing"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_refined_radiance_casing"
+                    },
+                    {
+                        "item": "create:railway_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_refined_radiance_casing"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_refined_radiance_casing"
+        }
+    })
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "create:shadow_steel"
+        },
+        "loops": 5,
+        "results": [
+            {
+                "id": "create:shadow_steel_casing"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_shadow_steel_casing"
+                    },
+                    {
+                        "item": "create:andesite_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_shadow_steel_casing"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_shadow_steel_casing"
+                    },
+                    {
+                        "item": "create:copper_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_shadow_steel_casing"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_shadow_steel_casing"
+                    },
+                    {
+                        "item": "create:railway_casing"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_shadow_steel_casing"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_shadow_steel_casing"
+        }
+    })
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
             "item": "draconicevolution:chaos_shard"
         },
         "loops": 1,
@@ -345,6 +477,42 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "create:blaze_cake"
+        },
+        "loops": 5,
+        "results": [
+            {
+                "id": "create:creative_blaze_cake"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_creative_blaze_cake"
+                    },
+                    {
+                        "type": "fluid_stack",
+                        "amount": 1000,
+                        "fluid": "kubejs:antimatter"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_creative_blaze_cake"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_creative_blaze_cake"
+        }
+    })
+
+    event.custom({
         "type": "create:mixing",
         "heat_requirement": "superheated",
         "ingredients": [
@@ -400,6 +568,22 @@ ServerEvents.recipes(event => {
         "results": [
             {
                 "id": "kubejs:rainbow_compound"
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "create:mixing",
+        "heat_requirement": "superheated",
+        "ingredients": [
+            {
+                "item": "mekanism:pellet_antimatter"
+            }
+        ],
+        "results": [
+            {
+                "amount": 1000,
+                "id": "kubejs:antimatter"
             }
         ]
     })

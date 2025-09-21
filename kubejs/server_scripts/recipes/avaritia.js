@@ -1,3 +1,5 @@
+// noinspection SpellCheckingInspection
+
 ServerEvents.recipes(event => {
     const avaritia = event.recipes.avaritia
 
@@ -44,6 +46,140 @@ ServerEvents.recipes(event => {
             E: "draconicevolution:creative_capacitor"
         },
         "draconicevolution:creative_op_capacitor"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAABAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA"
+        ],
+        {
+            A: "integrateddynamics:energy_battery",
+            B: "draconicevolution:creative_op_capacitor"
+        },
+        "integrateddynamics:energy_battery_creative"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "ABBBCBBBA",
+            "BDDDCDDDB",
+            "BDDCCCDDB",
+            "BDCCFCCDB",
+            "CCCFAFCCC",
+            "BECCFCCEB",
+            "BEECCCEEB",
+            "BEEECEEEB",
+            "ABBBCBBBA"
+        ],
+        {
+            A: "avaritia:infinity_catalyst",
+            B: "avaritia:neutronium_ingot",
+            C: "refinedstorage:advanced_processor",
+            D: "refinedstorage:4096b_fluid_storage_part",
+            E: "refinedstorage:64k_storage_part",
+            F: "refinedstorage:controller"
+        },
+        "refinedstorage:creative_controller"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "HH     HH",
+            "H       H",
+            " BCCCCCB ",
+            " CDDFEEC ",
+            " CGFAFGC ",
+            " CDDFEEC ",
+            " BCCCCCB ",
+            "H       H",
+            "HH     HH"
+        ],
+        {
+            A: "avaritia:endest_pearl",
+            B: "refinedstorage:range_upgrade",
+            C: "refinedstorage:wireless_transmitter",
+            D: "refinedstorage:destruction_core",
+            E: "refinedstorage:construction_core",
+            F: "refinedstorage:wireless_grid",
+            G: "refinedstorage:network_receiver",
+            H: "refinedstorage:storage_housing"
+        },
+        "refinedstorage:creative_wireless_grid"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "HH     HH",
+            "H       H",
+            " BCCCCCB ",
+            " CDDFEEC ",
+            " CGFAFGC ",
+            " CDDFEEC ",
+            " BCCCCCB ",
+            "H       H",
+            "HH     HH"
+        ],
+        {
+            A: "avaritia:endest_pearl",
+            B: "refinedstorage:range_upgrade",
+            C: "refinedstorage:wireless_transmitter",
+            D: "refinedstorage:destruction_core",
+            E: "refinedstorage:construction_core",
+            F: "refinedstorage:wireless_autocrafting_monitor",
+            G: "refinedstorage:network_receiver",
+            H: "refinedstorage:storage_housing"
+        },
+        "refinedstorage:creative_wireless_autocrafting_monitor"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "CAAABAAAC",
+            "AAAABAAAA",
+            "AAAABAAAA",
+            "AAADCDAAA",
+            "BBBCDCBBB",
+            "AAADCDAAA",
+            "AAAABAAAA",
+            "AAAABAAAA",
+            "CAAABAAAC"
+        ],
+        {
+            A: "avaritia:infinity_block",
+            B: "avaritia:compressor",
+            C: "refinedstorage:creative_controller",
+            D: "refinedstorage:64k_storage_part"
+        },
+        "refinedstorage:creative_storage_disk"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "CAAABAAAC",
+            "AAAABAAAA",
+            "AAAABAAAA",
+            "AAADCDAAA",
+            "BBBCDCBBB",
+            "AAADCDAAA",
+            "AAAABAAAA",
+            "AAAABAAAA",
+            "CAAABAAAC"
+        ],
+        {
+            A: "avaritia:infinity_block",
+            B: "avaritia:compressor",
+            C: "refinedstorage:creative_controller",
+            D: "refinedstorage:4096b_fluid_storage_part"
+        },
+        "refinedstorage:creative_fluid_storage_disk"
     )
 
     avaritia.compressor(

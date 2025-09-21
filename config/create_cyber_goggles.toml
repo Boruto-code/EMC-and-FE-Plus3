@@ -15,8 +15,8 @@ enableInAdventure = true
 [delayRender]
 renderAnalogBox = true
 delayRenderDuration = 60
-airBoxPushColor = 14532966
-airBoxPullColor = 8375776
+windPushColor = 14532966
+windPullColor = 8375776
 [chainConveyor]
 alwaysAllowRiding = false
 preventFalling = false
@@ -28,7 +28,7 @@ removeCooldown = true
 [misc]
 removeCardboardOverlay = true
 removeNetheriteFirstPerson = false
-removeDivingBootsAffect = false
+removeDivingFunction = false
 fixSchematicName = true
 rightClickPenetrate = false
 rainbowDebug = false

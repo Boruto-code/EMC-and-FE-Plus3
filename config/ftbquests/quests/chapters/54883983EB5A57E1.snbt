@@ -40,8 +40,8 @@
 					type: "item"
 				}
 			]
-			x: 0.75d
-			y: -4.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -68,13 +68,13 @@
 				item: { count: 1, id: "projecte:tome" }
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.0d
 			y: -2.25d
 		}
 		{
 			id: "6FDE04F9ADC1C8B1"
 			rewards: [{
-				count: 4
+				count: 5
 				id: "7B9623E079E20AAF"
 				item: {
 					count: 1
@@ -91,22 +91,27 @@
 					type: "item"
 				}
 				{
-					id: "445D6C15585EB1AE"
+					id: "1AF45BDC2BB72224"
+					item: { count: 1, id: "refinedstorage:creative_wireless_autocrafting_monitor" }
+					type: "item"
+				}
+				{
+					id: "0F0C36180DE51C29"
+					item: { count: 1, id: "refinedstorage:creative_controller" }
+					type: "item"
+				}
+				{
+					id: "772D30E8B836BDE9"
 					item: { count: 1, id: "refinedstorage:creative_storage_disk" }
 					type: "item"
 				}
 				{
-					id: "37FFD9D0706F9D98"
+					id: "495ABA7906F58260"
 					item: { count: 1, id: "refinedstorage:creative_fluid_storage_disk" }
 					type: "item"
 				}
-				{
-					id: "7EB7BEC9630145E9"
-					item: { count: 1, id: "refinedstorage:creative_controller" }
-					type: "item"
-				}
 			]
-			x: -0.625d
+			x: -1.25d
 			y: -3.75d
 		}
 		{
@@ -134,40 +139,17 @@
 					type: "item"
 				}
 			]
-			x: 1.875d
+			x: 1.25d
 			y: -3.75d
-		}
-		{
-			dependencies: ["6277BF39E3596B84"]
-			id: "6262DE4B11572D06"
-			rewards: [{
-				count: 128
-				id: "19C0B05015CF8E7F"
-				item: {
-					count: 1
-					id: "projectexpansion:compact_sun"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "6692289FAB8A95D1"
-				item: { count: 1, id: "mekanism:creative_bin" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["6277BF39E3596B84"]
 			id: "221B92C713E83F70"
 			rewards: [{
-				count: 128
-				id: "1C99361FA2F6E602"
+				id: "5482C42CAF860C3C"
 				item: {
 					count: 1
-					id: "projectexpansion:compact_sun"
+					id: "create:creative_crate"
 				}
 				type: "item"
 			}]
@@ -178,37 +160,11 @@
 				item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
 				type: "item"
 			}]
-			x: 0.75d
-			y: 0.0d
+			x: 0.0d
+			y: -0.75d
 		}
 		{
-			dependencies: ["6277BF39E3596B84"]
-			id: "78B0DB79F18C7E04"
-			rewards: [{
-				count: 128
-				id: "43AF6B9A87404318"
-				item: {
-					count: 1
-					id: "projectexpansion:compact_sun"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "08E4A048F82EA2C1"
-				item: { count: 1, id: "create:creative_crate" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"221B92C713E83F70"
-				"78B0DB79F18C7E04"
-				"6262DE4B11572D06"
-			]
+			dependencies: ["221B92C713E83F70"]
 			id: "0EDA9A53D5B461FC"
 			rewards: [{
 				id: "148781A2BDBF610F"
@@ -225,20 +181,73 @@
 				item: { count: 1, id: "ae2:creative_storage_cell" }
 				type: "item"
 			}]
-			x: 0.75d
-			y: 2.25d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0EDA9A53D5B461FC"]
+			icon: {
+				id: "minecraft:torchflower"
+			}
 			id: "3FCCBD6257977AE1"
+			rewards: [{
+				id: "4E59C7296F187F02"
+				item: {
+					count: 1
+					id: "create:handheld_worldshaper"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "304DBF5C0BBA8B4B"
 				type: "checkmark"
 			}]
-			x: 0.75d
-			y: 6.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["221B92C713E83F70"]
+			id: "7DFB6E70D1A8D1A9"
+			rewards: [{
+				id: "3B7402286D709A00"
+				item: {
+					count: 1
+					id: "create:creative_fluid_tank"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "7BF565A53B185FEB"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.6d
+		}
+		{
+			dependencies: ["221B92C713E83F70"]
+			id: "4B8BE93DBB5932FA"
+			rewards: [{
+				id: "07A69679555F4B40"
+				item: {
+					count: 1
+					id: "create_connected:creative_fluid_vessel"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "502DAE9DA615EBC7"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 0.6d
 		}
 	]
 }
