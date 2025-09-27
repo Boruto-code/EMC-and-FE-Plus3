@@ -50,6 +50,7 @@
 	quest.1822C26DD8F950B8.quest_desc: ["吸取物品至背包或存储戒指的背包内容器，G 键开启（之后大部分 ProjectE 物品如无说明皆为此开启方法）。"]
 	quest.18CF0DC64FBC4BC2.quest_desc: ["按 R 键或右键发射宝珠，轰炸部分区域。充能可加大范围。"]
 	quest.245B51151EFBD869.title: "机械动力"
+	quest.24D7838B747E9B56.quest_desc: ["{image:kubejs:textures/shapes/squeezer.png width:200 height:200 align:center}"]
 	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
 	quest.37C1F3631286AC14.title: " 宝石套装"
 	quest.381C3C1D06E4AF58.quest_desc: ["右键会挖掘右键位置的 3*3*1 方块。"]
@@ -61,6 +62,7 @@
 	quest.462516E55EF495CD.title: "时代少年团?"
 	quest.47F8356802C20EFC.quest_subtitle: "中子压缩配方有 5000 个小时！"
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
+	quest.5319189C6FA34AC5.quest_desc: ["{image:kubejs:textures/shapes/arc_furnace.png width:200 height:200 align:center}"]
 	quest.540B35801D6D99A4.quest_desc: ["不稳定水晶 + 毁灭燧石，范围更大。"]
 	quest.5452605B78EA2502.title: "铁币抽奖 1x"
 	quest.55F679596BF49CD2.title: "裂变反应堆"
@@ -76,12 +78,14 @@
 	quest.710206257C490EF0.quest_desc: ["QQ: 224133726"]
 	quest.7102C2A1E728204F.quest_desc: ["速度加快且2倍增产。"]
 	quest.73F1BC7961032EF1.quest_desc: ["这里是永日状态"]
+	quest.74BA1433BB41A3FF.quest_desc: ["{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
 	quest.7D243C08DD50F668.quest_desc: ["{image:kubejs:textures/shapes/bottling.png width:200 height:200 align:center}"]
 	task.079ACF0631044020.title: "灌装机"
 	task.0ABA6354812FB7CC.title: "传送至超平坦世界"
 	task.0E3EB9EFC82CAC77.title: "电弧炉"
 	task.1E2001936DF1973F.title: "官方交流群"
+	task.1F9A5B46E58787FF.title: "陨石"
 	task.2AD07A30626843B0.title: "传送回主世界"
 	task.4BDD9F76F4CC238E.title: "搅拌机"
 	task.581CDFAD70B550C8.title: "欢迎"
