@@ -26,6 +26,7 @@ cardBoardedYourself = false
 alwaysAllowRotating = false
 removeCooldown = true
 [misc]
+infEditBoxLength = false
 removeCardboardOverlay = true
 removeNetheriteFirstPerson = false
 removeDivingFunction = false
