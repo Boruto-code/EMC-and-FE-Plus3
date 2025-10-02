@@ -18,16 +18,23 @@
 	chapter_group.67DDB26600B9A092.title: "支线"
 	chapter_group.7FABB2F7E5BB8366.title: "主线"
 	file.0000000000000001.title: "EMC and FE +++"
+	quest.033B9C80C2D3502F.title: "两种核心"
 	quest.0480E962754E9B2A.quest_subtitle: "欢迎！"
 	quest.0480E962754E9B2A.title: "EMC and FE +++"
 	quest.049ADA15789166BD.title: "清除辐射"
+	quest.04D6516A6873F661.title: "处理器套件"
 	quest.04EC84EEDF753667.quest_desc: ["黑洞戒指 + 以太密度宝石。"]
+	quest.04F49E7559A2F878.title: "无线终端"
+	quest.088BE52530215EF1.quest_subtitle: "超级快的 CPU！记得看指南搭建~"
+	quest.088BE52530215EF1.title: "量子计算机"
 	quest.08EA5A26A4D9AA22.quest_desc: ["这是一个相对适合新手的科技整合包，有部分增强难度的魔改。祝你游玩愉快！"]
 	quest.08EA5A26A4D9AA22.title: "欢迎！"
 	quest.094B78E20187C9AF.quest_desc: [
 		"用于储存RF能量，一共有8个等级，等级越高占地越大，存电量也就越高。在 1~4 级只需要使用&6&l4个&r&r普通的&6&l能量核心稳定器&r&r摆放在周围，5 级以上则需要使用高级稳定器（摆放 3x3 的稳定器）。能量塔用于能量 IO，在能量塔上放置一个玻璃启动，扳手Shift+右键切换模式（看箭头方向，朝内为充电，朝外为放电）。"
 		"能量核心建议摆放于能量塔10格以上，点击稳定器或核心可激活与自动摆放多方块结构。推荐先制作一个7级龙球，存电用于制作8级龙球（&o需 378 个觉醒龙块&r）。8级龙球可存储接近无限的电量。"
 	]
+	quest.0B687F4136968757.quest_subtitle: "无线连接！也许比 1.20 难做？"
+	quest.0CECAB6610EF0CF9.quest_subtitle: "抛弃你的转化桌！"
 	quest.0EDA9A53D5B461FC.title: "你为什么要这样做？"
 	quest.0F17098159F8770F.quest_desc: ["&c官方 QQ 交流群：224133726"]
 	quest.0F17098159F8770F.title: "QQ 交流群"
@@ -47,18 +54,33 @@
 	]
 	quest.12D8761E981F1971.title: "铜币抽奖 1x"
 	quest.13AB4C5ABFE8C702.quest_desc: ["存储 EMC，放入转换桌左边充能。"]
+	quest.14C6FA30DE660B9D.quest_subtitle: "你要学会用 AE 自动化了"
 	quest.1822C26DD8F950B8.quest_desc: ["吸取物品至背包或存储戒指的背包内容器，G 键开启（之后大部分 ProjectE 物品如无说明皆为此开启方法）。"]
+	quest.18BF0DEDC7F68AC4.quest_subtitle: "推荐往里面放水~"
+	quest.18BF0DEDC7F68AC4.title: "致密"
 	quest.18CF0DC64FBC4BC2.quest_desc: ["按 R 键或右键发射宝珠，轰炸部分区域。充能可加大范围。"]
+	quest.1AD5AFDAEB5FFDF6.quest_subtitle: "有钱就要用好的！"
+	quest.1AD5AFDAEB5FFDF6.title: "MEGA 磁盘驱动器"
+	quest.1B38A12BAC2F468E.quest_subtitle: "装配矩阵很好用！记得看指南搭建~"
+	quest.1B38A12BAC2F468E.title: "装配矩阵核心"
+	quest.217FEC6C86F704AE.quest_subtitle: "记得看 JEI 信息~"
+	quest.22901D8CE7E324AA.quest_subtitle: "有钱就要用好的！"
+	quest.22901D8CE7E324AA.title: "MEGA CPU"
 	quest.245B51151EFBD869.title: "机械动力"
 	quest.24D7838B747E9B56.quest_desc: ["{image:kubejs:textures/shapes/squeezer.png width:200 height:200 align:center}"]
 	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
+	quest.26D8E6271689D731.title: "压印模板"
 	quest.37C1F3631286AC14.title: " 宝石套装"
 	quest.381C3C1D06E4AF58.quest_desc: ["右键会挖掘右键位置的 3*3*1 方块。"]
+	quest.3FCCBD6257977AE1.quest_desc: ["https://afdian.com/a/hamburger0abcde"]
+	quest.3FCCBD6257977AE1.quest_subtitle: "如果觉得这个整合包做得不错，请给作者一些赞助吧 ：）"
 	quest.3FCCBD6257977AE1.title: "感谢游玩！"
 	quest.4015AE9303EB7392.quest_desc: ["请至此网站反馈: https://github.com/Boruto-code/EMC-and-FE-Plus3/issues"]
 	quest.4015AE9303EB7392.title: "Bug 反馈"
 	quest.4085A6CCF03BA389.quest_desc: ["使用焦炉砖搭建 3x3x3 的多方块结构，并手持工程师锤对任意侧中心右键可以组成焦炉。"]
 	quest.4085A6CCF03BA389.title: "焦炉"
+	quest.4579602118FA8B4D.title: "创造能源"
+	quest.45A779A6038BBAFB.quest_subtitle: "指南是个好东西"
 	quest.462516E55EF495CD.title: "时代少年团?"
 	quest.47F8356802C20EFC.quest_subtitle: "中子压缩配方有 5000 个小时！"
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
@@ -66,6 +88,7 @@
 	quest.540B35801D6D99A4.quest_desc: ["不稳定水晶 + 毁灭燧石，范围更大。"]
 	quest.5452605B78EA2502.title: "铁币抽奖 1x"
 	quest.55F679596BF49CD2.title: "裂变反应堆"
+	quest.571647A92F32595F.title: "终端"
 	quest.57A2CA81B8839A8E.quest_desc: ["开启后会排斥怪物，双击空格会开启创造飞行（需消耗 EMC）。"]
 	quest.598E8575CF96533C.quest_desc: ["ProjectE 最重要的物品，向转化桌丢入有 EMC 值的物品转化成EMC储存，或将内存的EMC转换为目标物品。"]
 	quest.5A20B46DBEA02ACA.title: "金币抽奖 1x"
@@ -73,6 +96,7 @@
 	quest.621F9328DD76D845.quest_desc: ["使用窑砖搭建 2x2x2 的多方块结构，并手持工程师锤对右上角右键可以组成合金窑。"]
 	quest.621F9328DD76D845.title: "合金窑"
 	quest.65D54CDD1DE23E6D.quest_desc: ["ProjectE 的基础物品，可以通过合成来转换部分物品，也可通过向方块右键转换方块。按 R 键可消耗 EMC 发射宝珠转换生物。V 键充能，Shift + V 则为反充能（之后 ProjectE 物品有充能条皆为此方式）。"]
+	quest.6DFD25E47BE6C542.title: "ME 线缆"
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"
 	quest.710206257C490EF0.quest_desc: ["QQ: 224133726"]
@@ -80,6 +104,7 @@
 	quest.73F1BC7961032EF1.quest_desc: ["这里是永日状态"]
 	quest.74BA1433BB41A3FF.quest_desc: ["{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
+	quest.793998784B70D017.quest_subtitle: "好用的自动化！"
 	quest.7D243C08DD50F668.quest_desc: ["{image:kubejs:textures/shapes/bottling.png width:200 height:200 align:center}"]
 	task.079ACF0631044020.title: "灌装机"
 	task.0ABA6354812FB7CC.title: "传送至超平坦世界"

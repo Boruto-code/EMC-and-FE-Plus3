@@ -28,12 +28,12 @@ ServerEvents.recipes(event => {
         ],
         "energy": 64000,
         "input": {
-            "item": "kubejs:1x_compressed_energy_cell",
+            "item": "kubejs:2x_compressed_energy_cell",
             "count": 64
         },
         "results": [
             {
-                "item": "kubejs:2x_compressed_energy_cell",
+                "item": "ae2:creative_energy_cell",
             }
         ],
         "time": 1200

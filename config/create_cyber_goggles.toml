@@ -6,33 +6,36 @@ renderExtraItems = true
 enableKineticEffect = true
 preciseNumber = true
 disableScreenGoggles = true
+canRenderOnValueBox = false
 betterLine = true
 [gameMode]
+enableGoggle = true
 enableInSurvival = true
 enableInCreative = true
 enableInSpectator = true
 enableInAdventure = true
-[delayRender]
+[outlineRenderer]
 renderAnalogBox = true
 delayRenderDuration = 60
 windPushColor = 14532966
 windPullColor = 8375776
+rainbowDebug = false
 [chainConveyor]
 alwaysAllowRiding = false
 preventFalling = false
 enhancedConnection = true
 cardBoardedYourself = false
 [wrench]
+leftClickFastDismantle = true
 alwaysAllowRotating = false
 removeCooldown = true
 [misc]
 infEditBoxLength = false
 removeCardboardOverlay = true
 removeNetheriteFirstPerson = false
-removeDivingFunction = false
+allowDivingBoot = true
 fixSchematicName = true
 rightClickPenetrate = false
-rainbowDebug = false
 forcedBackend = false
 nbtFix = false
 showScrapContent = true

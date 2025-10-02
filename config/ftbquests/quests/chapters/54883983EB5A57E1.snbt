@@ -13,7 +13,7 @@
 		{
 			id: "4579602118FA8B4D"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "6EE358722BD47F81"
 				item: {
 					count: 1
@@ -39,9 +39,14 @@
 					item: { count: 1, id: "integrateddynamics:energy_battery_creative" }
 					type: "item"
 				}
+				{
+					id: "5921FAEC9A8F09B3"
+					item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+					type: "item"
+				}
 			]
 			x: 0.0d
-			y: -5.0d
+			y: -4.375d
 		}
 		{
 			dependencies: [
@@ -187,7 +192,7 @@
 		{
 			dependencies: ["0EDA9A53D5B461FC"]
 			icon: {
-				id: "minecraft:torchflower"
+				id: "extendedae:fishbig"
 			}
 			id: "3FCCBD6257977AE1"
 			rewards: [{

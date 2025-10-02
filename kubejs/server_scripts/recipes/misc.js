@@ -75,6 +75,14 @@ ServerEvents.recipes(event => {
         "kubejs:netherite_coin"
     )
 
+    event.shapeless(
+        "ae2:creative_storage_cell",
+        [
+            "ae2:item_cell_housing", "ae2:fluid_cell_housing",
+            "appmek:chemical_cell_housing", "functionalstorage:creative_vending_upgrade"
+        ]
+    )
+
     event.remove("immersiveengineering:crafting/rs_engineering")
     event.remove("immersiveengineering:crafting/light_engineering")
     event.remove("immersiveengineering:crafting/heavy_engineering")

@@ -513,6 +513,42 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "minecraft:slime_ball"
+        },
+        "loops": 1145,
+        "results": [
+            {
+                "id": "kubejs:pink_slime"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "item": "kubejs:incomplete_pink_slime"
+                    },
+                    {
+                        "type": "fluid_stack",
+                        "amount": 1000,
+                        "fluid": "mekanism:nutritional_paste"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "kubejs:incomplete_pink_slime"
+                    }
+                ]
+            }
+        ],
+        "transitional_item": {
+            "id": "kubejs:incomplete_pink_slime"
+        }
+    })
+
+    event.custom({
         "type": "create:mixing",
         "heat_requirement": "superheated",
         "ingredients": [
