@@ -137,6 +137,7 @@ key_create_cyber_goggles.key.openConfig:key.keyboard.unknown
 key_create_cyber_goggles.key.openStock:key.keyboard.unknown
 key_create_cyber_goggles.key.previewFilter:key.keyboard.unknown
 key_create_cyber_goggles.key.showStress:key.keyboard.tab
+key_create_cyber_goggles.key.clickPenetrate:key.keyboard.left.control
 key_create_cyber_goggles.key.toggleDiving:key.keyboard.unknown
 key_create_cyber_goggles.key.toggleGoggle:key.keyboard.unknown
 key_config.chatimage.key:key.keyboard.end
@@ -174,6 +175,7 @@ key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ae2.mouse_wheel_item_modifier:key.keyboard.left.shift
 key_key.ae2.part_placement_opposite:key.keyboard.left.control
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
+key_key.ae2.wireless_quantum_crafter_terminal:key.keyboard.unknown
 key_key.ae2.wireless_transmutation_terminal:key.keyboard.unknown
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
 key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
