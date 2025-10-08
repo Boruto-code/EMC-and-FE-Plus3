@@ -32,6 +32,8 @@
   "tooltip.kubejs.incomplete_warning": "警告：此物品是半成品，请勿将其放置！",
   "tooltip.kubejs.mysterious_tooltip": "需要重复注入十次甚至九次（喜）",
 
+  "key.carry.desc": "搬起",
+
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",
   "kubejs.ponder.crafting_core_scene.text_1": "聚合装置是DE中一个重要的多方块结构",
