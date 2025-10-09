@@ -13,7 +13,7 @@
 		{
 			id: "4579602118FA8B4D"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "6EE358722BD47F81"
 				item: {
 					count: 1
@@ -37,6 +37,11 @@
 				{
 					id: "5A7541DFD7329FB8"
 					item: { count: 1, id: "integrateddynamics:energy_battery_creative" }
+					type: "item"
+				}
+				{
+					id: "28064E196DEAF2FE"
+					item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
 					type: "item"
 				}
 			]
@@ -117,7 +122,7 @@
 		{
 			id: "245B51151EFBD869"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "69BB927C2B7B4264"
 				item: {
 					count: 1

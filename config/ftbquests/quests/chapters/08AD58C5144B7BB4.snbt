@@ -192,7 +192,7 @@
 				}
 				{
 					id: "549E721CAA87634D"
-					item: { count: 12, id: "draconicevolution:basic_crafting_injector" }
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
 					type: "item"
 				}
 			]
