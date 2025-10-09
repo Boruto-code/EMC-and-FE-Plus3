@@ -9,23 +9,94 @@
 	id: "73C4434D51950BEE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "47F8356802C20EFC"
-		rewards: [{
-			count: 5
-			id: "4F944D233D9B2246"
-			item: {
-				count: 1
-				id: "kubejs:gold_coin"
-			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "42C2961C43F9FB63"
-			item: { count: 1, id: "tiab:time_in_a_bottle" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "47F8356802C20EFC"
+			rewards: [{
+				count: 5
+				id: "4F944D233D9B2246"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42C2961C43F9FB63"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18BF0DEDC7F68AC4"]
+			id: "0CECAB6610EF0CF9"
+			rewards: [{
+				count: 5
+				id: "0E689FE86A039F64"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75DC3E2A43AA207A"
+				item: { count: 1, id: "appliede:emc_module" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02911B6AC90FE947"
+				"6DFD25E47BE6C542"
+			]
+			id: "0B687F4136968757"
+			rewards: [{
+				count: 5
+				id: "2AE86D431A6F1FBA"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36A03A113DBB2807"
+					item: { count: 1, id: "extendedae:wireless_connect" }
+					type: "item"
+				}
+				{
+					id: "611F2CE31AE75A9D"
+					item: { count: 1, id: "extendedae:wireless_hub" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "793998784B70D017"
+			rewards: [{
+				count: 5
+				id: "157C6B9BC52B3B35"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A9508FF98526C6C"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
 }

@@ -26,7 +26,10 @@ preventFalling = false
 enhancedConnection = true
 cardBoardedYourself = false
 [wrench]
+enchancedWrench = false
+betterEncasedPipe = true
 alwaysAllowRotating = false
+leftClickFastDismantle = true
 removeCooldown = true
 [misc]
 infEditBoxLength = false
@@ -34,7 +37,6 @@ removeCardboardOverlay = true
 removeNetheriteFirstPerson = false
 allowDivingBoot = true
 fixSchematicName = true
-rightClickPenetrate = false
 forcedBackend = false
 nbtFix = false
 showScrapContent = true

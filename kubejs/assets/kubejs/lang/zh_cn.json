@@ -6,10 +6,12 @@
   "item.kubejs.netherite_coin": "下界合金币",
   "item.kubejs.steel_bucket": "液态钢桶",
   "item.kubejs.antimatter_bucket": "液态反物质桶",
+  "item.kubejs.pink_slime": "粉红黏液球",
   "item.kubejs.awakened_scrap": "觉醒碎片",
   "item.kubejs.rainbow_compound": "彩虹锭",
   "item.kubejs.obsidianite_ingot": "黑曜石合金锭",
   "item.kubejs.strange_colored_ingot": "不纯的彩虹锭",
+  "item.kubejs.incomplete_pink_slime": "粉红黏液球（半成品）",
   "item.kubejs.incomplete_chaos_shard": "混沌碎片（半成品）",
   "item.kubejs.incomplete_creative_blaze_cake": "创造烈焰蛋糕（半成品）",
   "item.kubejs.incomplete_strange_colored_ingot": "不纯的彩虹锭（半成品）",
@@ -28,6 +30,9 @@
   "fluid_type.kubejs.antimatter": "液态反物质",
 
   "tooltip.kubejs.incomplete_warning": "警告：此物品是半成品，请勿将其放置！",
+  "tooltip.kubejs.mysterious_tooltip": "需要重复注入十次甚至九次（喜）",
+
+  "key.carry.desc": "搬起",
 
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",

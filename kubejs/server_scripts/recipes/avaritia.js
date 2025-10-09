@@ -182,11 +182,163 @@ ServerEvents.recipes(event => {
         "refinedstorage:creative_fluid_storage_disk"
     )
 
+    avaritia.extreme_shaped(
+        [
+            "AAABDBAAA",
+            "ACCCFCCCA",
+            "ACECFCECA",
+            "BCCCGCCCB",
+            "DFFGHGFFD",
+            "BCCCGCCCB",
+            "ACECFCECA",
+            "ACCCFCCCA",
+            "AAABDBAAA"
+        ],
+        {
+            A: "mekanism:induction_casing",
+            B: "mekanism:induction_port",
+            C: "mekanism:ultimate_induction_cell",
+            D: "mekanism:ultimate_induction_provider",
+            E: "avaritia:infinity_catalyst",
+            F: "mekanism:ultimate_energy_cube",
+            G: "avaritia:infinity_ingot",
+            H: "draconicevolution:creative_op_capacitor"
+        },
+        "mekanism:creative_energy_cube[mekanism:energy={energy_containers:[L; 9223372036854775807L]}]",
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "ABCCDCCBA",
+            "BCFFJFFCB",
+            "CFINPNIFC",
+            "CFGRQRTFC",
+            "ELPQSQPLE",
+            "CFGRQRTFC",
+            "CFINPNIFC",
+            "BCFFKFFCB",
+            "ABCCDCCBA"
+        ],
+        {
+            A: "projectexpansion:compact_sun",
+            B: "projectexpansion:gargantuan_star_omega",
+            C: "mekanism:pellet_antimatter",
+            D: "create:creative_blaze_cake",
+            E: "create:creative_motor",
+            F: "bigreactors:insanite_block",
+            G: "refinedstorage:creative_wireless_autocrafting_monitor",
+            I: "refinedstorage:creative_controller",
+            J: "refinedstorage:creative_fluid_storage_disk",
+            K: "refinedstorage:creative_storage_disk",
+            L: "ae2:creative_energy_cell",
+            N: "integrateddynamics:energy_battery_creative",
+            P: "mekanism:creative_energy_cube",
+            Q: "kubejs:pink_slime",
+            R: "draconicevolution:creative_capacitor",
+            S: "draconicevolution:creative_op_capacitor",
+            T: "refinedstorage:creative_wireless_grid"
+        },
+        "projecte:tome"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "AAAAFBBBB",
+            "ADDDDDDDB",
+            "ADDEEEDDB",
+            "ADDEEEDDB",
+            "HHGEEEGHH",
+            "ADDEEEDDB",
+            "ADDCCCDDB",
+            "ADDDDDDDB",
+            "AAAAFBBBB"
+        ],
+        {
+            A: "create:refined_radiance_casing",
+            B: "create:shadow_steel_casing",
+            C: "create:blaze_burner",
+            D: "kubejs:rainbow_compound",
+            E: "create:fluid_tank",
+            F: "create:creative_blaze_cake",
+            G: "create:steam_engine",
+            H: "create:shaft"
+        },
+        "create:creative_motor"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "AAABDBAAA",
+            "ACCCFCCCA",
+            "ACECFCECA",
+            "BCCCGCCCB",
+            "DFFGHGFFD",
+            "BCCCGCCCB",
+            "ACECFCECA",
+            "ACCCFCCCA",
+            "AAABDBAAA"
+        ],
+        {
+            A: "mekanism:induction_casing",
+            B: "mekanism:induction_port",
+            C: "mekanism:ultimate_induction_cell",
+            D: "mekanism:ultimate_induction_provider",
+            E: "mekanism:pellet_antimatter",
+            F: "mekanism:ultimate_energy_cube",
+            G: "avaritia:infinity_ingot",
+            H: "draconicevolution:creative_op_capacitor"
+        },
+        Item.of("draconicevolution:creative_op_capacitor", 2)
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "AAAAAAAAA",
+            "AAAABAAAA",
+            "AAABABAAA",
+            "AABAAABAA",
+            "AAAACAAAA",
+            "AAABABAAA",
+            "AABAAABAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA"
+        ],
+        {
+            A: "#functionalstorage:drawer",
+            B: "functionalstorage:netherite_upgrade",
+            C: "projecte:tome"
+        },
+        "functionalstorage:max_storage_upgrade"
+    )
+
+    avaritia.extreme_shaped(
+        [
+            "         ",
+            "   BBB   ",
+            "  B   B  ",
+            "  B   B  ",
+            "  A      ",
+            "  B   B  ",
+            "  B   B  ",
+            "   BBB   ",
+            "         "
+        ],
+        {
+            A: "projecte:tome",
+            B: "functionalstorage:max_storage_upgrade"
+        },
+        "functionalstorage:creative_vending_upgrade"
+    )
+
     avaritia.compressor(
         ["projecte:watch_of_flowing_time"], 
         "tiab:time_in_a_bottle[tiab:stored_time={total: 360000000,stored: 360000000}]",
         128
     )
 
-    avaritia.compressor(["kubejs:2x_compressed_energy_cell"], "ae2:creative_energy_cell", 128)
+    avaritia.compressor(
+        ["kubejs:1x_compressed_energy_cell"],
+        "kubejs:2x_compressed_energy_cell",
+        128
+    )
 })
