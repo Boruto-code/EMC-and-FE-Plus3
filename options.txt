@@ -130,7 +130,7 @@ key_key.integratedterminals.terminal.portable.open:key.keyboard.c
 key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
 key_key.projecte.boots_toggle:key.keyboard.x
 key_key.projecte.charge:key.keyboard.v
-key_key.projecte.extra_function:key.keyboard.c
+key_key.projecte.extra_function:key.keyboard.h
 key_key.projecte.fire_projectile:key.keyboard.r
 key_key.projecte.mode:key.keyboard.g
 key_create_cyber_goggles.key.openConfig:key.keyboard.unknown
@@ -260,7 +260,7 @@ key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.b
-key_gui.xaero_waypoints_key:key.keyboard.u
+key_gui.xaero_waypoints_key:key.keyboard.n
 key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown

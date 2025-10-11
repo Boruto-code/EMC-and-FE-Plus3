@@ -26,8 +26,8 @@
 				item: { count: 1, id: "avaritia:extreme_crafting_table" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["354689FEA6FEC457"]
@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["686ABE8931118D03"]
@@ -67,7 +67,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["159F74D12C31E46B"]
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			id: "214A245E88773B64"
@@ -327,7 +327,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "392BC7630A67880D"

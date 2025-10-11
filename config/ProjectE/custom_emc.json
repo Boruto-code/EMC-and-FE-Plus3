@@ -15,6 +15,10 @@
     {
       "id": "kubejs:1x_compressed_energy_cell",
       "emc": 0
+    },
+    {
+      "id": "draconicevolution:dragon_heart",
+      "emc": 65536
     }
   ]
 }

@@ -26,11 +26,12 @@ preventFalling = false
 enhancedConnection = true
 cardBoardedYourself = false
 [wrench]
-enchancedWrench = false
+fixRotationMenu = true
 betterEncasedPipe = true
 alwaysAllowRotating = false
 leftClickFastDismantle = true
 removeCooldown = true
+enchancedRotationMenu = false
 [misc]
 infEditBoxLength = false
 removeCardboardOverlay = true

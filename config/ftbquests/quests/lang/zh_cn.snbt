@@ -51,7 +51,7 @@
 		"燃料棒放置提示：交叉放且燃料棒中间放置下界合金块会效率更高！"
 		""
 		"如图："
-		"{image:kubejs:textures/shapes/reactor.png width:200 height:200 align:center}"
+		"{image:kubejs:textures/shapes/reactor.png width:180 height:180 align:center}"
 	]
 	quest.0DF9609CCBE57619.title: "反应堆"
 	quest.0EDA9A53D5B461FC.title: "你为什么要这样做？"
