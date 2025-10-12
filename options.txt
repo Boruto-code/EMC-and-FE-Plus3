@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/Simply_Create_Model｜简单动力-resource-1.21.1-1.0.1.zip"]
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -75,7 +75,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
@@ -188,8 +188,8 @@ key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.guideme.guide:key.keyboard.g
-key_key.usetiab:key.keyboard.r
-key_key.curios.open.desc:key.keyboard.unknown
+key_key.usetiab:key.keyboard.g
+key_key.curios.open.desc:key.keyboard.g
 key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown
 key_key.advanced_ae.pick_craft:key.keyboard.unknown
 key_key.advanced_ae.portable_workbench:key.keyboard.unknown
@@ -198,8 +198,8 @@ key_key.advanced_ae.quantum_magnet_upgrade:key.keyboard.unknown
 key_key.advanced_ae.quantum_auto_stock_upgrade:key.keyboard.unknown
 key_key.advanced_ae.quantum_night_vision_upgrade:key.keyboard.unknown
 key_key.draconicevolution.place_item:key.keyboard.p
-key_key.draconicevolution.tool_config:key.keyboard.c:CONTROL
-key_key.draconicevolution.tool_modules:key.keyboard.tab
+key_key.draconicevolution.tool_config:key.keyboard.c
+key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
 key_key.draconicevolution.dislocator_teleport:key.keyboard.unknown
@@ -222,7 +222,7 @@ key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
-key_key.jei.toggleCheatMode:key.keyboard.keypad.subtract
+key_key.jei.toggleCheatMode:key.keyboard.unknown
 key_key.jei.cheatOneItem:key.mouse.left
 key_key.jei.cheatOneItem2:key.mouse.right
 key_key.jei.cheatItemStack:key.mouse.left:SHIFT

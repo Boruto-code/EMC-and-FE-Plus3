@@ -33,6 +33,19 @@
   "tooltip.kubejs.mysterious_tooltip": "需要重复注入十次甚至九次（喜）",
 
   "key.carry.desc": "搬起",
+  "key.ftbchunks.map": "打开地图",
+  "key.ftbchunks.claim_manager": "打开区块声明管理",
+  "key.ftbchunks.minimap.zoomIn": "放大小地图",
+  "key.ftbchunks.minimap.zoomOut": "缩小小地图",
+  "key.ftbchunks.add_waypoint": "快速添加路径点",
+  "key.ftbchunks.waypoint_manager": "路径点管理",
+  "key.ftbchunks.toggle_minimap": "切换小地图",
+  "key.projecte.boots_toggle": "靴子效果",
+  "key.projecte.charge": "充能",
+  "key.projecte.extra_function": "额外功能",
+  "key.projecte.fire_projectile": "发射宝珠",
+  "key.projecte.helmet_toggle": "头盔模式切换",
+  "key.projecte.mode": "切换模式",
 
 
   "kubejs.ponder.crafting_core_scene.header": "聚合装置的搭建",

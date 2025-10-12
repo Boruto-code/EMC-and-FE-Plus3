@@ -405,5 +405,56 @@
                 "top": 27
             }
         }
+    },
+    "net.pedroksl.advanced_ae.client.gui.QuantumCrafterWirelessTermScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "appeng.client.gui.implementations.WirelessAccessPointScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "top.theillusivec4.curios.client.gui.CuriosScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "blusunrize.immersiveengineering.client.gui.AlloySmelterScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
     }
 }
