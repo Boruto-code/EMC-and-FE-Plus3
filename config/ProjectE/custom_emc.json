@@ -19,6 +19,10 @@
     {
       "id": "draconicevolution:dragon_heart",
       "emc": 65536
+    },
+    {
+      "id": "draconicevolution:draconium_ingot",
+      "emc": 8192
     }
   ]
 }

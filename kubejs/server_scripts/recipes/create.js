@@ -625,20 +625,6 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-        "type": "create_dragons_plus:ending",
-        "ingredients": [
-            {
-                "tag": "c:ingots"
-            }
-        ],
-        "results": [
-            {
-                "id": "draconicevolution:draconium_ingot"
-            }
-        ]
-    })
-
-    event.custom({
         "type": "create:compacting",
         "ingredients": [
             {

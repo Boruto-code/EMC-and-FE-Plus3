@@ -8,6 +8,8 @@ preciseNumber = true
 disableScreenGoggles = true
 canRenderOnValueBox = false
 betterLine = true
+overlayOffsetX = 0
+overlayOffsetY = 0
 [gameMode]
 enableGoggle = true
 enableInSurvival = true
@@ -28,6 +30,8 @@ cardBoardedYourself = false
 [wrench]
 fixRotationMenu = true
 betterEncasedPipe = true
+betterChassis = true
+alwaysShowScrollValue = true
 alwaysAllowRotating = false
 leftClickFastDismantle = true
 removeCooldown = true
