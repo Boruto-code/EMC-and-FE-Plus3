@@ -6,13 +6,13 @@ body:
       value: "*在报告问题之前，应该先使用搜索功能。同时也要看看已关闭的问题！\nPlease use the search functionality before reporting an issue. Also take a look at the closed issues!*"
   - type: textarea
     attributes:
-      label: "议题描述\nIssue description"
+      label: "议题描述  Issue description"
       description: "对问题的清晰简明描述，以及在适当情况下应有的预期结果。\nA clear and concise description of the issue and if appropriate what the expected outcome should have been."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "复现步骤\nSteps to reproduce"
+      label: "复现步骤  Steps to reproduce"
       description: "如果有具体步骤来重现该问题，请在此列出。\nIf there are specific steps that need to be taken to reproduce the issue list them here."
       placeholder: |
         1. 开始步骤...  Start by doing...
@@ -20,14 +20,14 @@ body:
         3. 结果...  Result...
   - type: input
     attributes:
-      label: "整合包版本\nModpack version"
+      label: "整合包版本  Modpack version"
       description: "你使用的是哪个整合包版本？\nWhat version of this modpack are you using?"
       placeholder: e.g. 2.0.0-Pre.1
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "添加的模组版本\nOther relevant versions"
+      label: "添加的模组版本  Other relevant versions"
       description: "如果你添加了其它模组，请在这里列出它们的版本。\nIf this issue is related to any other mods list their versions here."
   - type: input
     attributes:
