@@ -31,5 +31,5 @@ body:
       description: "如果你添加了其它模组，请在这里列出它们的版本。\nIf this issue is related to any other mods list their versions here."
   - type: input
     attributes:
-      label: "如果有（崩溃）日志，请在下方输入链接：\nIf a (crash)log is relevant for this issue, link it here: "
+      label: "如果有（崩溃）日志，请在下方输入链接。  If a (crash)log is relevant for this issue, link it here."
       description: "请在此提供一个 [gist](https://gist.github.com/) / [mclo.gs](https://mclo.gs/) / 其它链接。\nPlease provide a [gist](https://gist.github.com/) / [mclo.gs](https://mclo.gs/) / etc link here. "
