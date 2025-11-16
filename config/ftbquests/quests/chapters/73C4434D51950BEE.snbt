@@ -76,7 +76,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -95,8 +95,37 @@
 				item: { count: 1, id: "modularrouters:modular_router" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["571B7E400E6417F9"]
+			id: "7A28E32635ECB2E2"
+			rewards: [{
+				count: 5
+				id: "1FE16C0C7A3FD0B4"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5034B6D294648A45"
+				item: { count: 1, id: "projectexpansion:transmutation_interface" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "15917B6E7AD8B9AE"
+			tasks: [{
+				id: "5A68D467EA7CD689"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

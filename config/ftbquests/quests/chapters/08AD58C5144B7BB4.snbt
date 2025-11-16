@@ -11,10 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5251AD21232EBD63"
-				"7CBC34C8603F3955"
-			]
+			dependencies: ["5251AD21232EBD63"]
 			id: "5BD9590521E51E46"
 			rewards: [{
 				count: 8
@@ -37,8 +34,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.5d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["25E5DDAA9B6E220A"]
@@ -58,7 +55,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6262C18B156A9D63"]
@@ -102,10 +99,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2DCD72333B58E9CE"
-				"0421D6BB63313084"
-			]
+			dependencies: ["2DCD72333B58E9CE"]
 			id: "4C5B64A51D7E30B2"
 			rewards: [{
 				count: 5
@@ -121,7 +115,7 @@
 				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -141,7 +135,7 @@
 				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -156,8 +150,6 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
-			size: 1.5d
 			tasks: [
 				{
 					id: "21D682F20FEA2018"
@@ -175,11 +167,10 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 0.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["7CBC34C8603F3955"]
 			icon: {
 				id: "draconicevolution:basic_crafting_injector"
 			}
@@ -205,8 +196,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F4C17A403BD2A33"]
@@ -225,61 +216,8 @@
 				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			id: "0421D6BB63313084"
-			rewards: [{
-				count: 3
-				id: "340FB585A53CF087"
-				item: {
-					count: 1
-					id: "kubejs:diamond_coin"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "4FE3BE1CF4858408"
-				item: { count: 1, id: "draconicevolution:dragon_heart" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4C5B64A51D7E30B2"]
-			id: "1BA1FB8102DBED00"
-			tasks: [{
-				id: "4C06B699CD22CA70"
-				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			id: "7CBC34C8603F3955"
-			rewards: [{
-				count: 5
-				id: "55C7D847B5E6EBB7"
-				item: {
-					count: 1
-					id: "kubejs:gold_coin"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "27E4FE649507921A"
-				item: { count: 1, id: "draconicevolution:draconium_ingot" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: -1.5d
+			y: 6.0d
 		}
 	]
 }

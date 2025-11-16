@@ -33,7 +33,6 @@
 		"用于储存RF能量，一共有8个等级，等级越高占地越大，存电量也就越高。在 1~4 级只需要使用&6&l4个&r&r普通的&6&l能量核心稳定器&r&r摆放在周围，5 级以上则需要使用高级稳定器（摆放 3x3 的稳定器）。能量塔用于能量 IO，在能量塔上放置一个玻璃启动，扳手Shift+右键切换模式（看箭头方向，朝内为充电，朝外为放电）。"
 		"能量核心建议摆放于能量塔10格以上，点击稳定器或核心可激活与自动摆放多方块结构。推荐先制作一个7级龙球，存电用于制作8级龙球（&o需 378 个觉醒龙块&r）。8级龙球可存储接近无限的电量。"
 	]
-	quest.094B78E20187C9AF.title: "龙球"
 	quest.0B687F4136968757.quest_subtitle: "无线连接！也许比 1.20 难做？"
 	quest.0CECAB6610EF0CF9.quest_subtitle: "抛弃你的转化桌！"
 	quest.0DF9609CCBE57619.quest_desc: [
@@ -74,6 +73,7 @@
 	quest.12D8761E981F1971.title: "铜币抽奖 1x"
 	quest.13AB4C5ABFE8C702.quest_desc: ["存储 EMC，放入转换桌左边充能。"]
 	quest.14C6FA30DE660B9D.quest_subtitle: "你要学会用 AE 自动化了"
+	quest.15917B6E7AD8B9AE.quest_subtitle: "你会发现有些配方重合了，请点击上方的箭头"
 	quest.1822C26DD8F950B8.quest_desc: ["吸取物品至背包或存储戒指的背包内容器，G 键开启（之后大部分 ProjectE 物品如无说明皆为此开启方法）。"]
 	quest.18BF0DEDC7F68AC4.quest_subtitle: "推荐往里面放水~"
 	quest.18BF0DEDC7F68AC4.title: "致密"
@@ -155,6 +155,7 @@
 	quest.621F9328DD76D845.quest_desc: ["使用窑砖搭建 2x2x2 的多方块结构，并手持工程师锤对右上角右键可以组成合金窑。"]
 	quest.621F9328DD76D845.title: "合金窑"
 	quest.65D54CDD1DE23E6D.quest_desc: ["ProjectE 的基础物品，可以通过合成来转换部分物品，也可通过向方块右键转换方块。按 R 键可消耗 EMC 发射宝珠转换生物。V 键充能，Shift + V 则为反充能（之后 ProjectE 物品有充能条皆为此方式）。"]
+	quest.6B093A83EF3DBF77.title: "背袋存储！"
 	quest.6DFD25E47BE6C542.title: "ME 线缆"
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"
@@ -164,6 +165,8 @@
 	quest.74BA1433BB41A3FF.quest_desc: ["{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
 	quest.793998784B70D017.quest_subtitle: "好用的自动化！"
+	quest.7A28E32635ECB2E2.quest_desc: ["使用&6&l存储总线&r&r连接。"]
+	quest.7A28E32635ECB2E2.quest_subtitle: "有些东西太贵了，在ME转化模块会溢出~"
 	quest.7D243C08DD50F668.quest_desc: ["{image:kubejs:textures/shapes/bottling.png width:200 height:200 align:center}"]
 	task.079ACF0631044020.title: "灌装机"
 	task.0ABA6354812FB7CC.title: "传送至超平坦世界"
@@ -175,5 +178,6 @@
 	task.3E569D14E7E9FB13.title: "赤锶"
 	task.4BDD9F76F4CC238E.title: "搅拌机"
 	task.581CDFAD70B550C8.title: "欢迎"
+	task.5A68D467EA7CD689.title: "多态合成"
 	task.777A8B95C2C1C133.title: "工业挤压机"
 }

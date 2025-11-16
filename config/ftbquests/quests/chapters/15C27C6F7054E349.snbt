@@ -131,6 +131,7 @@
 			y: 1.5d
 		}
 		{
+			can_repeat: true
 			icon: {
 				id: "mekanism:pellet_polonium"
 			}
