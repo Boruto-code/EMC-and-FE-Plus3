@@ -107,8 +107,8 @@
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -2.0d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -116,12 +116,21 @@
 				"70D6209E4E1FCBEE"
 			]
 			id: "4AC58ECACF584B2C"
+			rewards: [{
+				count: 5
+				id: "05E966E586941162"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A5E3E1720BEF191"
 				item: { count: 1, id: "mekanism:sps_casing" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -3.0d
 		}
 		{
@@ -561,8 +570,8 @@
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -574,8 +583,8 @@
 				id: "36B657A08DAF5CE1"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -585,8 +594,8 @@
 				item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0B29CA248897E13A"]
@@ -595,8 +604,8 @@
 				id: "0354C8F25E0F82C6"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			id: "0B29CA248897E13A"
@@ -605,8 +614,8 @@
 				item: { count: 1, id: "mekanism:upgrade_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4F6D70501591B720"]
@@ -615,8 +624,8 @@
 				id: "1B7F5DC34FE6E321"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2B651F6E6A15656C"]
@@ -625,8 +634,8 @@
 				id: "6552F7961B125FE2"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E8450808444C531"]
@@ -1115,6 +1124,29 @@
 			}]
 			x: -16.0d
 			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3196584110C1640E"
+				"70D6209E4E1FCBEE"
+			]
+			id: "19B888CDFCC59F97"
+			rewards: [{
+				count: 3
+				id: "401DAF9B483662A9"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "272430E02A02D3A6"
+				item: { count: 1, id: "kubejs:pellet_spent_nuclear_waste" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
 		}
 	]
 }

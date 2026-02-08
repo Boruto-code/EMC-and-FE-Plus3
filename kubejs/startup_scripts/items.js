@@ -12,6 +12,7 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:rainbow_compound")
     event.create("kubejs:obsidianite_ingot")
     event.create("kubejs:strange_colored_ingot")
+    event.create("kubejs:pellet_spent_nuclear_waste")
 
     event.create("kubejs:incomplete_pink_slime", "create:sequenced_assembly")
     event.create("kubejs:incomplete_chaos_shard", "create:sequenced_assembly")
