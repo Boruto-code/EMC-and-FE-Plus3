@@ -23,6 +23,18 @@
     {
       "id": "draconicevolution:draconium_ingot",
       "emc": 8192
+    },
+    {
+      "id": "mekanism:ingot_refined_glowstone",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:ingot_refined_obsidian",
+      "emc": 0
+    },
+    {
+      "id": "evolvedmekanism:alloy_hypercharged",
+      "emc": 0
     }
   ]
 }

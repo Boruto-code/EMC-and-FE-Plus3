@@ -13,8 +13,8 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:obsidianite_ingot")
     event.create("kubejs:strange_colored_ingot")
 
-    event.create("kubejs:incomplete_pink_slime")
-    event.create("kubejs:incomplete_chaos_shard")
-    event.create("kubejs:incomplete_creative_blaze_cake")
-    event.create("kubejs:incomplete_strange_colored_ingot")
+    event.create("kubejs:incomplete_pink_slime", "create:sequenced_assembly")
+    event.create("kubejs:incomplete_chaos_shard", "create:sequenced_assembly")
+    event.create("kubejs:incomplete_creative_blaze_cake", "create:sequenced_assembly")
+    event.create("kubejs:incomplete_strange_colored_ingot", "create:sequenced_assembly")
 })

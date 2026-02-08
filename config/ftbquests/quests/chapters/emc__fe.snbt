@@ -43,5 +43,19 @@
 			x: 0.0d
 			y: -4.0d
 		}
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "0F2C874BF812E13A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "660D21FC8077616A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
 	]
 }

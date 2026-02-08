@@ -1,654 +1,189 @@
 ServerEvents.recipes(event => {
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "immersiveengineering:ingot_electrum"
-        },
-        "loops": 5,
-        "results": [
-            {
-                "id": "kubejs:strange_colored_ingot"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projecte:red_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:orange_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:yellow_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:green_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:cyan_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:blue_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_strange_colored_ingot"
-                    },
-                    {
-                        "item": "projectexpansion:purple_matter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_strange_colored_ingot"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_strange_colored_ingot"
-        }
-    })
+    const create = event.recipes.create
 
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "minecraft:copper_ingot"
-        },
-        "loops": 4,
-        "results": [
-            {
-                "id": "immersiveengineering:rs_engineering"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_redstone_engineering"
-                    },
-                    {
-                        "item": "minecraft:redstone"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_redstone_engineering"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_redstone_engineering"
-                    },
-                    {
-                        "item": "immersiveengineering:sheetmetal_iron"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_redstone_engineering"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_redstone_engineering"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "minecraft:copper_ingot"
-        },
-        "loops": 4,
-        "results": [
-            {
-                "id": "immersiveengineering:light_engineering"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_light_engineering"
-                    },
-                    {
-                        "item": "immersiveengineering:component_iron"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_light_engineering"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_light_engineering"
-                    },
-                    {
-                        "item": "immersiveengineering:sheetmetal_iron"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_light_engineering"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_light_engineering"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "immersiveengineering:ingot_electrum"
-        },
-        "loops": 4,
-        "results": [
-            {
-                "id": "immersiveengineering:heavy_engineering"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_heavy_engineering"
-                    },
-                    {
-                        "item": "immersiveengineering:component_steel"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_heavy_engineering"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_heavy_engineering"
-                    },
-                    {
-                        "item": "immersiveengineering:sheetmetal_steel"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_heavy_engineering"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_heavy_engineering"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "create:refined_radiance"
-        },
-        "loops": 5,
-        "results": [
-            {
-                "id": "create:refined_radiance_casing"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_refined_radiance_casing"
-                    },
-                    {
-                        "item": "create:andesite_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_refined_radiance_casing"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_refined_radiance_casing"
-                    },
-                    {
-                        "item": "create:copper_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_refined_radiance_casing"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_refined_radiance_casing"
-                    },
-                    {
-                        "item": "create:railway_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_refined_radiance_casing"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_refined_radiance_casing"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "create:shadow_steel"
-        },
-        "loops": 5,
-        "results": [
-            {
-                "id": "create:shadow_steel_casing"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_shadow_steel_casing"
-                    },
-                    {
-                        "item": "create:andesite_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_shadow_steel_casing"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_shadow_steel_casing"
-                    },
-                    {
-                        "item": "create:copper_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_shadow_steel_casing"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_shadow_steel_casing"
-                    },
-                    {
-                        "item": "create:railway_casing"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_shadow_steel_casing"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_shadow_steel_casing"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "draconicevolution:chaos_shard"
-        },
-        "loops": 1,
-        "results": [
-            {
-                "count": 2,
-                "id": "draconicevolution:chaos_shard"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_chaos_shard"
-                    },
-                    {
-                        "item": "create:refined_radiance"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_chaos_shard"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_chaos_shard"
-                    },
-                    {
-                        "item": "create:shadow_steel"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_chaos_shard"
-                    }
-                ]
-            },
-            {
-                "type": "create:cutting",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_chaos_shard"
-                    }
-                ],
-                "processing_time": 20,
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_chaos_shard"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_chaos_shard"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "create:blaze_cake"
-        },
-        "loops": 5,
-        "results": [
-            {
-                "id": "create:creative_blaze_cake"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:filling",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_creative_blaze_cake"
-                    },
-                    {
-                        "type": "fluid_stack",
-                        "amount": 1000,
-                        "fluid": "kubejs:antimatter"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_creative_blaze_cake"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_creative_blaze_cake"
-        }
-    })
-
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "minecraft:slime_ball"
-        },
-        "loops": 1145,
-        "results": [
-            {
-                "id": "kubejs:pink_slime"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:filling",
-                "ingredients": [
-                    {
-                        "item": "kubejs:incomplete_pink_slime"
-                    },
-                    {
-                        "type": "fluid_stack",
-                        "amount": 1000,
-                        "fluid": "mekanism:nutritional_paste"
-                    }
-                ],
-                "results": [
-                    {
-                        "id": "kubejs:incomplete_pink_slime"
-                    }
-                ]
-            }
-        ],
-        "transitional_item": {
-            "id": "kubejs:incomplete_pink_slime"
-        }
-    })
-
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            {
-                "item": "avaritia:infinity_ingot"
-            },
-            {
-                "item": "mekanism:ingot_refined_obsidian"
-            },
-            {
-                "item": "mekanism:ingot_refined_glowstone"
-            },
-            {
-                "item": "kubejs:strange_colored_ingot"
-            }
-        ],
-        "results": [
-            {
-                "id": "create:chromatic_compound"
-            }
+    create.sequenced_assembly(
+        "kubejs:strange_colored_ingot",
+        "immersiveengineering:ingot_electrum",
+        [
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projecte:red_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:orange_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:yellow_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:green_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:cyan_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:blue_matter"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_strange_colored_ingot", 
+                ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:purple_matter"]
+            )
         ]
-    })
+    ).transitionalItem("kubejs:incomplete_strange_colored_ingot").loops(5)
 
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            {
-                "item": "kubejs:awakened_scrap"
-            },
-            {
-                "item": "kubejs:awakened_scrap"
-            },
-            {
-                "item": "kubejs:super_glass"
-            },
-            {
-                "item": "kubejs:obsidianite_ingot"
-            },
-            {
-                "item": "create:refined_radiance"
-            },
-            {
-                "item": "create:refined_radiance"
-            },
-            {
-                "item": "create:shadow_steel"
-            },
-            {
-                "item": "create:shadow_steel"
-            }
-        ],
-        "results": [
-            {
-                "id": "kubejs:rainbow_compound"
-            }
+    create.sequenced_assembly(
+        "immersiveengineering:rs_engineering",
+        "minecraft:copper_ingot",
+        [
+            create.deploying(
+                "kubejs:incomplete_redstone_engineering",
+                ["kubejs:incomplete_redstone_engineering", "minecraft:redstone"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_redstone_engineering",
+                ["kubejs:incomplete_redstone_engineering", "immersiveengineering:sheetmetal_iron"]
+            )
         ]
-    })
+    ).transitionalItem("kubejs:incomplete_redstone_engineering").loops(4)
 
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            {
-                "item": "mekanism:pellet_antimatter"
-            }
-        ],
-        "results": [
-            {
-                "amount": 1000,
-                "id": "kubejs:antimatter"
-            }
+    create.sequenced_assembly(
+        "immersiveengineering:light_engineering",
+        "minecraft:copper_ingot",
+        [
+            create.deploying(
+                "kubejs:incomplete_light_engineering",
+                ["kubejs:incomplete_light_engineering", "immersiveengineering:component_iron"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_light_engineering",
+                ["kubejs:incomplete_light_engineering", "immersiveengineering:sheetmetal_iron"]
+            )
         ]
-    })
+    ).transitionalItem("kubejs:incomplete_light_engineering").loops(4)
 
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {
-                "item": "minecraft:netherite_ingot"
-            },
-            {
-                "item": "create:sturdy_sheet"
-            },
-            {
-                "item": "mekanism:ingot_refined_obsidian"
-            },
-            {
-                "item": "mekanism:alloy_atomic"
-            },
-            {
-                "type": "fluid_stack",
-                "fluid": "bigreactors:yellorium",
-                "amount": 1000
-            }
-        ],
-        "results": [
-            {
-                "id": "kubejs:obsidianite_ingot"
-            }
+    create.sequenced_assembly(
+        "immersiveengineering:heavy_engineering",
+        "immersiveengineering:ingot_electrum",
+        [
+            create.deploying(
+                "kubejs:incomplete_heavy_engineering",
+                ["kubejs:incomplete_heavy_engineering", "immersiveengineering:component_steel"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_heavy_engineering",
+                ["kubejs:incomplete_heavy_engineering", "immersiveengineering:sheetmetal_steel"]
+            )
         ]
-    })
+    ).transitionalItem("kubejs:incomplete_heavy_engineering").loops(4)
+
+    create.sequenced_assembly(
+        "create:refined_radiance_casing",
+        "create:refined_radiance",
+        [
+            create.deploying(
+                "kubejs:incomplete_refined_radiance_casing",
+                ["kubejs:incomplete_refined_radiance_casing", "create:andesite_casing"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_refined_radiance_casing",
+                ["kubejs:incomplete_refined_radiance_casing", "create:copper_casing"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_refined_radiance_casing",
+                ["kubejs:incomplete_refined_radiance_casing", "create:railway_casing"]
+            )
+        ]
+    ).transitionalItem("kubejs:incomplete_refined_radiance_casing").loops(5)
+
+    create.sequenced_assembly(
+        "create:shadow_steel_casing",
+        "create:shadow_steel",
+        [
+            create.deploying(
+                "kubejs:incomplete_shadow_steel_casing",
+                ["kubejs:incomplete_shadow_steel_casing", "create:andesite_casing"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_shadow_steel_casing",
+                ["kubejs:incomplete_shadow_steel_casing", "create:copper_casing"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_shadow_steel_casing",
+                ["kubejs:incomplete_shadow_steel_casing", "create:railway_casing"]
+            )
+        ]
+    ).transitionalItem("kubejs:incomplete_shadow_steel_casing").loops(5)
+
+    create.sequenced_assembly(
+        Item.of("draconicevolution:chaos_shard", 2),
+        "draconicevolution:chaos_shard",
+        [
+            create.deploying(
+                "kubejs:incomplete_chaos_shard",
+                ["kubejs:incomplete_chaos_shard", "create:refined_radiance"]
+            ),
+            create.deploying(
+                "kubejs:incomplete_chaos_shard",
+                ["kubejs:incomplete_chaos_shard", "create:shadow_steel"]
+            ),
+            create.cutting(
+                "kubejs:incomplete_chaos_shard", 
+                "kubejs:incomplete_chaos_shard"
+            ).processingTime(60)
+        ]
+    ).transitionalItem("kubejs:incomplete_chaos_shard").loops(1)
+
+    create.sequenced_assembly(
+        "create:creative_blaze_cake",
+        "create:blaze_cake",
+        [
+            create.filling(
+                "kubejs:incomplete_creative_blaze_cake",
+                [Fluid.of("kubejs:antimatter"), "kubejs:incomplete_creative_blaze_cake"]
+            )
+        ]
+    ).transitionalItem("kubejs:incomplete_creative_blaze_cake").loops(5)
+
+    create.sequenced_assembly(
+        "kubejs:pink_slime",
+        "minecraft:slime_ball",
+        [
+            create.filling(
+                "kubejs:incomplete_pink_slime",
+                [Fluid.of("mekanism:nutritional_paste"), "kubejs:incomplete_pink_slime"]
+            )
+        ]
+    ).transitionalItem("kubejs:incomplete_pink_slime").loops(1145)
+
+    create.mixing(
+        "create:chromatic_compound", 
+        [
+            "avaritia:infinity_ingot", "mekanism:ingot_refined_obsidian",
+            "mekanism:ingot_refined_glowstone", "kubejs:strange_colored_ingot"
+        ]
+    ).superheated()
+
+    create.mixing(
+        "kubejs:rainbow_compound", 
+        [
+            "kubejs:awakened_scrap", "kubejs:awakened_scrap", "kubejs:super_glass",
+            "kubejs:obsidianite_ingot", "create:refined_radiance", "create:refined_radiance",
+            "create:shadow_steel", "create:shadow_steel", "evolvedmekanism:alloy_exoversal"
+        ]
+    ).superheated()
+
+    create.mixing(Fluid.of("kubejs:antimatter"), "mekanism:pellet_antimatter").superheated()
+
+    create.compacting(
+        "kubejs:obsidianite_ingot", 
+        [
+            "minecraft:netherite_ingot", "create:sturdy_sheet", "mekanism:ingot_refined_obsidian",
+            "mekanism:alloy_atomic", Fluid.of("bigreactors:yellorium")
+        ]
+    )
 })

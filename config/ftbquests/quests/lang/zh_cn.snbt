@@ -57,6 +57,7 @@
 	quest.0EDA9A53D5B461FC.title: "你为什么要这样做？"
 	quest.0F17098159F8770F.quest_desc: ["&c官方 QQ 交流群：224133726"]
 	quest.0F17098159F8770F.title: "QQ 交流群"
+	quest.0F2C874BF812E13A.quest_desc: ["https://github.com/Boruto-code/EMC-and-FE-Plus3/issues"]
 	quest.11E36D8A5BF07ECC.title: "红物质工具包"
 	quest.12BB0C410F55F0B2.quest_desc: [
 		"1.使用再处理器外壳搭建一个&e3x3x7&r的立方体框架。"
@@ -181,5 +182,6 @@
 	task.4BDD9F76F4CC238E.title: "搅拌机"
 	task.581CDFAD70B550C8.title: "欢迎"
 	task.5A68D467EA7CD689.title: "多态合成"
+	task.660D21FC8077616A.title: "Bug反馈"
 	task.777A8B95C2C1C133.title: "工业挤压机"
 }

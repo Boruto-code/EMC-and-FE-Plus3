@@ -3,33 +3,33 @@ description: Report a bug or problem with EMC & FE +++
 body:
   - type: markdown
     attributes:
-      value: "*在报告问题之前，应该先使用搜索功能。同时也要看看已关闭的问题！\nPlease use the search functionality before reporting an issue. Also take a look at the closed issues!*"
+      value: "*在报告问题之前，应该先使用搜索功能。同时也要看看已关闭的问题！*"
   - type: textarea
     attributes:
-      label: "议题描述  Issue description"
-      description: "对问题的清晰简明描述，以及在适当情况下应有的预期结果。\nA clear and concise description of the issue and if appropriate what the expected outcome should have been."
+      label: "议题描述"
+      description: "对问题的清晰简明描述，以及在适当情况下应有的预期结果。"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "复现步骤  Steps to reproduce"
-      description: "如果有具体步骤来重现该问题，请在此列出。\nIf there are specific steps that need to be taken to reproduce the issue list them here."
+      label: "复现步骤"
+      description: "如果有具体步骤来重现该问题，请在此列出。"
       placeholder: |
-        1. 开始步骤...  Start by doing...
-        2. 接下来...  Next do...
-        3. 结果...  Result...
+        1. 首先...
+        2. 接下来...
+        3. 结果...
   - type: input
     attributes:
-      label: "整合包版本  Modpack version"
-      description: "你使用的是哪个整合包版本？\nWhat version of this modpack are you using?"
+      label: "整合包版本"
+      description: "你使用的是哪个整合包版本？"
       placeholder: e.g. 2.0.0-Pre.1
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "添加的模组版本  Other relevant versions"
-      description: "如果你添加了其它模组，请在这里列出它们的版本。\nIf this issue is related to any other mods list their versions here."
+      label: "添加的模组版本"
+      description: "如果你添加了其它模组，请在这里列出它们的版本。"
   - type: input
     attributes:
-      label: "（崩溃）日志链接  (crash)log link"
-      description: "请在此提供一个 [gist](https://gist.github.com/) / [mclo.gs](https://mclo.gs/) / 其它链接。\nPlease provide a [gist](https://gist.github.com/) / [mclo.gs](https://mclo.gs/) / etc link here. "
+      label: "（崩溃）日志链接"
+      description: "请在此提供一个 [gist](https://gist.github.com/) / [mclo.gs](https://mclo.gs/) / 其它链接。"
