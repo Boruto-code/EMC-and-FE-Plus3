@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5DAEF1CD40522028"]
@@ -47,8 +47,8 @@
 				item: { count: 1, id: "mekanism:ultimate_chemical_tank" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.5d
+			x: -13.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["571E601A86907807"]
@@ -67,8 +67,8 @@
 				item: { count: 1, id: "mekanism:ultimate_bin" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.5d
+			x: -13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1788F251E4920471"]
@@ -87,14 +87,14 @@
 				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -13.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4AC58ECACF584B2C"]
 			id: "4157C0BA0624FAAD"
 			rewards: [{
-				count: 15
+				count: 3
 				id: "768DBD5D53DB7F55"
 				item: {
 					count: 1
@@ -117,19 +117,31 @@
 			]
 			id: "4AC58ECACF584B2C"
 			rewards: [{
-				count: 5
+				count: 10
 				id: "05E966E586941162"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "0A5E3E1720BEF191"
-				item: { count: 1, id: "mekanism:sps_casing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A5E3E1720BEF191"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "01641F7194E8B90C"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "059A01EDDC4C8908"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -3.0d
 		}
@@ -137,11 +149,11 @@
 			dependencies: ["55F679596BF49CD2"]
 			id: "3196584110C1640E"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "104BA13B29498724"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -155,21 +167,41 @@
 		}
 		{
 			dependencies: ["72DA1B854932452D"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
 			id: "55F679596BF49CD2"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "75DBF0C5BCF3D232"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "0FDA5110BBB40128"
-				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0FDA5110BBB40128"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "27A48ABBE948952B"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "009C27610E223D9F"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "6F8FAA1E8F6D0C51"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -6.0d
 		}
@@ -190,8 +222,8 @@
 				item: { count: 1, id: "mekanism:elite_fluid_tank" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -4.5d
+			x: -12.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["503E23E0725321FC"]
@@ -210,8 +242,8 @@
 				item: { count: 1, id: "mekanism:advanced_fluid_tank" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -5.5d
+			x: -11.0d
+			y: -6.5d
 		}
 		{
 			id: "503E23E0725321FC"
@@ -229,7 +261,7 @@
 				item: { count: 1, id: "mekanism:basic_fluid_tank" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -10.0d
 			y: -6.5d
 		}
 		{
@@ -249,7 +281,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E66C96AA9D5D01C"]
@@ -268,8 +300,8 @@
 				item: { count: 1, id: "mekanism:advanced_energy_cube" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -5.5d
+			x: -11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2E805BE02B142D7B"]
@@ -288,8 +320,8 @@
 				item: { count: 1, id: "mekanism:elite_energy_cube" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -4.5d
+			x: -12.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["44CE18634251A92E"]
@@ -308,7 +340,7 @@
 				item: { count: 1, id: "mekanism:elite_bin" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.0d
 			y: -4.5d
 		}
 		{
@@ -329,7 +361,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			id: "0F9AF8CDBA1681CF"
@@ -347,8 +379,8 @@
 				item: { count: 1, id: "mekanism:basic_bin" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -6.5d
+			x: -10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6523710F3198ECA4"]
@@ -368,7 +400,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["285C6E30D0A19DBE"]
@@ -387,7 +419,7 @@
 				item: { count: 1, id: "mekanism:advanced_chemical_tank" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: -5.5d
 		}
 		{
@@ -406,8 +438,8 @@
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -6.5d
+			x: -10.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0273D150B8B8EEF7"]
@@ -543,11 +575,11 @@
 			dependencies: ["55F679596BF49CD2"]
 			id: "70D6209E4E1FCBEE"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "674277B6568256D0"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -564,12 +596,41 @@
 				"3196584110C1640E"
 				"0180485500091401"
 			]
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
 			id: "0C4F1759F05C8D6A"
-			tasks: [{
-				id: "0AFD9A729B8F1E1D"
-				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+			rewards: [{
+				count: 5
+				id: "0CC67EA6CEC6CF6F"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "0AFD9A729B8F1E1D"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "358BD497C807161B"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					id: "0B642F1A740F5B26"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "1E68F4A668591397"
+					item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 10L, id: "mekanismgenerators:fusion_fuel" }] } }, count: 1, id: "mekanismgenerators:hohlraum" }
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -3.0d
 		}
@@ -587,8 +648,16 @@
 			y: -3.0d
 		}
 		{
-			can_repeat: true
 			id: "2B651F6E6A15656C"
+			rewards: [{
+				count: 5
+				id: "25E65D3313455D61"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70D0CEBE65FEF441"
 				item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
@@ -609,6 +678,15 @@
 		}
 		{
 			id: "0B29CA248897E13A"
+			rewards: [{
+				count: 5
+				id: "2740044903CEF14E"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B541D967E8FCF79"
 				item: { count: 1, id: "mekanism:upgrade_filter" }
@@ -654,8 +732,8 @@
 				item: { count: 1, id: "mekanism:alloy_infused" }
 				type: "item"
 			}]
-			x: -17.0d
-			y: -8.5d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0EF4B680B2DDF581"]
@@ -674,8 +752,8 @@
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -8.5d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E97198DB7C554AA"]
@@ -694,8 +772,8 @@
 				item: { count: 1, id: "mekanism:alloy_atomic" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -8.5d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B58967D35DDB46A"]
@@ -714,8 +792,8 @@
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: -10.5d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D02E421211B7060"]
@@ -734,8 +812,8 @@
 				item: { count: 1, id: "mekanism:advanced_tier_installer" }
 				type: "item"
 			}]
-			x: -17.0d
-			y: -10.5d
+			x: -11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6D45EC51248C1A47"]
@@ -754,8 +832,8 @@
 				item: { count: 1, id: "mekanism:elite_tier_installer" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -10.5d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["705D10859613E84C"]
@@ -774,8 +852,8 @@
 				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -10.5d
+			x: -13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E8450808444C531"]
@@ -794,8 +872,8 @@
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: -9.5d
+			x: -10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -817,8 +895,8 @@
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
 				type: "item"
 			}]
-			x: -17.0d
-			y: -9.5d
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -840,8 +918,8 @@
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -9.5d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -863,8 +941,8 @@
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -9.5d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
 			id: "4E8450808444C531"
@@ -882,8 +960,8 @@
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: -7.5d
+			x: -11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -893,7 +971,7 @@
 			]
 			id: "3C8E4E49E2452AC3"
 			rewards: [{
-				count: 10
+				count: 15
 				id: "52D34F7ABD429375"
 				item: {
 					count: 1
@@ -906,8 +984,8 @@
 				item: { count: 1, id: "mekanism:chemical_infuser" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -3.5d
+			x: -12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4E8450808444C531"]
@@ -926,8 +1004,8 @@
 				item: { count: 1, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: -6.5d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["35E3ED144A603216"]
@@ -946,8 +1024,8 @@
 				item: { count: 1, id: "mekanism:steel_casing" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: -5.5d
+			x: -11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -956,7 +1034,7 @@
 			]
 			id: "6BF95EA5AC5ECD96"
 			rewards: [{
-				count: 5
+				count: 10
 				id: "24CFCDBE8E32BE73"
 				item: {
 					count: 1
@@ -969,14 +1047,14 @@
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 				type: "item"
 			}]
-			x: -17.0d
-			y: -3.5d
+			x: -13.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["705D10859613E84C"]
 			id: "0E0315FC1D744DAF"
 			rewards: [{
-				count: 5
+				count: 10
 				id: "308466675035C831"
 				item: {
 					count: 1
@@ -989,8 +1067,8 @@
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -4.5d
+			x: -13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -999,7 +1077,7 @@
 			]
 			id: "1D7418802D505A64"
 			rewards: [{
-				count: 10
+				count: 15
 				id: "012869EF0D44A018"
 				item: {
 					count: 1
@@ -1012,8 +1090,8 @@
 				item: { count: 1, id: "mekanism:chemical_oxidizer" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -4.5d
+			x: -11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1036,14 +1114,14 @@
 				item: { count: 1, id: "mekanism:chemical_infuser" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: -3.5d
+			x: -10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6141705786F81905"]
 			id: "574EDA8807D61D11"
 			rewards: [{
-				count: 15
+				count: 10
 				id: "08BAE869B2DFB107"
 				item: {
 					count: 1
@@ -1056,8 +1134,8 @@
 				item: { count: 1, id: "mekanism:rotary_condensentrator" }
 				type: "item"
 			}]
-			x: -17.0d
-			y: -4.5d
+			x: -10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1079,14 +1157,14 @@
 				item: { count: 1, id: "mekanism:energy_tablet" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: -8.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0EF4B680B2DDF581"]
 			id: "34B620799CF7E99E"
 			rewards: [{
-				count: 10
+				count: 15
 				id: "5E77CD5AC31EB0E3"
 				item: {
 					count: 1
@@ -1099,8 +1177,8 @@
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -3.5d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1122,8 +1200,8 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: -4.5d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1132,11 +1210,11 @@
 			]
 			id: "19B888CDFCC59F97"
 			rewards: [{
-				count: 3
+				count: 10
 				id: "401DAF9B483662A9"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -1147,6 +1225,786 @@
 			}]
 			x: -5.5d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"24E23A1D17C5BD4E"
+				"37C6CD08D5B91ACD"
+			]
+			id: "4227EB640BE8007C"
+			rewards: [{
+				count: 8
+				id: "3F5689A498A5C75D"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73077D6AFE46802E"
+				item: { count: 1, id: "evolvedmekanism:alloy_hypercharged" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4227EB640BE8007C"
+				"705D10859613E84C"
+			]
+			id: "28D863BDD639810F"
+			rewards: [{
+				count: 5
+				id: "4CF0CF41E9752314"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F8A74BB46AC58EE"
+				item: { count: 1, id: "evolvedmekanism:overclocked_control_circuit" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28D863BDD639810F"]
+			id: "24C8CD341BA86FF9"
+			rewards: [{
+				count: 3
+				id: "7DA4FAE024A16BA0"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68C55AF7DE759B3D"
+				item: { count: 1, id: "evolvedmekanism:overclocked_tier_installer" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4227EB640BE8007C"]
+			id: "46B931A9D30F72AE"
+			tasks: [{
+				id: "4ED8E048C272A59D"
+				item: { count: 1, id: "evolvedmekanism:alloy_subatomic" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705D10859613E84C"]
+			id: "3B68B1D920986109"
+			rewards: [{
+				count: 10
+				id: "48540AAA37B0CB22"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77FF3D6861E6104D"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"46B931A9D30F72AE"
+				"28D863BDD639810F"
+			]
+			id: "5902DEE67A911BB4"
+			rewards: [{
+				count: 8
+				id: "07C909DDBEFD077C"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "652FCCDFFF0711A2"
+				item: { count: 1, id: "evolvedmekanism:quantum_control_circuit" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5902DEE67A911BB4"]
+			id: "637D87A24564159C"
+			rewards: [{
+				count: 5
+				id: "71776FFBB9E5188E"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA57684F224F4E9"
+				item: { count: 1, id: "evolvedmekanism:quantum_tier_installer" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46B931A9D30F72AE"]
+			id: "7F2C9A720618EE69"
+			rewards: [{
+				count: 10
+				id: "2C45AE0D7263E1FD"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00CB08F088055D84"
+				item: { count: 1, id: "evolvedmekanism:alloy_singular" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F2C9A720618EE69"]
+			id: "2F9A95050ABEB3E9"
+			rewards: [{
+				count: 10
+				id: "7D44A464C84A4748"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5F7FA183D6151F"
+				item: { count: 1, id: "evolvedmekanism:alloy_exoversal" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9A95050ABEB3E9"]
+			id: "2C8CAB6BB67FECA4"
+			rewards: [{
+				count: 10
+				id: "228809F1B4DD5026"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC3F1FFC0D2AC41"
+				item: { count: 1, id: "evolvedmekanism:alloy_creative" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5902DEE67A911BB4"
+				"7F2C9A720618EE69"
+			]
+			id: "52DCB7E160FABF7B"
+			rewards: [{
+				count: 10
+				id: "1E1C1FA6D8D137CC"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2DC1A6E735ADA3"
+				item: { count: 1, id: "evolvedmekanism:dense_control_circuit" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2F9A95050ABEB3E9"
+				"52DCB7E160FABF7B"
+			]
+			id: "5A239133234F265F"
+			rewards: [{
+				count: 10
+				id: "77773D8C253B40C0"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EF34538522F8C63"
+				item: { count: 1, id: "evolvedmekanism:multiversal_control_circuit" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5A239133234F265F"
+				"2C8CAB6BB67FECA4"
+			]
+			id: "5381BB8B6895B76C"
+			rewards: [{
+				count: 10
+				id: "4129940B3FC9C4D2"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7294B72F4B694980"
+				item: { count: 1, id: "evolvedmekanism:creative_control_circuit" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52DCB7E160FABF7B"]
+			id: "64511A7B92399B6C"
+			rewards: [{
+				count: 8
+				id: "50E05DD456F52D04"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "656EC55AF00D1731"
+				item: { count: 1, id: "evolvedmekanism:dense_tier_installer" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A239133234F265F"]
+			id: "2CB909733976F58F"
+			rewards: [{
+				count: 10
+				id: "1446D215C2FF8AC8"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "072748F131353B95"
+				item: { count: 1, id: "evolvedmekanism:multiversal_tier_installer" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5381BB8B6895B76C"]
+			id: "069FBAEA9B8DA92B"
+			rewards: [{
+				count: 10
+				id: "7409C8C3D5008D52"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "180327F277934DA0"
+				item: { count: 1, id: "evolvedmekanism:creative_tier_installer" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D02E421211B7060"]
+			id: "2DF1655ECC349AD6"
+			rewards: [{
+				count: 15
+				id: "1BDBE1D3FF7B5C27"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70398E6546D0A08B"
+				item: { count: 1, id: "evolvedmekanism:alloyer" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52DCB7E160FABF7B"]
+			id: "1C1F170CE3DB900F"
+			rewards: [{
+				count: 10
+				id: "58F053B27E604955"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "689553D516FC66D1"
+				item: { count: 1, id: "evolvedmekanism:chemixer" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6141705786F81905"]
+			id: "50A765F92EA68B63"
+			tasks: [{
+				id: "5FA5CB755F80F632"
+				item: { count: 1, id: "mekanism:resistive_heater" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"50A765F92EA68B63"
+				"0EF4B680B2DDF581"
+				"265D1D0CA809808F"
+			]
+			id: "4F86DA7246D08A67"
+			tasks: [{
+				id: "5C265343AA6D0D48"
+				item: { count: 1, id: "evolvedmekanism:thermalizer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EF4B680B2DDF581"]
+			id: "70A51ADCC7C83C85"
+			tasks: [{
+				id: "16B17D34BDF88ADE"
+				item: { count: 1, id: "evolvedmekanism:solidification_chamber" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4157C0BA0624FAAD"
+				"4AC58ECACF584B2C"
+			]
+			id: "15135AA48C1BBBC6"
+			rewards: [{
+				count: 3
+				id: "19BBD5CABE3C322B"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07C8FA19A34C17F7"
+					item: { count: 1, id: "evolvedmekanism:apt_casing" }
+					type: "item"
+				}
+				{
+					id: "584A8E48234EBF8E"
+					item: { count: 1, id: "evolvedmekanism:apt_port" }
+					type: "item"
+				}
+				{
+					id: "79B07E9251420D30"
+					item: { count: 1, id: "evolvedmekanism:supercharging_element" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15135AA48C1BBBC6"]
+			id: "11A5B6720DD979AA"
+			rewards: [{
+				id: "46F608C688733053"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CE43AB643B360B1"
+				item: { count: 1, id: "evolvedmekanism:dust_better_gold" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EC6E8E756B11980"]
+			id: "4158896DA46C26EB"
+			rewards: [{
+				count: 8
+				id: "16AF982A72A1D12C"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A4C05627A9A9AAD"
+				item: { count: 1, id: "evolvedmekanism:overclocked_fluid_tank" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4158896DA46C26EB"]
+			id: "34D90ABF7147581C"
+			rewards: [{
+				count: 10
+				id: "2E59EEBD35C206E1"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "532DE23D649B0BE7"
+				item: { count: 1, id: "evolvedmekanism:quantum_fluid_tank" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34D90ABF7147581C"]
+			id: "145E8B32001F8388"
+			rewards: [{
+				count: 5
+				id: "1BC6CF4205A22B33"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55316BCF2B3249DA"
+				item: { count: 1, id: "evolvedmekanism:dense_fluid_tank" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["145E8B32001F8388"]
+			id: "7C4700A48EE7B727"
+			rewards: [{
+				count: 10
+				id: "602CF65BDB537BE7"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "004DB167ED2473A5"
+				item: { count: 1, id: "evolvedmekanism:multiversal_fluid_tank" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["015938E65C7E13D9"]
+			id: "6B71F31EC77A58F4"
+			rewards: [{
+				count: 8
+				id: "55E194F16BFADE01"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AB57E4C5239988"
+				item: { count: 1, id: "evolvedmekanism:overclocked_chemical_tank" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B71F31EC77A58F4"]
+			id: "6980DD71921D9D3C"
+			rewards: [{
+				count: 10
+				id: "3ED3D658E389218B"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "787F72CD2F8C842D"
+				item: { count: 1, id: "evolvedmekanism:quantum_chemical_tank" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6980DD71921D9D3C"]
+			id: "3A9148C1B2425EC9"
+			rewards: [{
+				count: 5
+				id: "4E180E4D82F8C45E"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E5A637667641765"
+				item: { count: 1, id: "evolvedmekanism:dense_chemical_tank" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A9148C1B2425EC9"]
+			id: "7E2C9713C716184A"
+			rewards: [{
+				count: 10
+				id: "58DF553F8BE51C86"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DBA206B64CF733B"
+				item: { count: 1, id: "evolvedmekanism:multiversal_chemical_tank" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["061E0D6D6B88BF3A"]
+			id: "26BFE73C42FA1E3F"
+			rewards: [{
+				count: 8
+				id: "068C5E7C9DB802B3"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15549CCD3BB701CE"
+				item: { count: 1, id: "evolvedmekanism:overclocked_bin" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26BFE73C42FA1E3F"]
+			id: "4E934C1B03947DE2"
+			rewards: [{
+				count: 10
+				id: "5D40A8F9D0BDC458"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A2F5D3A0589B4D"
+				item: { count: 1, id: "evolvedmekanism:quantum_bin" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E934C1B03947DE2"]
+			id: "74CE91E7247B1FB9"
+			rewards: [{
+				count: 5
+				id: "0A4CCCCD4260BEF4"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E0796C95F2E1F00"
+				item: { count: 1, id: "evolvedmekanism:dense_bin" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74CE91E7247B1FB9"]
+			id: "3D447AF3D2CAD210"
+			rewards: [{
+				count: 10
+				id: "26139A4250E0705D"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A604571FE52C182"
+				item: { count: 1, id: "evolvedmekanism:multiversal_bin" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C6582D0D831A79E"]
+			id: "39693F367454A6D1"
+			rewards: [{
+				count: 8
+				id: "3D931F441A732D6E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03487CC00255D19C"
+				item: { count: 1, id: "evolvedmekanism:overclocked_energy_cube" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39693F367454A6D1"]
+			id: "456CE74FFB61687A"
+			rewards: [{
+				count: 10
+				id: "0EDF91E671271FF7"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F511C4BA863CE16"
+				item: { count: 1, id: "evolvedmekanism:quantum_energy_cube" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E064D86EFABF5B1"]
+			id: "51478FA057C1EF76"
+			rewards: [{
+				count: 10
+				id: "126080BFFE41B2AE"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BC9CE4784B3F2C"
+				item: { count: 1, id: "evolvedmekanism:multiversal_energy_cube" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["456CE74FFB61687A"]
+			id: "5E064D86EFABF5B1"
+			rewards: [{
+				count: 5
+				id: "56FECBDCDFD0B6F2"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6823C2F4BE35E31E"
+				item: { count: 1, id: "evolvedmekanism:dense_energy_cube" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
 		}
 	]
 }

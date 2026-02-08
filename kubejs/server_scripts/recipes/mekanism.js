@@ -3,13 +3,13 @@ ServerEvents.recipes(event => {
 
     mekanism.combining(
         "mekanism:creative_chemical_tank",
-        "mekanism:ultimate_chemical_tank",
+        "evolvedmekanism:multiversal_chemical_tank",
         "functionalstorage:creative_vending_upgrade"
     )
 
     mekanism.combining(
         "mekanism:creative_fluid_tank",
-        "mekanism:ultimate_fluid_tank",
+        "evolvedmekanism:multiversal_fluid_tank",
         "functionalstorage:creative_vending_upgrade"
     )
 
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
             "item": "kubejs:rainbow_compound"
         },
         "chemical_input": {
-            "amount": 100,
+            "amount": 1000,
             "chemical": "mekanism:antimatter"
         },
         "main_input": {
@@ -87,4 +87,7 @@ ServerEvents.recipes(event => {
     })
 
     event.remove("evolvedmekanism:metallurgic_infusing/alloy/hypercharged")
+    event.remove("evolvedmekanism:energy_cube/creative")
+    event.remove("evolvedmekanism:fluid_tank/creative")
+    event.remove("evolvedmekanism:chemical_tank/creative")
 })

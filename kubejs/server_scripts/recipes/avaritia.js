@@ -197,11 +197,11 @@ ServerEvents.recipes(event => {
         {
             A: "mekanism:induction_casing",
             B: "mekanism:induction_port",
-            C: "mekanism:ultimate_induction_cell",
-            D: "mekanism:ultimate_induction_provider",
+            C: "evolvedmekanism:multiversal_induction_cell",
+            D: "evolvedmekanism:multiversal_induction_provider",
             E: "avaritia:infinity_catalyst",
-            F: "mekanism:ultimate_energy_cube",
-            G: "avaritia:infinity_ingot",
+            F: "evolvedmekanism:multiversal_energy_cube",
+            G: "evolvedmekanism:alloy_creative",
             H: "draconicevolution:creative_op_capacitor"
         },
         "mekanism:creative_energy_cube[mekanism:energy={energy_containers:[L; 9223372036854775807L]}]",
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
             B: "mekanism:induction_port",
             C: "mekanism:ultimate_induction_cell",
             D: "mekanism:ultimate_induction_provider",
-            E: "mekanism:pellet_antimatter",
+            E: "evolvedmekanism:alloy_creative",
             F: "mekanism:ultimate_energy_cube",
             G: "avaritia:infinity_ingot",
             H: "draconicevolution:creative_op_capacitor"

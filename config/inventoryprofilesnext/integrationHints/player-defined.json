@@ -165,7 +165,17 @@
         }
     },
     "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
     },
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": {
         "buttonHints": {
@@ -472,5 +482,21 @@
                 "top": 25
             }
         }
+    },
+    "fr.iglee42.evolvedmekanism.client.gui.GuiAPT": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
     }
 }

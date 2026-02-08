@@ -124,7 +124,63 @@
 				id: "5A68D467EA7CD689"
 				type: "checkmark"
 			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749AFC450DBA5B46"]
+			id: "56A51A8CF5AF94CA"
+			rewards: [{
+				count: 5
+				id: "7B00722BA32B2E05"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B406F9830EAB0B"
+				item: { count: 1, id: "createendertransmission:energy_transmitter" }
+				type: "item"
+			}]
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "54EC17906AD5861D"
+			rewards: [{
+				count: 3
+				id: "5C55313CF1ADA96E"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C80BE8DA0C512E0"
+					item: { count: 1, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+				{
+					id: "4782D720E134ABA8"
+					item: { count: 1, id: "integrateddynamics:variable" }
+					type: "item"
+				}
+				{
+					id: "7B184DE153D3604F"
+					item: { count: 1, id: "integratedtunnels:part_interface_fluid" }
+					type: "item"
+				}
+				{
+					id: "4D2DF3E1247D893A"
+					item: { count: 1, id: "integratedtunnels:part_exporter_fluid" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 1.5d
 		}
 	]

@@ -18,6 +18,8 @@
 	chapter_group.67DDB26600B9A092.title: "支线"
 	chapter_group.7FABB2F7E5BB8366.title: "主线"
 	file.0000000000000001.title: "EMC and FE +++"
+	quest.0273D150B8B8EEF7.quest_subtitle: "化学灌注器 氢氟酸+氧化铀"
+	quest.0273D150B8B8EEF7.title: "六氟化铀"
 	quest.033B9C80C2D3502F.title: "两种核心"
 	quest.0480E962754E9B2A.quest_subtitle: "欢迎！"
 	quest.0480E962754E9B2A.title: "EMC and FE +++"
@@ -34,6 +36,8 @@
 		"能量核心建议摆放于能量塔10格以上，点击稳定器或核心可激活与自动摆放多方块结构。推荐先制作一个7级龙球，存电用于制作8级龙球（&o需 378 个觉醒龙块&r）。8级龙球可存储接近无限的电量。"
 	]
 	quest.0B687F4136968757.quest_subtitle: "无线连接！也许比 1.20 难做？"
+	quest.0C4F1759F05C8D6A.quest_desc: ["不想放介绍了，自己看吧：https://www.mcmod.cn/item/830131.html"]
+	quest.0C4F1759F05C8D6A.title: "聚变反应堆"
 	quest.0CECAB6610EF0CF9.quest_subtitle: "抛弃你的转化桌！"
 	quest.0DF9609CCBE57619.quest_desc: [
 		"1. 使用&9反应堆外壳（强化）&r搭建一个最小3x3x3的立方体框架（建议搭建 15x15x15 以上）。"
@@ -74,7 +78,15 @@
 	quest.12D8761E981F1971.title: "铜币抽奖 1x"
 	quest.13AB4C5ABFE8C702.quest_desc: ["存储 EMC，放入转换桌左边充能。"]
 	quest.14C6FA30DE660B9D.quest_subtitle: "你要学会用 AE 自动化了"
+	quest.15135AA48C1BBBC6.quest_desc: [
+		"{image:kubejs:textures/shapes/apt.png width:200 height:200 align:center}"
+		"{@pagebreak}"
+		"在底面上放置超频原件可以提升速度。"
+	]
+	quest.15135AA48C1BBBC6.title: "APT"
 	quest.15917B6E7AD8B9AE.quest_subtitle: "你会发现有些配方重合了，请点击上方的箭头"
+	quest.173A66269E64F0C7.quest_subtitle: "电解分离器 水"
+	quest.173A66269E64F0C7.title: "氧"
 	quest.1822C26DD8F950B8.quest_desc: ["吸取物品至背包或存储戒指的背包内容器，G 键开启（之后大部分 ProjectE 物品如无说明皆为此开启方法）。"]
 	quest.18BF0DEDC7F68AC4.quest_subtitle: "推荐往里面放水~"
 	quest.18BF0DEDC7F68AC4.title: "致密"
@@ -132,8 +144,17 @@
 	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
 	quest.260E1897B9F7A239.quest_subtitle: "异彩化合物丢进信标的光里转换"
 	quest.26D8E6271689D731.title: "压印模板"
+	quest.2B651F6E6A15656C.quest_desc: ["升温后将水蒸馏为盐水，将盐水蒸馏为液态锂。最大温度为 &43.3kK&r ，工作速度大部分受温度影响，盐塔的高度对速度也有影响，最小规格为中空 4x4x3，最大规格为中空 4x4x18，最大规格并升温到最大单个热力蒸馏塔最大处理速度为（层数*60）mb/t。"]
+	quest.34EDBAAB719E4744.quest_subtitle: "化学氧化机 硫粉"
+	quest.34EDBAAB719E4744.title: "二氧化硫"
 	quest.37C1F3631286AC14.title: " 宝石套装"
 	quest.381C3C1D06E4AF58.quest_desc: ["右键会挖掘右键位置的 3*3*1 方块。"]
+	quest.384D8D35CDF9488F.quest_subtitle: "化学溶解室 硫酸+氟石"
+	quest.384D8D35CDF9488F.title: "氢氟酸"
+	quest.39F695481D7A519D.quest_subtitle: "化学灌注器 氧+二氧化硫"
+	quest.39F695481D7A519D.title: "三氧化硫"
+	quest.3F7D9FDBC0ED59A6.quest_subtitle: "化学灌注器 三氧化硫+水蒸气"
+	quest.3F7D9FDBC0ED59A6.title: "硫酸"
 	quest.3F850A7E8F1A1BFB.quest_subtitle: "异彩化合物丢进虚空里转换"
 	quest.3FCCBD6257977AE1.quest_desc: ["https://afdian.com/a/hamburger0abcde"]
 	quest.3FCCBD6257977AE1.quest_subtitle: "如果觉得这个整合包做得不错，请给作者一些赞助吧 ：）"
@@ -147,9 +168,26 @@
 	quest.462516E55EF495CD.title: "时代少年团?"
 	quest.47F8356802C20EFC.quest_subtitle: "中子压缩配方有 5000 个小时！"
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
+	quest.4AC58ECACF584B2C.quest_desc: ["参见 https://www.mcmod.cn/item/311264.html。以后要用到很多反物质，记得多堆量。"]
+	quest.4AC58ECACF584B2C.title: "超临界移相器"
 	quest.5319189C6FA34AC5.quest_desc: ["{image:kubejs:textures/shapes/arc_furnace.png width:200 height:200 align:center}"]
 	quest.540B35801D6D99A4.quest_desc: ["不稳定水晶 + 毁灭燧石，范围更大。"]
 	quest.5452605B78EA2502.title: "铁币抽奖 1x"
+	quest.54EC17906AD5861D.quest_desc: ["我想你应该是从裂变反应堆来的。首先要把流体接口放在供水的方块上，把流体输出口放在输水口上，用逻辑线缆连接流体接口和流体输出口，然后把变量卡放在流体输出口的“输出所有流体”槽里，最后点击旁边的+号，点击向右箭头，找到流体传输移率这一项，调整为2147483647。其他部分自己探索吧！"]
+	quest.54EC17906AD5861D.title: "集成动力"
+	quest.55F679596BF49CD2.quest_desc: [
+		"搭建方法："
+		"1. 搭建一个长3~18格、宽3~18格、高4~18格的长方体框架。框架的棱和顶点上只能使用裂变反应堆外壳，框架的面上可以使用裂变反应堆外壳和强化玻璃。"
+		"2.在框架围出的空间内放置裂变燃料组件，在每个裂变燃料组件柱上方放置1个控制棒组件。放置方法最好类似极限反应堆的反应堆控制棒。"
+		"3.将面上填满裂变反应堆外壳/反应堆玻璃，在面上放置裂变反应堆端口（至少4个）用于输入输出。"
+		"4.调整2个裂变反应堆端口的模式，分别为输出废料和输出冷却剂。"
+		"{@pagebreak}"
+		"操作方法："
+		"1.输入水和裂变燃料。注意水需要使用一个造水速度极快的工具和一个传输速度极快的管道。造水推荐使用终极EMC接口16型（使用水桶右键它），传输推荐集成动力的管道（参见“好用的物品”一章）。"
+		"2.开机并观察温度。如果温度变红，则需要停机；如果正常运作，可以点击左上角的统计界面，提高一些速率上限。如此做，直到找到最优的速率。"
+		"3.输出。蒸汽可以传输到工业涡轮发电（https://www.mcmod.cn/item/824051.html），也可以存储起来（因为需要制作用尽核废料球）。核废料需要用来制作钋和钚。"
+		" Tip：爆炸了可以点击“抽奖/商店”一章的清除辐射任务。"
+	]
 	quest.55F679596BF49CD2.title: "裂变反应堆"
 	quest.571647A92F32595F.title: "终端"
 	quest.57A2CA81B8839A8E.quest_desc: ["开启后会排斥怪物，双击空格会开启创造飞行（需消耗 EMC）。"]
@@ -159,15 +197,21 @@
 	quest.621F9328DD76D845.quest_desc: ["使用窑砖搭建 2x2x2 的多方块结构，并手持工程师锤对右上角右键可以组成合金窑。"]
 	quest.621F9328DD76D845.title: "合金窑"
 	quest.65D54CDD1DE23E6D.quest_desc: ["ProjectE 的基础物品，可以通过合成来转换部分物品，也可通过向方块右键转换方块。按 R 键可消耗 EMC 发射宝珠转换生物。V 键充能，Shift + V 则为反充能（之后 ProjectE 物品有充能条皆为此方式）。"]
+	quest.66D944BB4B85DE9C.quest_subtitle: "化学氧化机 铀黄饼"
+	quest.66D944BB4B85DE9C.title: "氧化铀"
 	quest.6B093A83EF3DBF77.title: "背袋存储！"
 	quest.6DFD25E47BE6C542.title: "ME 线缆"
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"
 	quest.710206257C490EF0.quest_desc: ["QQ: 224133726"]
 	quest.7102C2A1E728204F.quest_desc: ["速度加快且2倍增产。"]
+	quest.72DA1B854932452D.quest_subtitle: "同位素离心机 六氟化铀"
+	quest.72DA1B854932452D.title: "裂变燃料"
 	quest.73F1BC7961032EF1.quest_desc: ["这里是永日状态"]
 	quest.74BA1433BB41A3FF.quest_desc: ["{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
+	quest.76E9D9C675806EA2.quest_subtitle: "回旋式气液转换机 蒸发 水"
+	quest.76E9D9C675806EA2.title: "水蒸气"
 	quest.793998784B70D017.quest_subtitle: "好用的自动化！"
 	quest.7A28E32635ECB2E2.quest_desc: ["使用&6&l存储总线&r&r连接。"]
 	quest.7A28E32635ECB2E2.quest_subtitle: "有些东西太贵了，在ME转化模块会溢出~"
@@ -181,6 +225,7 @@
 	task.37535430B00A1DFB.title: "绿钒"
 	task.3E569D14E7E9FB13.title: "赤锶"
 	task.4BDD9F76F4CC238E.title: "搅拌机"
+	task.4CC45C86BDBC479D.title: "液态反物质"
 	task.581CDFAD70B550C8.title: "欢迎"
 	task.5A68D467EA7CD689.title: "多态合成"
 	task.660D21FC8077616A.title: "Bug反馈"

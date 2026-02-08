@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["749AFC450DBA5B46"]
@@ -385,9 +385,10 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["4C5B64A51D7E30B2"]
 			id: "4B3D9A8A0A82F9F0"
 			rewards: [{
 				count: 10
@@ -464,6 +465,92 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3510DD690B965962"
+				"3382666CC49206D1"
+			]
+			id: "7DD5F768D383559B"
+			rewards: [{
+				count: 5
+				id: "27F68CFE1716AC73"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51059DE5B1F6ED49"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4157C0BA0624FAAD"
+				"19B888CDFCC59F97"
+			]
+			icon: {
+				id: "kubejs:antimatter_bucket"
+			}
+			id: "3382666CC49206D1"
+			tasks: [{
+				id: "4CC45C86BDBC479D"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2C38A81DDF7E2E56"
+				"7DD5F768D383559B"
+				"26A2E2C5EC61AA94"
+				"64E10B922CDF3AFC"
+			]
+			id: "6EFB2ACB8C2D970B"
+			rewards: [{
+				count: 10
+				id: "1FA2E1845DCA9304"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5F415D088A529D"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["260E1897B9F7A239"]
+			id: "26A2E2C5EC61AA94"
+			tasks: [{
+				id: "007011230D669659"
+				item: { count: 1, id: "create:refined_radiance_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F850A7E8F1A1BFB"]
+			id: "64E10B922CDF3AFC"
+			tasks: [{
+				id: "264CF2171DA63F7F"
+				item: { count: 1, id: "create:shadow_steel_casing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 }
