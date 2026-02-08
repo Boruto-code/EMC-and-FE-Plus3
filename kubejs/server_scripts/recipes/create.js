@@ -177,7 +177,10 @@ ServerEvents.recipes(event => {
         ]
     ).superheated()
 
-    create.mixing(Fluid.of("kubejs:antimatter"), "mekanism:pellet_antimatter").superheated()
+    create.mixing(
+        Fluid.of("kubejs:antimatter"), 
+        ["mekanism:pellet_antimatter", "kubejs:pellet_spent_nuclear_waste"]
+    ).superheated()
 
     create.compacting(
         "kubejs:obsidianite_ingot", 

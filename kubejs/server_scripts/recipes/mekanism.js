@@ -68,5 +68,23 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "evolvedmekanism:chemixing",
+        "extra_input": {
+            "amount": 3,
+            "item": "kubejs:rainbow_compound"
+        },
+        "chemical_input": {
+            "amount": 100,
+            "chemical": "mekanism:antimatter"
+        },
+        "main_input": {
+            "item": "evolvedmekanism:alloy_exoversal"
+        },
+        "output": {
+            "id": "evolvedmekanism:alloy_creative"
+        }
+    })
+
     event.remove("evolvedmekanism:metallurgic_infusing/alloy/hypercharged")
 })
