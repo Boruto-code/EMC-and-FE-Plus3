@@ -16,7 +16,7 @@ _炼金术士开启了新的征途！_
 
 ## 服务端
 
-在 Github Releases 下载带有 "-Server" 的版本，解压并放入服务端文件夹。
+在 Github Releases 下载带有 "-Server" 的版本，解压并将overrides文件夹中的文件放入服务端文件夹。
 
 ## 内存配置
 
