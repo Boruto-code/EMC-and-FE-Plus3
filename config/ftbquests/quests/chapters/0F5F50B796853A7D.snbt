@@ -533,6 +533,15 @@
 		{
 			dependencies: ["260E1897B9F7A239"]
 			id: "26A2E2C5EC61AA94"
+			rewards: [{
+				count: 5
+				id: "3F09E33118AF7D04"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "007011230D669659"
 				item: { count: 1, id: "create:refined_radiance_casing" }
@@ -544,6 +553,15 @@
 		{
 			dependencies: ["3F850A7E8F1A1BFB"]
 			id: "64E10B922CDF3AFC"
+			rewards: [{
+				count: 5
+				id: "6B611F8CCD86C7B7"
+				item: {
+					count: 1
+					id: "kubejs:netherite_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "264CF2171DA63F7F"
 				item: { count: 1, id: "create:shadow_steel_casing" }

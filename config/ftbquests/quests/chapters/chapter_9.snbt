@@ -615,6 +615,15 @@
 		{
 			dependencies: ["033B9C80C2D3502F"]
 			id: "0763642BF244C09B"
+			rewards: [{
+				count: 5
+				id: "6A473460F6C59EDF"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D4C4B7FBF485650"
 				item: { count: 1, id: "ae2:molecular_assembler" }
@@ -626,6 +635,15 @@
 		{
 			dependencies: ["0763642BF244C09B"]
 			id: "04390B8782E5A3C0"
+			rewards: [{
+				count: 5
+				id: "358261AC0496C049"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34D518E714B26F97"
 				item: { count: 1, id: "extendedae:ex_molecular_assembler" }
@@ -637,6 +655,15 @@
 		{
 			dependencies: ["033B9C80C2D3502F"]
 			id: "065C3EB7DE58CB17"
+			rewards: [{
+				count: 5
+				id: "34050C3B7D2398B5"
+				item: {
+					count: 1
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FE789ED40A39903"
 				item: { count: 1, id: "ae2:pattern_provider" }
@@ -648,6 +675,15 @@
 		{
 			dependencies: ["065C3EB7DE58CB17"]
 			id: "03BF388E4446F6AB"
+			rewards: [{
+				count: 5
+				id: "5864060955F2A198"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7672A484F4ED6237"
 				item: { count: 1, id: "extendedae:ex_pattern_provider" }
@@ -659,6 +695,15 @@
 		{
 			dependencies: ["20D52C4FAA976FCD"]
 			id: "033B9C80C2D3502F"
+			rewards: [{
+				count: 3
+				id: "6413A2945A986F15"
+				item: {
+					count: 1
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2B8ED8943DB9DFEC"
@@ -677,6 +722,15 @@
 		{
 			dependencies: ["04D6516A6873F661"]
 			id: "22901D8CE7E324AA"
+			rewards: [{
+				count: 3
+				id: "0243E13DFAD14DA2"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2016E6A736CF85D1"
@@ -782,6 +836,15 @@
 		{
 			dependencies: ["14C6FA30DE660B9D"]
 			id: "11FB8C5B931B5470"
+			rewards: [{
+				count: 3
+				id: "132DD09AEE972078"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BD7CF18473A51D3"
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
@@ -793,6 +856,15 @@
 		{
 			dependencies: ["11FB8C5B931B5470"]
 			id: "3DDCA8BE0C7AAFCA"
+			rewards: [{
+				count: 5
+				id: "365F41137BFDF51E"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "03455ED88EC89669"
 				item: { count: 1, id: "advanced_ae:quantum_processor" }

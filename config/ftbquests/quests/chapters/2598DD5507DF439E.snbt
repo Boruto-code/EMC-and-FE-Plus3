@@ -21,7 +21,7 @@
 				id: "4F2624464B841B92"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:gold_coin"
 				}
 				type: "item"
 			}]
@@ -55,7 +55,7 @@
 				id: "733C735DA32BF701"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -78,7 +78,7 @@
 				id: "3322087A5C794650"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:gold_coin"
 				}
 				type: "item"
 			}]
@@ -98,7 +98,7 @@
 				id: "1762568BB7B19923"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:gold_coin"
 				}
 				type: "item"
 			}]
@@ -118,7 +118,7 @@
 				id: "3D43B06A41E133B8"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:gold_coin"
 				}
 				type: "item"
 			}]
@@ -138,7 +138,7 @@
 				id: "549E9BC2DC906F38"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -161,7 +161,7 @@
 				id: "1DE063869EE473B1"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -181,7 +181,7 @@
 				id: "368F2AE0409409F0"
 				item: {
 					count: 1
-					id: "kubejs:netherite_coin"
+					id: "kubejs:diamond_coin"
 				}
 				type: "item"
 			}]
@@ -289,7 +289,7 @@
 				id: "3C955B881DEB0879"
 				item: {
 					count: 1
-					id: "kubejs:diamond_coin"
+					id: "kubejs:iron_coin"
 				}
 				type: "item"
 			}]
