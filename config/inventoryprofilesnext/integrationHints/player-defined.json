@@ -498,5 +498,24 @@
     },
     "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
         "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIEternalDensity": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.container.EternalDensityContainer": {
+        "ignore": true
     }
 }

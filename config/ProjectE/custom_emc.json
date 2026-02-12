@@ -35,6 +35,10 @@
     {
       "id": "evolvedmekanism:alloy_hypercharged",
       "emc": 0
+    },
+    {
+      "id": "fluxnetworks:flux_dust",
+      "emc": 64
     }
   ]
 }
