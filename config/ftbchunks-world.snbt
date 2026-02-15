@@ -176,7 +176,7 @@
 		
 		# Default allow-fake-player setting for team properties
 		# Default: false
-		def_fake_players: false
+		def_fake_players: true
 		
 		# Default mob griefing protection for claimed chunks
 		# Default: false

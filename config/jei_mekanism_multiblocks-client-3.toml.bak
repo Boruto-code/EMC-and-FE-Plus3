@@ -1,3 +1,8 @@
+
+[multiblocks]
+
+	[multiblocks.mekanism]
+
 		#JEI 'Building [Dynamic Tank]' page configuration
 		[multiblocks.mekanism.dynamic_tank]
 			#Set page visibility
@@ -23,6 +28,8 @@
 			#Set page visibility
 			visible = true
 
+	[multiblocks.mekanismgenerators]
+
 		#JEI 'Building [Industrial Turbine]' page configuration
 		[multiblocks.mekanismgenerators.turbine]
 			#Set page visibility
@@ -38,6 +45,15 @@
 			#Set page visibility
 			visible = true
 
+	[multiblocks.better_fusion_reactor]
+
+		#JEI 'Building [Better Fusion Reactor]' page configuration
+		[multiblocks.better_fusion_reactor.better_fusion_reactor]
+			#Set page visibility
+			visible = true
+
+	[multiblocks.mekanism_extras]
+
 		#JEI 'Building [Reinforced Induction Matrix]' page configuration
 		[multiblocks.mekanism_extras.extra_matrix]
 			#Set page visibility
@@ -48,7 +64,3 @@
 			#Set page visibility
 			visible = true
 
-		#JEI 'Building [Better Fusion Reactor]' page configuration
-		[multiblocks.better_fusion_reactor.better_fusion_reactor]
-			#Set page visibility
-			visible = true

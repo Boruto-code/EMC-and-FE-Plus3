@@ -39,6 +39,10 @@
     {
       "id": "fluxnetworks:flux_dust",
       "emc": 64
+    },
+    {
+      "id": "bigreactors:anglesite_crystal",
+      "emc": 16384
     }
   ]
 }

@@ -72,4 +72,9 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.remove("immersiveengineering:crafting/rs_engineering")
+    event.remove("immersiveengineering:crafting/light_engineering")
+    event.remove("immersiveengineering:crafting/heavy_engineering")
+    event.remove("immersiveengineering:crafting/blastbrick_reinforced")
 })

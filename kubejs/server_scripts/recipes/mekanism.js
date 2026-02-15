@@ -86,6 +86,44 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "evolvedmekanism:solidifying",
+        "duration": 60,
+        "item_input": {
+            "item": "evolvedmekanism:mold_ingot"
+        },
+        "fluid_input": {
+            "fluid": "bigreactors:magentite",
+            "amount": 90
+        },
+        "extra_input": {
+            "fluid": "mekanism:oxygen",
+            "amount": 90
+        },
+        "output": {
+            "item": "bigreactors:magentite_ingot"
+        }
+    })
+
+    event.custom({
+        "type": "evolvedmekanism:solidifying",
+        "duration": 540,
+        "item_input": {
+            "item": "evolvedmekanism:mold_storage_block"
+        },
+        "fluid_input": {
+            "fluid": "bigreactors:magentite",
+            "amount": 810
+        },
+        "extra_input": {
+            "fluid": "mekanism:oxygen",
+            "amount": 810
+        },
+        "output": {
+            "item": "bigreactors:magentite_block"
+        }
+    })
+
     event.remove("evolvedmekanism:metallurgic_infusing/alloy/hypercharged")
     event.remove("evolvedmekanism:energy_cube/creative")
     event.remove("evolvedmekanism:fluid_tank/creative")

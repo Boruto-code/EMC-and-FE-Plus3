@@ -96,6 +96,7 @@
 	quest.1AD5AFDAEB5FFDF6.title: "MEGA 磁盘驱动器"
 	quest.1B38A12BAC2F468E.quest_subtitle: "装配矩阵很好用！记得看指南搭建~"
 	quest.1B38A12BAC2F468E.title: "装配矩阵核心"
+	quest.1BFB8FCF236BE92E.title: "无限频道"
 	quest.21653393FAAD1280.quest_desc: [
 		"1. 使用流化器外壳搭建一个至少3x3x3、至多16x16x16大小的立方体框架。"
 		""
@@ -144,6 +145,7 @@
 	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
 	quest.260E1897B9F7A239.quest_subtitle: "异彩化合物丢进信标的光里转换"
 	quest.26D8E6271689D731.title: "压印模板"
+	quest.2A7FD623B87375A3.title: "三倍频道"
 	quest.2B651F6E6A15656C.quest_desc: ["升温后将水蒸馏为盐水，将盐水蒸馏为液态锂。最大温度为 &43.3kK&r ，工作速度大部分受温度影响，盐塔的高度对速度也有影响，最小规格为中空 4x4x3，最大规格为中空 4x4x18，最大规格并升温到最大单个热力蒸馏塔最大处理速度为（层数*60）mb/t。"]
 	quest.34EDBAAB719E4744.quest_subtitle: "化学氧化机 硫粉"
 	quest.34EDBAAB719E4744.title: "二氧化硫"
@@ -170,6 +172,27 @@
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
 	quest.4AC58ECACF584B2C.quest_desc: ["参见 https://www.mcmod.cn/item/311264.html。以后要用到很多反物质，记得多堆量。"]
 	quest.4AC58ECACF584B2C.title: "超临界移相器"
+	quest.5251AD21232EBD63.quest_desc: [
+		"构成方式：由一个聚合核心和若干个注入合成装置构成。摆放方式相对自由，放置的注入合成装置满足构成要求，数量足够放置材料即可工作。且注入合成装置可被多个聚合核心公用。"
+		""
+		"以聚合核心为中心，聚合核心六个面向外延长16格，除最近两格外，这条延长线周围一圈包括延长线一共9个格子放置的面向聚合核心的注入合成装置都有效。"
+		""
+		"需要注意注入合成装置前方不能有遮挡物(不完整方块和聚合核心不视为遮挡物)。"
+		""
+		"工作所需的能量需求会被分摊到各个放置了材料的注入合成装置上，由这些注入合成装置提供（故需要给每一个放置了材料的注入合成装置提供能量）。"
+		"{@pagebreak}"
+		"手持物品右键注入合成装置以放入，再次右键取下。"
+		""
+		"在手持一组材料时右键，会全部放进单个注入合成装置，每次合成消耗1个放入的物品。"
+		""
+		"但是注意，即使你向一个注入装置里放入64个龙芯并在核心和另一个注入装置方块中放入4个龙块和1个龙心也无法开始合成，因为检测时1个注入装置的物品只算作一个进行计算。(举例，其它合成表同理)"
+		""
+		"因此你可以向每一个注入合成装置放置多个材料，以批量制作。"
+		""
+		"通过空手Shift右键注入装置方块可以启用单物品模式，使得 放入/给方块输入 物品时只放入一个。"
+		""
+		"存入了物品的注入合成装置被挖掘后会保留NBT数据。"
+	]
 	quest.5319189C6FA34AC5.quest_desc: ["{image:kubejs:textures/shapes/arc_furnace.png width:200 height:200 align:center}"]
 	quest.540B35801D6D99A4.quest_desc: ["不稳定水晶 + 毁灭燧石，范围更大。"]
 	quest.5452605B78EA2502.title: "铁币抽奖 1x"
@@ -208,10 +231,15 @@
 	quest.72DA1B854932452D.quest_subtitle: "同位素离心机 六氟化铀"
 	quest.72DA1B854932452D.title: "裂变燃料"
 	quest.73F1BC7961032EF1.quest_desc: ["这里是永日状态"]
-	quest.74BA1433BB41A3FF.quest_desc: ["{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"]
+	quest.74BA1433BB41A3FF.quest_desc: [
+		"注：这里的“输液管”即流体管道。"
+		"{image:kubejs:textures/shapes/mixer.png width:200 height:200 align:center}"
+	]
 	quest.75767D2A0E995BBC.quest_desc: ["放在背包或饰品栏会自动修复背包内所有有耐久的物品。"]
 	quest.76E9D9C675806EA2.quest_subtitle: "回旋式气液转换机 蒸发 水"
 	quest.76E9D9C675806EA2.title: "水蒸气"
+	quest.780DDAD89B828FF6.title: "双倍频道"
+	quest.7904D90BF4EEC01E.title: "四倍频道"
 	quest.793998784B70D017.quest_subtitle: "好用的自动化！"
 	quest.7A28E32635ECB2E2.quest_desc: ["使用&6&l存储总线&r&r连接。"]
 	quest.7A28E32635ECB2E2.quest_subtitle: "有些东西太贵了，在ME转化模块会溢出~"

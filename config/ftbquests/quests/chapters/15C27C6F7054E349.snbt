@@ -157,5 +157,85 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			icon: {
+				id: "megacells:1m_crafting_storage"
+			}
+			id: "780DDAD89B828FF6"
+			rewards: [{
+				command: "/ae2 channelmode x2"
+				id: "4DE13B3463C98F9C"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "52301F492624D2C9"
+				item: { count: 1, id: "kubejs:gold_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "megacells:4m_crafting_storage"
+			}
+			id: "2A7FD623B87375A3"
+			rewards: [{
+				command: "/ae2 channelmode x3"
+				id: "7ED25903DEAE4129"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3F0E172EF5183D92"
+				item: { count: 1, id: "kubejs:diamond_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "megacells:16m_crafting_storage"
+			}
+			id: "7904D90BF4EEC01E"
+			rewards: [{
+				command: "/ae2 channelmode x4"
+				id: "1B271647B20FE25B"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0D0558408481AB47"
+				item: { count: 1, id: "kubejs:netherite_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "advanced_ae:quantum_core"
+			}
+			id: "1BFB8FCF236BE92E"
+			rewards: [{
+				command: "/ae2 channelmode infinite"
+				id: "51E1A8B1BC0CCB4D"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "720B2296E5F3FA49"
+				item: { count: 1, id: "kubejs:netherite_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
 	]
 }

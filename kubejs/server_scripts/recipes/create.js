@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
             ),
             create.deploying(
                 "kubejs:incomplete_refined_radiance_casing",
-                ["kubejs:incomplete_refined_radiance_casing", "create:railway_casing"]
+                ["kubejs:incomplete_refined_radiance_casing", "create:brass_casing"]
             )
         ]
     ).transitionalItem("kubejs:incomplete_refined_radiance_casing").loops(5)
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
             ),
             create.deploying(
                 "kubejs:incomplete_shadow_steel_casing",
-                ["kubejs:incomplete_shadow_steel_casing", "create:railway_casing"]
+                ["kubejs:incomplete_shadow_steel_casing", "create:brass_casing"]
             )
         ]
     ).transitionalItem("kubejs:incomplete_shadow_steel_casing").loops(5)

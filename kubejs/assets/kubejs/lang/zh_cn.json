@@ -56,6 +56,6 @@
   "kubejs.ponder.crafting_core_scene.text_2": "它用于DE中一些物品的合成",
   "kubejs.ponder.crafting_core_scene.text_3": "它的核心是聚合核心，通常要垫高1格",
   "kubejs.ponder.crafting_core_scene.text_4": "聚合核心的每个方向都可以放置聚合注入器，范围最多 3x3",
-  "kubejs.ponder.crafting_core_scene.text_5": "聚合注入器需要面朝聚合核心，且相隔1格",
+  "kubejs.ponder.crafting_core_scene.text_5": "聚合注入器需要面朝聚合核心，且至少相隔2格",
   "kubejs.ponder.crafting_core_scene.text_6": "聚合注入器需要供电"
 }

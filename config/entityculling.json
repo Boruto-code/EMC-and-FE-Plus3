@@ -8,7 +8,9 @@
     "create:hose_pulley",
     "betterend:eternal_pedestal",
     "botania:magic_missile",
-    "botania:falling_star"
+    "botania:falling_star",
+    "projecte:condenser_mk1",
+    "projecte:condenser_mk2"
   ],
   "entityWhitelist": [
     "botania:mana_burst",
@@ -18,7 +20,7 @@
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,
-  "skipMarkerArmorStands": true,
+  "captureRate": 5,
   "tickCulling": true,
   "tickCullingWhitelist": [
     "create:gantry_contraption",
@@ -58,5 +60,7 @@
   ],
   "disableF3": false,
   "skipEntityCulling": false,
-  "skipBlockEntityCulling": false
+  "skipBlockEntityCulling": false,
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false
 }

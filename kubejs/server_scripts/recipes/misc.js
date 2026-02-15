@@ -82,8 +82,4 @@ ServerEvents.recipes(event => {
             "appmek:chemical_cell_housing", "functionalstorage:creative_vending_upgrade"
         ]
     )
-
-    event.remove("immersiveengineering:crafting/rs_engineering")
-    event.remove("immersiveengineering:crafting/light_engineering")
-    event.remove("immersiveengineering:crafting/heavy_engineering")
 })

@@ -235,7 +235,17 @@
         }
     },
     "mekanism.client.gui.machine.GuiRotaryCondensentrator": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
     },
     "com.brandon3055.draconicevolution.client.gui.FusionCraftingCoreGui$Screen": {
         "ignore": true,
@@ -260,13 +270,33 @@
         "ignore": true
     },
     "de.maxhenkel.pipez.gui.ExtractScreen": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
     },
     "thelm.packagedavaritia.client.screen.ExtremeCrafterScreen": {
         "ignore": true
     },
     "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
     },
     "committee.nova.mods.avaritia.client.screen.InfinityChestScreen": {
         "ignore": true
@@ -517,5 +547,257 @@
     },
     "moze_intel.projecte.gameObjs.container.EternalDensityContainer": {
         "ignore": true
+    },
+    "net.byAqua3.avaritia.gui.GuiExtremeCraftingTable": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            }
+        }
+    },
+    "net.byAqua3.avaritia.inventory.MenuExtremeCrafting": {
+        "ignore": true
+    },
+    "net.pedroksl.advanced_ae.client.gui.ReactionChamberScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiFactory": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.client.gui.subgui.OutputSideConfig": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiCrystalAssembler": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "appeng.client.gui.me.crafting.CraftingStatusScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            }
+        }
+    },
+    "appeng.client.gui.me.crafting.CraftConfirmScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "de.maxhenkel.pipez.gui.FilterScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "top": 1
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            }
+        }
+    },
+    "blusunrize.immersiveengineering.client.gui.CokeOvenScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "blusunrize.immersiveengineering.client.gui.MixerScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            }
+        }
+    },
+    "blusunrize.immersiveengineering.client.gui.ArcFurnaceScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            }
+        }
+    },
+    "net.pedroksl.advanced_ae.client.gui.AdvPatternProviderScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "net.pedroksl.advanced_ae.client.gui.AdvPatternEncoderScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiChemicalInfuser": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiChemicalDissolutionChamber": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiIsotopicCentrifuge": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "appeng.client.gui.implementations.KeyTypeSelectionScreen": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPRC": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reprocessor.client.screen.ReprocessorAccessPortScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
     }
 }
