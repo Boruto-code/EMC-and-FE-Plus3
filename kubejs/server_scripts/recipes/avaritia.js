@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
             C: "evolvedmekanism:multiversal_induction_cell",
             D: "evolvedmekanism:multiversal_induction_provider",
             E: "evolvedmekanism:alloy_creative",
-            F: "mekanism:ultimate_energy_cube",
+            F: "evolvedmekanism:multiversal_energy_cube",
             G: "avaritia:infinity_ingot",
             H: "draconicevolution:creative_op_capacitor"
         },
