@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
             "AAAABAAAA",
             "AAABABAAA",
             "AABAAABAA",
-            "AAAACAAAA",
+            "AAAABAAAA",
             "AAABABAAA",
             "AABAAABAA",
             "AAAAAAAAA",
@@ -305,27 +305,27 @@ ServerEvents.recipes(event => {
         ],
         {
             A: "#functionalstorage:drawer",
-            B: "functionalstorage:netherite_upgrade",
-            C: "projecte:tome"
+            B: "functionalstorage:netherite_upgrade"
         },
         "functionalstorage:max_storage_upgrade"
     )
 
     avaritia.extreme_shaped(
         [
-            "         ",
-            "   BBB   ",
-            "  B   B  ",
-            "  B   B  ",
-            "  A      ",
-            "  B   B  ",
-            "  B   B  ",
-            "   BBB   ",
-            "         "
+            "CCCCCCCCC",
+            "CCCBBBCCC",
+            "CCBCCCBCC",
+            "CCBCCCBCC",
+            "CCACCCCCC",
+            "CCBCCCBCC",
+            "CCBCCCBCC",
+            "CCCBBBCCC",
+            "CCCCCCCCC"
         ],
         {
             A: "projecte:tome",
-            B: "functionalstorage:max_storage_upgrade"
+            B: "functionalstorage:max_storage_upgrade",
+            C: "projectexpansion:compact_sun"
         },
         "functionalstorage:creative_vending_upgrade"
     )

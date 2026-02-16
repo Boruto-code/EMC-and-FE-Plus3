@@ -212,47 +212,5 @@
 			x: 0.0d
 			y: 5.0d
 		}
-		{
-			dependencies: ["221B92C713E83F70"]
-			id: "7DFB6E70D1A8D1A9"
-			rewards: [{
-				id: "3B7402286D709A00"
-				item: {
-					count: 1
-					id: "create:creative_fluid_tank"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.2d
-			tasks: [{
-				id: "7BF565A53B185FEB"
-				item: { count: 1, id: "mekanism:creative_fluid_tank" }
-				type: "item"
-			}]
-			x: -1.2d
-			y: 0.6d
-		}
-		{
-			dependencies: ["221B92C713E83F70"]
-			id: "4B8BE93DBB5932FA"
-			rewards: [{
-				id: "07A69679555F4B40"
-				item: {
-					count: 1
-					id: "create_connected:creative_fluid_vessel"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.2d
-			tasks: [{
-				id: "502DAE9DA615EBC7"
-				item: { count: 1, id: "mekanism:creative_chemical_tank" }
-				type: "item"
-			}]
-			x: 1.2d
-			y: 0.6d
-		}
 	]
 }

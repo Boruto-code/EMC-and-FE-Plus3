@@ -1,22 +1,34 @@
 ServerEvents.recipes(event => {
     const mekanism = event.recipes.mekanism
 
-    mekanism.combining(
-        "mekanism:creative_chemical_tank",
-        "evolvedmekanism:multiversal_chemical_tank",
-        "functionalstorage:creative_vending_upgrade"
-    )
-
-    mekanism.combining(
-        "mekanism:creative_fluid_tank",
-        "evolvedmekanism:multiversal_fluid_tank",
-        "functionalstorage:creative_vending_upgrade"
-    )
-
     mekanism.metallurgic_infusing(
         "evolvedmekanism:alloy_hypercharged",
         "mekanism:alloy_atomic",
         "20x kubejs:insanite"
+    )
+
+    mekanism.compressing(
+        "kubejs:1x_compressed_refined_obsidian_ingot",
+        "mekanism:ingot_refined_obsidian",
+        "200x mekanism:osmium"
+    )
+
+    mekanism.compressing(
+        "kubejs:2x_compressed_refined_obsidian_ingot",
+        "kubejs:1x_compressed_refined_obsidian_ingot",
+        "200x mekanism:osmium"
+    )
+
+    mekanism.compressing(
+        "kubejs:3x_compressed_refined_obsidian_ingot",
+        "kubejs:2x_compressed_refined_obsidian_ingot",
+        "200x mekanism:osmium"
+    )
+
+    mekanism.compressing(
+        "kubejs:4x_compressed_refined_obsidian_ingot",
+        "kubejs:3x_compressed_refined_obsidian_ingot",
+        "200x mekanism:osmium"
     )
 
     event.custom({
@@ -83,6 +95,24 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "id": "evolvedmekanism:alloy_creative"
+        }
+    })
+
+    event.custom({
+        "type": "evolvedmekanism:chemixing",
+        "extra_input": {
+            "amount": 3,
+            "item": "kubejs:pellet_spent_nuclear_waste"
+        },
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:antimatter"
+        },
+        "main_input": {
+            "item": "kubejs:4x_compressed_refined_obsidian_ingot"
+        },
+        "output": {
+            "id": "mekanism:pellet_antimatter"
         }
     })
 
