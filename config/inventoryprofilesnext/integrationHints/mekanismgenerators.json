@@ -1,0 +1,56 @@
+{
+    "mekanism.generators.client.gui.GuiBioGenerator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -36
+            }
+        }
+    },
+    "mekanism.generators.client.gui.GuiGasGenerator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -36
+            }
+        }
+    },
+    "mekanism.generators.client.gui.GuiHeatGenerator": {
+        "playerSideOnly": true
+    },
+    "mekanism.generators.client.gui.GuiSolarGenerator": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
+    },
+    "mekanism.generators.client.gui.GuiWindGenerator": {
+        "playerSideOnly": true
+    }
+}

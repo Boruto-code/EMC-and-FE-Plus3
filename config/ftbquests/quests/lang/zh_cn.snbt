@@ -18,6 +18,8 @@
 	chapter_group.67DDB26600B9A092.title: "支线"
 	chapter_group.7FABB2F7E5BB8366.title: "主线"
 	file.0000000000000001.title: "EMC and FE +++"
+	quest.0180485500091401.quest_subtitle: "化学灌注器"
+	quest.0180485500091401.title: "氘氚燃料"
 	quest.0273D150B8B8EEF7.quest_subtitle: "化学灌注器 氢氟酸+氧化铀"
 	quest.0273D150B8B8EEF7.title: "六氟化铀"
 	quest.033B9C80C2D3502F.title: "两种核心"
@@ -85,6 +87,8 @@
 	]
 	quest.15135AA48C1BBBC6.title: "APT"
 	quest.15917B6E7AD8B9AE.quest_subtitle: "你会发现有些配方重合了，请点击上方的箭头"
+	quest.16B3C3031B78D771.quest_subtitle: "电解分离器 重水"
+	quest.16B3C3031B78D771.title: "氘"
 	quest.173A66269E64F0C7.quest_subtitle: "电解分离器 水"
 	quest.173A66269E64F0C7.title: "氧"
 	quest.1822C26DD8F950B8.quest_desc: ["吸取物品至背包或存储戒指的背包内容器，G 键开启（之后大部分 ProjectE 物品如无说明皆为此开启方法）。"]
@@ -172,6 +176,8 @@
 	quest.4858729A5A7282D0.title: "钻石币抽奖 1x"
 	quest.4AC58ECACF584B2C.quest_desc: ["参见 https://www.mcmod.cn/item/311264.html。以后要用到很多反物质，记得多堆量。"]
 	quest.4AC58ECACF584B2C.title: "超临界移相器"
+	quest.4F6D70501591B720.quest_subtitle: "热力蒸馏塔 盐水"
+	quest.4F6D70501591B720.title: "锂"
 	quest.5251AD21232EBD63.quest_desc: [
 		"构成方式：由一个聚合核心和若干个注入合成装置构成。摆放方式相对自由，放置的注入合成装置满足构成要求，数量足够放置材料即可工作。且注入合成装置可被多个聚合核心公用。"
 		""
@@ -223,6 +229,8 @@
 	quest.66D944BB4B85DE9C.quest_subtitle: "化学氧化机 铀黄饼"
 	quest.66D944BB4B85DE9C.title: "氧化铀"
 	quest.6B093A83EF3DBF77.title: "背袋存储！"
+	quest.6DB0E5DA5C7C4938.quest_subtitle: "太阳能中子活化器 锂"
+	quest.6DB0E5DA5C7C4938.title: "氚"
 	quest.6DFD25E47BE6C542.title: "ME 线缆"
 	quest.6F52E458D90B157C.quest_desc: ["回复生命值和饥饿值。"]
 	quest.6FDE04F9ADC1C8B1.title: "精致存储"

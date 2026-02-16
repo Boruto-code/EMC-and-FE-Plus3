@@ -639,6 +639,9 @@
 				"16B3C3031B78D771"
 				"6DB0E5DA5C7C4938"
 			]
+			icon: {
+				id: "mekanismgenerators:fusion_fuel_bucket"
+			}
 			id: "0180485500091401"
 			tasks: [{
 				id: "36B657A08DAF5CE1"
@@ -668,6 +671,9 @@
 		}
 		{
 			dependencies: ["0B29CA248897E13A"]
+			icon: {
+				id: "mekanismgenerators:deuterium_bucket"
+			}
 			id: "16B3C3031B78D771"
 			tasks: [{
 				id: "0354C8F25E0F82C6"
@@ -697,6 +703,9 @@
 		}
 		{
 			dependencies: ["4F6D70501591B720"]
+			icon: {
+				id: "mekanismgenerators:tritium_bucket"
+			}
 			id: "6DB0E5DA5C7C4938"
 			tasks: [{
 				id: "1B7F5DC34FE6E321"
@@ -707,6 +716,9 @@
 		}
 		{
 			dependencies: ["2B651F6E6A15656C"]
+			icon: {
+				id: "mekanism:lithium_bucket"
+			}
 			id: "4F6D70501591B720"
 			tasks: [{
 				id: "6552F7961B125FE2"

@@ -209,6 +209,31 @@ ServerEvents.recipes(event => {
 
     avaritia.extreme_shaped(
         [
+            "AAABDBAAA",
+            "ACCCFCCCA",
+            "ACECFCECA",
+            "BCCCGCCCB",
+            "DFFGHGFFD",
+            "BCCCGCCCB",
+            "ACECFCECA",
+            "ACCCFCCCA",
+            "AAABDBAAA"
+        ],
+        {
+            A: "mekanism:induction_casing",
+            B: "mekanism:induction_port",
+            C: "evolvedmekanism:multiversal_induction_cell",
+            D: "evolvedmekanism:multiversal_induction_provider",
+            E: "evolvedmekanism:alloy_creative",
+            F: "mekanism:ultimate_energy_cube",
+            G: "avaritia:infinity_ingot",
+            H: "draconicevolution:creative_op_capacitor"
+        },
+        Item.of("draconicevolution:creative_op_capacitor", 2)
+    )
+
+    avaritia.extreme_shaped(
+        [
             "ABCCDCCBA",
             "BCFFJFFCB",
             "CFINPNIFC",
@@ -264,31 +289,6 @@ ServerEvents.recipes(event => {
             H: "create:shaft"
         },
         "create:creative_motor"
-    )
-
-    avaritia.extreme_shaped(
-        [
-            "AAABDBAAA",
-            "ACCCFCCCA",
-            "ACECFCECA",
-            "BCCCGCCCB",
-            "DFFGHGFFD",
-            "BCCCGCCCB",
-            "ACECFCECA",
-            "ACCCFCCCA",
-            "AAABDBAAA"
-        ],
-        {
-            A: "mekanism:induction_casing",
-            B: "mekanism:induction_port",
-            C: "mekanism:ultimate_induction_cell",
-            D: "mekanism:ultimate_induction_provider",
-            E: "evolvedmekanism:alloy_creative",
-            F: "mekanism:ultimate_energy_cube",
-            G: "avaritia:infinity_ingot",
-            H: "draconicevolution:creative_op_capacitor"
-        },
-        Item.of("draconicevolution:creative_op_capacitor", 2)
     )
 
     avaritia.extreme_shaped(
