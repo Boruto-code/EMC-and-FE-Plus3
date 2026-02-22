@@ -1,3 +1,6 @@
+
+[core]
+
 	[core.general]
 		#The ingredient network observation frequency slowdown rate in ticks.
 		ingredientNetworkObserverFrequencyDecreaseFactor = 5
@@ -41,8 +44,8 @@
 		operatorRecursionLimit = 256
 		#If the version checker should be enabled.
 		versionChecker = true
-		#If variable card IDs should be logged during evaluation. This is useful for debugging crashes caused by card evaluation.
-		logCardEvaluation = false
+
+[general]
 
 	[general.general]
 		#The energy usage multiplier for networks.
@@ -101,10 +104,8 @@
 		diagnosticsWebServerPort = 3030
 		#The base energy usage for the machine reader.
 		machineReaderBaseConsumption = 1
-		#The minimum update intervals to enforce for specific parts. You can add entries in the form of 'integrateddynamics:machine_reader:10', where '10' refers to the number of ticks.
-		partMinimumUpdateIntervals = []
-		#The minimum update interval to enforce for all parts, in number of ticks.
-		partsMinimumUpdateInterval = 1
+
+[machine]
 
 	[machine.general]
 		#The maximum offset in blocks a part can target.
@@ -121,8 +122,6 @@
 		maxDirectionalConnectorOffset = 512
 		#The distance from which part offsets should be shown.
 		partOffsetRenderDistance = 16
-		#When true, disable the collision for cable.
-		disableCableCollision = false
 
 	[machine.cable]
 		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.
@@ -162,9 +161,13 @@
 		#The energy capacity of a mechanical drying basin.
 		capacity = 100000
 
+[worldgeneration]
+
 	[worldgeneration.menril_log_filled]
 		#The 1/x chance at which Menril Wood will be filled with Menril Resin when generated, the higher this value, the lower the chance.
 		filledMenrilLogChance = 10
+
+[item]
 
 	[item.menril_berries]
 		#If the berries should give the night vision effect when eaten.
@@ -175,3 +178,4 @@
 		obtainOnSpawn = true
 		#If the info book can give item rewards for tutorial completion.
 		bookRewards = true
+

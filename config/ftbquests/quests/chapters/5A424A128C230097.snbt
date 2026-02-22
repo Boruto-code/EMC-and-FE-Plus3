@@ -1670,11 +1670,6 @@
 					item: { count: 1, id: "evolvedmekanism:apt_port" }
 					type: "item"
 				}
-				{
-					id: "79B07E9251420D30"
-					item: { count: 1, id: "evolvedmekanism:supercharging_element" }
-					type: "item"
-				}
 			]
 			x: -5.5d
 			y: -1.5d

@@ -83,7 +83,7 @@
 	quest.15135AA48C1BBBC6.quest_desc: [
 		"{image:kubejs:textures/shapes/apt.png width:200 height:200 align:center}"
 		"{@pagebreak}"
-		"在底面上放置超频原件可以提升速度。"
+		"在底面上放置超频元件可以提升速度。底面非边缘位置可以使用结构玻璃代替。"
 	]
 	quest.15135AA48C1BBBC6.title: "APT"
 	quest.15917B6E7AD8B9AE.quest_subtitle: "你会发现有些配方重合了，请点击上方的箭头"
@@ -178,6 +178,7 @@
 	quest.4AC58ECACF584B2C.title: "超临界移相器"
 	quest.4F6D70501591B720.quest_subtitle: "热力蒸馏塔 盐水"
 	quest.4F6D70501591B720.title: "锂"
+	quest.50351C3D08F848EA.title: "关闭天气更替"
 	quest.5251AD21232EBD63.quest_desc: [
 		"构成方式：由一个聚合核心和若干个注入合成装置构成。摆放方式相对自由，放置的注入合成装置满足构成要求，数量足够放置材料即可工作。且注入合成装置可被多个聚合核心公用。"
 		""

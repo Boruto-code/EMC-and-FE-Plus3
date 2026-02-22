@@ -16,6 +16,10 @@
   "item.kubejs.2x_compressed_refined_obsidian_ingot": "二重压缩强化黑曜石锭",
   "item.kubejs.3x_compressed_refined_obsidian_ingot": "三重压缩强化黑曜石锭",
   "item.kubejs.4x_compressed_refined_obsidian_ingot": "四重压缩强化黑曜石锭",
+  "item.kubejs.wyvern_capacitor_core": "双足飞龙通量容器核心",
+  "item.kubejs.draconic_capacitor_core": "神龙通量容器核心",
+  "item.kubejs.chaotic_capacitor_core": "混沌通量容器核心",
+  "item.kubejs.creative_capacitor_core": "创造通量容器核心",
   "item.kubejs.incomplete_pink_slime": "粉红黏液球（半成品）",
   "item.kubejs.incomplete_chaos_shard": "混沌碎片（半成品）",
   "item.kubejs.incomplete_creative_blaze_cake": "创造烈焰蛋糕（半成品）",
@@ -38,6 +42,7 @@
   "tooltip.kubejs.mysterious_tooltip": "需要重复注入十次甚至九次（喜）",
 
   "chemical.kubejs.insanite": "狂质",
+  "chemical.kubejs.refined_redstone": "强化红石",
 
   "key.carry.desc": "搬起",
   "key.ftbchunks.map": "打开地图",

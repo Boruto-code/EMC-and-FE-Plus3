@@ -1,6 +1,11 @@
 ServerEvents.recipes(event => {
     const mekanism = event.recipes.mekanism
 
+    mekanism.crushing(
+        "draconicevolution:draconium_dust",
+        "draconicevolution:draconium_ingot"
+    )
+
     mekanism.metallurgic_infusing(
         "evolvedmekanism:alloy_hypercharged",
         "mekanism:alloy_atomic",
@@ -9,25 +14,25 @@ ServerEvents.recipes(event => {
 
     mekanism.compressing(
         "kubejs:1x_compressed_refined_obsidian_ingot",
-        "mekanism:ingot_refined_obsidian",
+        "64x mekanism:ingot_refined_obsidian",
         "200x mekanism:osmium"
     )
 
     mekanism.compressing(
         "kubejs:2x_compressed_refined_obsidian_ingot",
-        "kubejs:1x_compressed_refined_obsidian_ingot",
+        "64x kubejs:1x_compressed_refined_obsidian_ingot",
         "200x mekanism:osmium"
     )
 
     mekanism.compressing(
         "kubejs:3x_compressed_refined_obsidian_ingot",
-        "kubejs:2x_compressed_refined_obsidian_ingot",
+        "64x kubejs:2x_compressed_refined_obsidian_ingot",
         "200x mekanism:osmium"
     )
 
     mekanism.compressing(
         "kubejs:4x_compressed_refined_obsidian_ingot",
-        "kubejs:3x_compressed_refined_obsidian_ingot",
+        "64x kubejs:3x_compressed_refined_obsidian_ingot",
         "200x mekanism:osmium"
     )
 
@@ -65,6 +70,18 @@ ServerEvents.recipes(event => {
         "output": {
             "amount": 1000,
             "id": "mekanism:spent_nuclear_waste"
+        }
+    })
+
+    event.custom({
+        "type": "mekanism:oxidizing",
+        "input": {
+            "count": 1,
+            "item": "evolvedmekanism:ingot_refined_redstone"
+        },
+        "output": {
+            "amount": 1000,
+            "id": "kubejs:refined_redstone"
         }
     })
 
@@ -109,10 +126,29 @@ ServerEvents.recipes(event => {
             "chemical": "mekanism:antimatter"
         },
         "main_input": {
-            "item": "kubejs:4x_compressed_refined_obsidian_ingot"
+            "item": "kubejs:2x_compressed_refined_obsidian_ingot"
         },
         "output": {
             "id": "mekanism:pellet_antimatter"
+        }
+    })
+
+    event.custom({
+        "type": "evolvedmekanism:chemixing",
+        "extra_input": {
+            "amount": 3,
+            "item": "evolvedmekanism:ingot_refined_redstone"
+        },
+        "chemical_input": {
+            "amount": 1000,
+            "chemical": "kubejs:refined_redstone"
+        },
+        "main_input": {
+            "count": 16,
+            "item": "bigreactors:benitoite_crystal"
+        },
+        "output": {
+            "id": "bigreactors:insanite_ingot"
         }
     })
 

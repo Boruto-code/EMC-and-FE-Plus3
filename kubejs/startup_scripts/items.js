@@ -12,11 +12,17 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:rainbow_compound")
     event.create("kubejs:obsidianite_ingot")
     event.create("kubejs:strange_colored_ingot")
+
     event.create("kubejs:pellet_spent_nuclear_waste")
     event.create("kubejs:1x_compressed_refined_obsidian_ingot")
     event.create("kubejs:2x_compressed_refined_obsidian_ingot")
     event.create("kubejs:3x_compressed_refined_obsidian_ingot")
     event.create("kubejs:4x_compressed_refined_obsidian_ingot")
+
+    event.create("kubejs:wyvern_capacitor_core")
+    event.create("kubejs:draconic_capacitor_core")
+    event.create("kubejs:chaotic_capacitor_core")
+    event.create("kubejs:creative_capacitor_core")
 
     event.create("kubejs:incomplete_pink_slime", "create:sequenced_assembly")
     event.create("kubejs:incomplete_chaos_shard", "create:sequenced_assembly")

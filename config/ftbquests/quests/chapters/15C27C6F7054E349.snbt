@@ -237,5 +237,24 @@
 			x: 3.0d
 			y: 3.0d
 		}
+		{
+			icon: {
+				id: "projectexpansion:compact_sun"
+			}
+			id: "50351C3D08F848EA"
+			rewards: [{
+				command: "/gamerule doWeatherCycle false"
+				id: "1B4B5FAA6B26CC69"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2CF79A13EF37BF52"
+				item: { count: 1, id: "kubejs:gold_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
 	]
 }

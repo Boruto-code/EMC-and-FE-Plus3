@@ -1,5 +1,3 @@
-// noinspection SpellCheckingInspection
-
 ServerEvents.recipes(event => {
     const avaritia = event.recipes.avaritia
 
@@ -21,9 +19,9 @@ ServerEvents.recipes(event => {
             C: "draconicevolution:reactor_stabilizer",
             D: "draconicevolution:reactor_core",
             E: "draconicevolution:chaotic_core",
-            F: "draconicevolution:chaotic_capacitor"
+            F: "kubejs:chaotic_capacitor_core"
         },
-        "draconicevolution:creative_capacitor"
+        "kubejs:creative_capacitor_core"
     )
 
     avaritia.extreme_shaped(
@@ -43,7 +41,7 @@ ServerEvents.recipes(event => {
             B: "kubejs:compressed_awakened_draconium_block",
             C: "draconicevolution:reactor_stabilizer",
             D: "draconicevolution:reactor_core",
-            E: "draconicevolution:creative_capacitor"
+            E: "kubejs:creative_capacitor_core"
         },
         "draconicevolution:creative_op_capacitor"
     )
@@ -259,7 +257,7 @@ ServerEvents.recipes(event => {
             N: "integrateddynamics:energy_battery_creative",
             P: "mekanism:creative_energy_cube",
             Q: "kubejs:pink_slime",
-            R: "draconicevolution:creative_capacitor",
+            R: "kubejs:creative_capacitor_core",
             S: "draconicevolution:creative_op_capacitor",
             T: "refinedstorage:creative_wireless_grid"
         },

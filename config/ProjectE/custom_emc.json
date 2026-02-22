@@ -43,6 +43,10 @@
     {
       "id": "bigreactors:anglesite_crystal",
       "emc": 16384
+    },
+    {
+      "id": "evolvedmekanism:ingot_refined_redstone",
+      "emc": 0
     }
   ]
 }
