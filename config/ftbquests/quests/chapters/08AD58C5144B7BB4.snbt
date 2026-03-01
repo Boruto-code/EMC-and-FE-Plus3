@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6262C18B156A9D63"]
@@ -96,7 +96,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2DCD72333B58E9CE"]
@@ -200,7 +200,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3F4C17A403BD2A33"]
+			dependencies: [
+				"3F4C17A403BD2A33"
+				"512ABD7A98C74844"
+			]
 			id: "6262C18B156A9D63"
 			rewards: [{
 				count: 5
@@ -217,7 +220,30 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2DCD72333B58E9CE"
+				"4C5B64A51D7E30B2"
+			]
+			id: "512ABD7A98C74844"
+			rewards: [{
+				count: 3
+				id: "0E268402AFF227DE"
+				item: {
+					count: 1
+					id: "kubejs:diamond_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "776CB426D4CE3396"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
 		}
 	]
 }
