@@ -194,4 +194,5 @@ ServerEvents.recipes(event => {
     event.remove("evolvedmekanism:energy_cube/creative")
     event.remove("evolvedmekanism:fluid_tank/creative")
     event.remove("evolvedmekanism:chemical_tank/creative")
+    event.remove("evolvedmekanism:bin/creative")
 })
