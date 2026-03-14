@@ -49,7 +49,7 @@
 	#The maximum energy storage of a Gargantuan Flux Storage
 	# Default: 128000000
 	# Range: 0 ~ 9223372036854775807
-	gargantuanCapacity = 128000000
+	gargantuanCapacity = 9223372036854775807
 	#The default transfer limit of a Gargantuan Flux Storage
 	# Default: 720000
 	# Range: 0 ~ 9223372036854775807
