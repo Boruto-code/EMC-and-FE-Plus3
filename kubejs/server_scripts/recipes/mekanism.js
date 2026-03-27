@@ -12,30 +12,6 @@ ServerEvents.recipes(event => {
         "20x kubejs:insanite"
     )
 
-    mekanism.compressing(
-        "kubejs:1x_compressed_refined_obsidian_ingot",
-        "64x mekanism:ingot_refined_obsidian",
-        "200x mekanism:osmium"
-    )
-
-    mekanism.compressing(
-        "kubejs:2x_compressed_refined_obsidian_ingot",
-        "64x kubejs:1x_compressed_refined_obsidian_ingot",
-        "200x mekanism:osmium"
-    )
-
-    mekanism.compressing(
-        "kubejs:3x_compressed_refined_obsidian_ingot",
-        "64x kubejs:2x_compressed_refined_obsidian_ingot",
-        "200x mekanism:osmium"
-    )
-
-    mekanism.compressing(
-        "kubejs:4x_compressed_refined_obsidian_ingot",
-        "64x kubejs:3x_compressed_refined_obsidian_ingot",
-        "200x mekanism:osmium"
-    )
-
     event.custom({
         "type": "mekanism:reaction",
         "chemical_input": {
@@ -112,24 +88,6 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "id": "evolvedmekanism:alloy_creative"
-        }
-    })
-
-    event.custom({
-        "type": "evolvedmekanism:chemixing",
-        "extra_input": {
-            "amount": 3,
-            "item": "kubejs:pellet_spent_nuclear_waste"
-        },
-        "chemical_input": {
-            "amount": 1,
-            "chemical": "mekanism:antimatter"
-        },
-        "main_input": {
-            "item": "kubejs:2x_compressed_refined_obsidian_ingot"
-        },
-        "output": {
-            "id": "mekanism:pellet_antimatter"
         }
     })
 

@@ -151,8 +151,14 @@
 	quest.26D8E6271689D731.title: "压印模板"
 	quest.2A7FD623B87375A3.title: "三倍频道"
 	quest.2B651F6E6A15656C.quest_desc: ["升温后将水蒸馏为盐水，将盐水蒸馏为液态锂。最大温度为 &43.3kK&r ，工作速度大部分受温度影响，盐塔的高度对速度也有影响，最小规格为中空 4x4x3，最大规格为中空 4x4x18，最大规格并升温到最大单个热力蒸馏塔最大处理速度为（层数*60）mb/t。"]
+	quest.32AE96B48CBB92FB.quest_subtitle: "混沌碎片的简化方式"
 	quest.34EDBAAB719E4744.quest_subtitle: "化学氧化机 硫粉"
 	quest.34EDBAAB719E4744.title: "二氧化硫"
+	quest.35549E7588818B3F.quest_desc: [
+		"超级多的FE！你永远不会缺FE了！它的结构与超临界移相器相同。"
+		"（这是我做的Mod哦~）"
+	]
+	quest.35549E7588818B3F.title: "人造太阳"
 	quest.37C1F3631286AC14.title: " 宝石套装"
 	quest.381C3C1D06E4AF58.quest_desc: ["右键会挖掘右键位置的 3*3*1 方块。"]
 	quest.384D8D35CDF9488F.quest_subtitle: "化学溶解室 硫酸+氟石"

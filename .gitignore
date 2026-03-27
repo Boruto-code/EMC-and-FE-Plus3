@@ -1,4 +1,5 @@
 .idea
+.mixin.out
 .probe
 .vscode
 backups

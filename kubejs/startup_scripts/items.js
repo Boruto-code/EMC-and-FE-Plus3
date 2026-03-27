@@ -14,10 +14,6 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:strange_colored_ingot")
 
     event.create("kubejs:pellet_spent_nuclear_waste")
-    event.create("kubejs:1x_compressed_refined_obsidian_ingot")
-    event.create("kubejs:2x_compressed_refined_obsidian_ingot")
-    event.create("kubejs:3x_compressed_refined_obsidian_ingot")
-    event.create("kubejs:4x_compressed_refined_obsidian_ingot")
 
     event.create("kubejs:wyvern_capacitor_core")
     event.create("kubejs:draconic_capacitor_core")
