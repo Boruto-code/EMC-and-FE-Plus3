@@ -4,10 +4,14 @@
 - 删除创造箱柜的配方
 
 ### 新增
-- 无
+- Mod: Mekanism Sun
+- Mekanism Sun 的任务
 
 ### 调整
 - 优化任务线
+- 删除反物质简化配方（因为 Mekanism Sun 的发电量很多）
+- 将打包入整合包的options.txt改为kubejs文件夹中的defaultoptions.txt
+- 调整超大型能量存储器的容量（改为2^63-1）
 
 ---
 
