@@ -1,5 +1,18 @@
 # EMC & FE +++ Change Log
-## Latest 2.0.0-Pre.7
+## Latest 2.0.0-Pre.8
+### 修复
+- 修改配置修复 EvolvedMekanism 和 ProjectE 在多人游戏冲突
+
+### 新增
+- Mod: Mekanism: More Machine
+- 已老实，添加新的反物质简化配方
+
+### 调整
+- 优化任务线
+
+---
+
+## 2.0.0-Pre.7
 ### 修复
 - 删除创造箱柜的配方
 
@@ -12,8 +25,6 @@
 - 删除反物质简化配方（因为 Mekanism Sun 的发电量很多）
 - 将打包入整合包的options.txt改为kubejs文件夹中的defaultoptions.txt
 - 调整超大型能量存储器的容量（改为2^63-1）
-
----
 
 ## 2.0.0-Pre.6
 ### 修复

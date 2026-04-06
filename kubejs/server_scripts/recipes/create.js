@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
                 ["kubejs:incomplete_strange_colored_ingot", "projectexpansion:purple_matter"]
             )
         ]
-    ).transitionalItem("kubejs:incomplete_strange_colored_ingot").loops(5)
+    ).transitionalItem("kubejs:incomplete_strange_colored_ingot").loops(5).id("kubejs:strange_colored_ingot")
 
     create.sequenced_assembly(
         "immersiveengineering:rs_engineering",

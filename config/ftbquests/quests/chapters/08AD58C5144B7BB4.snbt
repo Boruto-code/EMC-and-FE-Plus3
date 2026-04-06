@@ -38,7 +38,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["25E5DDAA9B6E220A"]
+			dependencies: ["4C5B64A51D7E30B2"]
 			id: "3F4C17A403BD2A33"
 			rewards: [{
 				count: 10
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6262C18B156A9D63"]
@@ -75,28 +75,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["4C5B64A51D7E30B2"]
-			id: "25E5DDAA9B6E220A"
-			rewards: [{
-				count: 16
-				id: "06F7126413541E06"
-				item: {
-					count: 1
-					id: "kubejs:netherite_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "draconicevolution:draconic_guardian"
-				id: "66101A08C71BE739"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2DCD72333B58E9CE"]
@@ -220,7 +199,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [

@@ -146,7 +146,6 @@
 	quest.22901D8CE7E324AA.title: "MEGA CPU"
 	quest.245B51151EFBD869.title: "机械动力"
 	quest.24D7838B747E9B56.quest_desc: ["{image:kubejs:textures/shapes/squeezer.png width:200 height:200 align:center}"]
-	quest.25E5DDAA9B6E220A.quest_desc: ["在末地走到 x10000 z10000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀。往那个岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
 	quest.260E1897B9F7A239.quest_subtitle: "异彩化合物丢进信标的光里转换"
 	quest.26D8E6271689D731.title: "压印模板"
 	quest.2A7FD623B87375A3.title: "三倍频道"
@@ -165,6 +164,7 @@
 	quest.384D8D35CDF9488F.title: "氢氟酸"
 	quest.39F695481D7A519D.quest_subtitle: "化学灌注器 氧+二氧化硫"
 	quest.39F695481D7A519D.title: "三氧化硫"
+	quest.3F4C17A403BD2A33.quest_desc: ["在末地走到 x5000 或 z5000 时会碰到混沌守卫。需要先吸引它的攻击，它攻击水晶直到冒出烟花粒子后可以打破。打破所有水晶后可以正常击杀（可以通过无尽剑逃课，无尽Neo牛逼）。往岛下面挖掘可以看到混沌碎片，挖掘（不要用无尽镐！）可获得物品状态的混沌碎片。"]
 	quest.3F7D9FDBC0ED59A6.quest_subtitle: "化学灌注器 三氧化硫+水蒸气"
 	quest.3F7D9FDBC0ED59A6.title: "硫酸"
 	quest.3F850A7E8F1A1BFB.quest_subtitle: "异彩化合物丢进虚空里转换"

@@ -19,7 +19,17 @@
         "ignore": true
     },
     "mekanism.generators.client.gui.GuiFissionReactor": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            }
+        }
     },
     "gripe._90.appliede.client.screen.TransmutationTerminalScreen": {
         "ignore": true
@@ -927,5 +937,20 @@
                 "top": 25
             }
         }
+    },
+    "com.hamburger0abcde.mekanismsun.client.gui.GuiAlloyer": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 40
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 25
+            }
+        }
+    },
+    "net.pedroksl.advanced_ae.client.gui.SmallAdvPatternProviderScreen": {
+        "ignore": true
     }
 }

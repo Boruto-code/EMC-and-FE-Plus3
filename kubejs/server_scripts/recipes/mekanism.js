@@ -148,6 +148,22 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "evolvedmekanism:apt",
+        "chemical_input": {
+            "amount": 1000,
+            "chemical": "mekanism:antimatter"
+        },
+        "item_input": {
+            "item": "projectexpansion:final_star"
+        },
+        "output": {
+            "count": 2,
+            "id": "mekanism:pellet_antimatter"
+        },
+        "per_tick_usage": true
+    })
+
     event.remove("evolvedmekanism:metallurgic_infusing/alloy/hypercharged")
     event.remove("evolvedmekanism:energy_cube/creative")
     event.remove("evolvedmekanism:fluid_tank/creative")

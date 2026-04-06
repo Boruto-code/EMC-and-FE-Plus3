@@ -139,6 +139,9 @@ key_create_cyber_goggles.key.openConfig:key.keyboard.unknown
 key_create_cyber_goggles.key.openStock:key.keyboard.unknown
 key_create_cyber_goggles.key.previewFilter:key.keyboard.unknown
 key_create_cyber_goggles.key.showStress:key.keyboard.tab
+key_create_cyber_goggles.key.showSuperGlue:key.keyboard.unknown
+key_create_cyber_goggles.key.stockRequestSelectAll:key.keyboard.left.alt
+key_create_cyber_goggles.key.stockRequestSetter:key.mouse.middle
 key_create_cyber_goggles.key.toggleDiving:key.keyboard.unknown
 key_create_cyber_goggles.key.toggleGoggle:key.keyboard.unknown
 key_create_cyber_goggles.key.toggleItemOverlay:key.keyboard.left.control
