@@ -107,6 +107,8 @@
 		partMinimumUpdateIntervals = []
 		#The minimum update interval to enforce for all parts, in number of ticks.
 		partsMinimumUpdateInterval = 1
+		#The base energy usage for the delayer.
+		delayerBaseConsumption = 2
 
 	[machine.general]
 		#The maximum offset in blocks a part can target.

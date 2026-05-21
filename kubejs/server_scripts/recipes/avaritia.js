@@ -243,12 +243,12 @@ ServerEvents.recipes(event => {
             "ABCCDCCBA"
         ],
         {
-            A: "projectexpansion:compact_sun",
-            B: "projectexpansion:gargantuan_star_omega",
+            A: "kubejs:rainbow_compound",
+            B: "immersiveengineering:component_electronic_adv",
             C: "mekanism:pellet_antimatter",
             D: "create:creative_blaze_cake",
             E: "create:creative_motor",
-            F: "bigreactors:insanite_block",
+            F: "evolvedmekanism:block_alloy_creative",
             G: "refinedstorage:creative_wireless_autocrafting_monitor",
             I: "refinedstorage:creative_controller",
             J: "refinedstorage:creative_fluid_storage_disk",

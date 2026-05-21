@@ -1,4 +1,3 @@
-
 ["Jetpack Height Restriction"]
 	brassJetpackMaxHeight = 28.0
 	andesiteJetpackMaxHeight = 18.0
@@ -24,6 +23,7 @@
 	enableImpactEnchant = true
 	enableGravityGunEnchant = true
 	enableHellfireEnchant = true
+	enableChunkEaterEnchant = true
 
 ["Drone Module"]
 	enableDrillDroneModule = true
@@ -31,4 +31,3 @@
 	enableMagnetDroneModule = true
 	enableVaultDroneModule = true
 	MagnetModuleBlockLimitation = false
-

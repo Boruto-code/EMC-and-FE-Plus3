@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     const mekanism = event.recipes.mekanism
+    const evolvedmekanism = event.recipes.evolvedmekanism
 
     mekanism.crushing(
         "draconicevolution:draconium_dust",
@@ -37,132 +38,40 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.custom({
-        "type": "mekanism:oxidizing",
-        "input": {
-            "count": 1,
-            "item": "kubejs:pellet_spent_nuclear_waste"
-        },
-        "output": {
-            "amount": 1000,
-            "id": "mekanism:spent_nuclear_waste"
-        }
-    })
+    mekanism.oxidizing(
+        "1000x mekanism:spent_nuclear_waste",
+        "kubejs:pellet_spent_nuclear_waste"
+    )
 
-    event.custom({
-        "type": "mekanism:oxidizing",
-        "input": {
-            "count": 1,
-            "item": "evolvedmekanism:ingot_refined_redstone"
-        },
-        "output": {
-            "amount": 1000,
-            "id": "kubejs:refined_redstone"
-        }
-    })
+    mekanism.oxidizing(
+        "1000x kubejs:refined_redstone",
+        "evolvedmekanism:ingot_refined_redstone"
+    )
 
-    event.custom({
-        "type": "mekanism:chemical_conversion",
-        "input": {
-            "count": 1,
-            "item": "bigreactors:insanite_ingot"
-        },
-        "output": {
-            "amount": 10,
-            "id": "kubejs:insanite"
-        }
-    })
+    mekanism.chemical_conversion(
+        "10x kubejs:insanite",
+        "bigreactors:insanite_ingot"
+    )
 
-    event.custom({
-        "type": "evolvedmekanism:chemixing",
-        "extra_input": {
-            "amount": 3,
-            "item": "kubejs:rainbow_compound"
-        },
-        "chemical_input": {
-            "amount": 1000,
-            "chemical": "mekanism:antimatter"
-        },
-        "main_input": {
-            "item": "evolvedmekanism:alloy_exoversal"
-        },
-        "output": {
-            "id": "evolvedmekanism:alloy_creative"
-        }
-    })
+    evolvedmekanism.chemixing(
+        "evolvedmekanism:alloy_creative",
+        "evolvedmekanism:alloy_exoversal",
+        "kubejs:rainbow_compound",
+        "1000x mekanism:antimatter"
+    )
 
-    event.custom({
-        "type": "evolvedmekanism:chemixing",
-        "extra_input": {
-            "amount": 3,
-            "item": "evolvedmekanism:ingot_refined_redstone"
-        },
-        "chemical_input": {
-            "amount": 1000,
-            "chemical": "kubejs:refined_redstone"
-        },
-        "main_input": {
-            "count": 16,
-            "item": "bigreactors:benitoite_crystal"
-        },
-        "output": {
-            "id": "bigreactors:insanite_ingot"
-        }
-    })
+    evolvedmekanism.chemixing(
+        "bigreactors:insanite_ingot",
+        Item.of("bigreactors:benitoite_crystal", 16),
+        "evolvedmekanism:ingot_refined_redstone",
+        "1000x kubejs:refined_redstone"
+    )
 
-    event.custom({
-        "type": "evolvedmekanism:solidifying",
-        "duration": 60,
-        "item_input": {
-            "item": "evolvedmekanism:mold_ingot"
-        },
-        "fluid_input": {
-            "fluid": "bigreactors:magentite",
-            "amount": 90
-        },
-        "extra_input": {
-            "fluid": "mekanism:oxygen",
-            "amount": 90
-        },
-        "output": {
-            "item": "bigreactors:magentite_ingot"
-        }
-    })
-
-    event.custom({
-        "type": "evolvedmekanism:solidifying",
-        "duration": 540,
-        "item_input": {
-            "item": "evolvedmekanism:mold_storage_block"
-        },
-        "fluid_input": {
-            "fluid": "bigreactors:magentite",
-            "amount": 810
-        },
-        "extra_input": {
-            "fluid": "mekanism:oxygen",
-            "amount": 810
-        },
-        "output": {
-            "item": "bigreactors:magentite_block"
-        }
-    })
-
-    event.custom({
-        "type": "evolvedmekanism:apt",
-        "chemical_input": {
-            "amount": 1000,
-            "chemical": "mekanism:antimatter"
-        },
-        "item_input": {
-            "item": "projectexpansion:final_star"
-        },
-        "output": {
-            "count": 2,
-            "id": "mekanism:pellet_antimatter"
-        },
-        "per_tick_usage": true
-    })
+    evolvedmekanism.apt(
+        Item.of("mekanism:pellet_antimatter", 2),
+        "projectexpansion:final_star",
+        "1000x mekanism:antimatter"
+    )
 
     event.remove("evolvedmekanism:metallurgic_infusing/alloy/hypercharged")
     event.remove("evolvedmekanism:energy_cube/creative")
