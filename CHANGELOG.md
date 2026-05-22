@@ -1,5 +1,16 @@
 # EMC & FE +++ Change Log
-## Latest 2.0.0-Pre.8
+
+## Latest 2.0.0
+### 修复
+- 无
+
+### 新增
+- Mod: KubeJS Mekanism Extends
+
+### 调整
+- 调整炼金术之书的配方
+---
+## 2.0.0-Pre.8
 ### 修复
 - 修改配置修复 EvolvedMekanism 和 ProjectE 在多人游戏冲突
 
@@ -9,8 +20,6 @@
 
 ### 调整
 - 优化任务线
-
----
 
 ## 2.0.0-Pre.7
 ### 修复
